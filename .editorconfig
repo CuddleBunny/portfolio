@@ -7,6 +7,17 @@ root = true
 [*]
 end_of_line = lf
 insert_final_newline = true
-# 2 space indentation
-indent_style = space
-indent_size = 2
+
+# 1 tab indentation
+indent_style = tab
+indent_size = 4
+trim_trailing_whitespace = true
+
+# .NET Styles
+[*.cs]
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
+csharp_new_line_between_query_expression_clauses = true
+csharp_space_after_keywords_in_control_flow_statements = true
