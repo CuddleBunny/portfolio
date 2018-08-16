@@ -1,6 +1,9 @@
+import './styles/fluent.less';
+
+import { FrameworkConfiguration } from 'aurelia-framework';
+import { FluentButton } from './elements/button/fluent-button';
 import { FluentTile } from './elements/tile/fluent-tile';
-import {FrameworkConfiguration} from 'aurelia-framework';
 
 export function configure(config: FrameworkConfiguration) {
-  config.globalResources([FluentTile]);
+	config.globalResources([FluentButton, FluentTile]);
 }
