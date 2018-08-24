@@ -1,9 +1,18 @@
 /// <reference types="aurelia-loader-webpack/src/webpack-hot-interface"/>
 // we want font-awesome to load as soon as possible to show the fa-spinner
 import { Aurelia } from 'aurelia-framework'
-import environment from './environment';
+import environment from 'environment';
 import { PLATFORM } from 'aurelia-pal';
 import * as Bluebird from 'bluebird';
+
+import { library, dom } from '@fortawesome/fontawesome-svg-core';
+import { faCogs, faCamera } from '@fortawesome/pro-light-svg-icons';
+
+// Load icon fonts
+library.add(faCogs, faCamera);
+
+// Automatically observe the dom for icons to render
+dom.watch();
 
 // remove out if you don't want a Promise polyfill (remove also from webpack.config.js)
 Bluebird.config({ warnings: { wForgottenReturn: false } });

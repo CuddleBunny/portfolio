@@ -1,3 +1,104 @@
-fluent-tile {
+@import '../../styles/variables.less';
 
+fluent-tile {
+	background-color: gray;
+	color: white;
+
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+
+	width: @tileSize;
+	height: @tileSize;
+	padding: @tilePadding;
+
+	&.small {
+		width: @smallTileSize;
+		height: @smallTileSize;
+
+		> .icon {
+			font-size: @smallTileSize / 2;
+			top: @smallTileSize / 4;
+		}
+
+		&.tall {
+			height: @tileSize;
+		}
+	}
+
+	&.wide {
+		width: @bigTileSize;
+	}
+
+	&.tall {
+		height: @bigTileSize;
+	}
+
+	&.large {
+		width: @bigTileSize;
+		height: @bigTileSize;
+
+		> .icon {
+			font-size: @bigTileSize / 3;
+			top: @bigTileSize / 3;
+		}
+
+		&.tall {
+			height: @bigTileSize * 2;
+		}
+	}
+
+	.display-name {
+		justify-self: flex-end;
+		margin-top: auto;
+	}
+
+	> .icon {
+		position: absolute;
+		font-size: @tileSize / 3;
+		top: @tileSize / 3;
+		align-self: center;
+	}
+
+	.hint {
+		justify-self: flex-start;
+
+		.subtle {
+			opacity: 0.6;
+		}
+
+		.caption {
+			font-size: 12px;
+		}
+
+		.body {
+			font-size: 15px;
+		}
+
+		.base {
+			font-size: 15px;
+			font-weight: 600;
+		}
+
+		.sub-title {
+			font-size: 20px;
+		}
+
+		.title {
+			font-size: 24px;
+			font-weight: 300;
+		}
+
+		.sub-header {
+			font-size: 34px;
+			font-weight: 200;
+		}
+
+		.header {
+			font-size: 46px;
+			font-weight: 200;
+		}
+	}
 }

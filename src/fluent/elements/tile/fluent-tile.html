@@ -1,3 +1,7 @@
 <template>
-	<div>I'm a tile.</div>
+	<require from="./fluent-tile.less"></require>
+
+	<i class="icon ${icon}" if.bind="icon"></i>
+	<section class="hint"><slot></slot></section>
+	<section class="display-name" if.bind="displayName" innerhtml.bind="displayName"></section>
 </template>

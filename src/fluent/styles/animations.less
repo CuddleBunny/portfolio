@@ -1,0 +1,49 @@
+@keyframes tileEnterLeft {
+	0%   {
+		opacity: 0;
+		transform: scale(0.8) translateX(20px);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1) translateX(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) translateX(0px);
+	}
+}
+
+@keyframes tileEnterUp {
+	0%   {
+		opacity: 0;
+		transform: scale(0.8) translateY(20px);
+	}
+	50% {
+		opacity: 1;
+		transform: scale(1) translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1) translateY(0px);
+	}
+}
+
+@keyframes tileFlip {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(180deg);
+	}
+}
+
+@keyframes tileSlideUp {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(50%);
+	}
+}
+
+@keyframes empty {}
