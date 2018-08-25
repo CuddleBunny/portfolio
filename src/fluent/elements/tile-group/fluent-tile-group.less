@@ -2,47 +2,55 @@
 @import '../../styles/animations.less';
 
 fluent-tile-group {
-	display: grid;
-	grid-template-columns: repeat(4, 72px);
-	grid-gap: @tileMargin * 2;
-
-	&.wide {
-		grid-template-columns: repeat(6, 72px);
+	.display-name {
+		color: white;
+		margin-bottom: 10px;
+		font-size: 22px;
 	}
 
-	&.double.wide {
-		grid-template-columns: repeat(8, 72px);
-	}
+	.tiles {
+		display: grid;
+		grid-template-columns: repeat(4, 72px);
+		grid-gap: @tileMargin * 2;
 
-	> * {
-		grid-column: auto / span 2;
-		grid-row: auto / span 2;
-	}
+		&.wide {
+			grid-template-columns: repeat(6, 72px);
+		}
 
-	.small {
-		grid-column: auto;
-		grid-row: auto;
-	}
+		&.double.wide {
+			grid-template-columns: repeat(8, 72px);
+		}
 
-	.wide {
-		grid-column: auto / span 4;
-		grid-row: auto / span 2;
-	}
+		> * {
+			grid-column: auto / span 2;
+			grid-row: auto / span 2;
+		}
 
-	.large {
-		grid-column: auto / span 4;
-		grid-row: auto / span 4;
-	}
+		.small {
+			grid-column: auto;
+			grid-row: auto;
+		}
 
-	&.au-stagger {
-		 animation-delay: 50ms;
-	}
+		.wide {
+			grid-column: auto / span 4;
+			grid-row: auto / span 2;
+		}
 
-	&.au-animate > .au-enter {
-		opacity: 0;
-	}
+		.large {
+			grid-column: auto / span 4;
+			grid-row: auto / span 4;
+		}
 
-	&.au-animate > .au-enter-active {
-		animation: tileEnterLeft 500ms ease-in;
+		&.au-stagger {
+			animation-delay: 50ms;
+		}
+
+		&.au-animate > .au-enter {
+			opacity: 0;
+		}
+
+		&.au-animate > .au-enter-active {
+			animation: tileEnterLeft 500ms ease-in;
+		}
 	}
 }

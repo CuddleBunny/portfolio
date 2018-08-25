@@ -64,27 +64,12 @@ fluent-live-tile {
 
 		> fluent-tile {
 			height: 200%;
-		}
-	}
-
-	&.slide-add {
-		animation: empty 500ms;
-
-		> fluent-tile {
-			animation: tileSlideUp 500ms;
+			transition: transform 500ms;
 		}
 	}
 
 	&.slide > fluent-tile {
 		transform: translateY(-50%);
-	}
-
-	&.slide-remove {
-		animation: empty 500ms;
-
-		> fluent-tile {
-			animation: tileSlideUp 500ms reverse;
-		}
 	}
 
 	fluent-tile {

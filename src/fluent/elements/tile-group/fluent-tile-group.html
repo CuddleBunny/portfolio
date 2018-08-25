@@ -1,4 +1,9 @@
 <template>
 	<require from="./fluent-tile-group.less"></require>
-	<slot></slot>
+
+	<section class="display-name" if.bind="displayName" innerhtml.bind="displayName"></section>
+
+	<section class="tiles">
+		<slot></slot>
+	</section>
 </template>

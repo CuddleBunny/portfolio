@@ -1,4 +1,4 @@
-import { customElement, bindable } from 'aurelia-framework';
+import { customElement, bindable, LogManager } from 'aurelia-framework';
 import { FluentElement } from '../core/fluent-element';
 
 @customElement('fluent-live-tile')
@@ -7,16 +7,17 @@ export class FluentLiveTile extends FluentElement {
 	@bindable animation: 'flip' | 'slide' = 'flip';
 
 	private activeChild: number = 0;
-	private intervalInstance;
+	private animationInterval;
 
 	attached() {
 		super.attached();
 
 		this.element.children[0].classList.add('active');
-		this.intervalInstance = setInterval(this.animate.bind(this), this.interval);
+		this.animationInterval = setInterval(this.animate.bind(this), this.interval);
 	}
 
 	animate() {
+		// If there are more than two children to flip through then cycle through them.
 		if(this.element.children.length > 2) {
 			this.element.children[this.activeChild].classList.remove('active');
 
@@ -35,8 +36,10 @@ export class FluentLiveTile extends FluentElement {
 	}
 
 	intervalChanged(newValue, oldValue) {
-		clearInterval(this.intervalInstance);
-		this.intervalInstance = setInterval(this.animate, this.interval);
+		if(this.animationInterval) {
+			clearInterval(this.animationInterval);
+			this.animationInterval = setInterval(this.animate.bind(this), this.interval);
+		}
 	}
 
 	animationChanged(newValue, oldValue) {
