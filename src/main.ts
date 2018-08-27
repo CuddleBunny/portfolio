@@ -1,15 +1,15 @@
 /// <reference types="aurelia-loader-webpack/src/webpack-hot-interface"/>
-// we want font-awesome to load as soon as possible to show the fa-spinner
-import { Aurelia } from 'aurelia-framework'
-import environment from 'environment';
+import { dom, library } from '@fortawesome/fontawesome-svg-core';
+import { faFacebookF, faGithub, faLinkedinIn, faRedditAlien, faTwitter, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faCamera, faCogs, faFileAlt, faEnvelope } from '@fortawesome/pro-light-svg-icons';
+import { Aurelia } from 'aurelia-framework';
 import { PLATFORM } from 'aurelia-pal';
 import * as Bluebird from 'bluebird';
+import environment from 'environment';
 
-import { library, dom } from '@fortawesome/fontawesome-svg-core';
-import { faCogs, faCamera } from '@fortawesome/pro-light-svg-icons';
 
 // Load icon fonts
-library.add(faCogs, faCamera);
+library.add(faCogs, faCamera, faGithub, faFileAlt, faFacebookF, faLinkedinIn, faTwitter, faRedditAlien, faEnvelope, faStackOverflow);
 
 // Automatically observe the dom for icons to render
 dom.watch();
@@ -23,12 +23,8 @@ export function configure(aurelia: Aurelia) {
 		.feature(PLATFORM.moduleName('resources/index'))
 		.feature(PLATFORM.moduleName('fluent/index'));
 
-	// Uncomment the line below to enable animation.
 	aurelia.use.plugin(PLATFORM.moduleName('aurelia-animator-css'));
 	// if the css animator is enabled, add swap-order="after" to all router-view elements
-
-	// Anyone wanting to use HTMLImports to load views, will need to install the following plugin.
-	// aurelia.use.plugin(PLATFORM.moduleName('aurelia-html-import-template-loader'));
 
 	if (environment.debug) {
 		aurelia.use.developmentLogging();

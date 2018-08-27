@@ -1,7 +1,7 @@
 @import '../../styles/variables.less';
 
 fluent-tile {
-	background-color: gray;
+	background-color: @accentColor;
 	color: white;
 
 	position: relative;
@@ -62,6 +62,12 @@ fluent-tile {
 		font-size: @tileSize / 3;
 		top: @tileSize / 3;
 		align-self: center;
+	}
+
+	img {
+		align-self: center;
+		justify-self: center;
+		margin: auto;
 	}
 
 	.hint {

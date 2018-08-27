@@ -1,22 +1,51 @@
 <template>
-	<fluent-tile-group display-name="Home" class="au-animate au-stagger">
-		<fluent-tile class="small" icon="fal fa-cogs"></fluent-tile>
-		<fluent-live-tile>
-			<fluent-tile icon="fal fa-cogs"></fluent-tile>
-			<fluent-tile icon="fal fa-plane"></fluent-tile>
-		</fluent-live-tile>
-		<fluent-live-tile animation="slide" interval="8000">
-			<fluent-tile>
-				<div class="heading">Sliding Tile</div>
-				<div class="body">This tile can slide! You can fit extra stuff.</div>
-				<div class="body">This tile can slide! You can fit extra stuff.</div>
-				<div class="body">This tile can slide! You can fit extra stuff.</div>
-				<div class="body">This tile can slide! You can fit extra stuff.</div>
+	<require from="./start.less"></require>
+	<fluent-hub class="fluent-view">
+		<fluent-tile-group display-name="Home" class="au-animate au-stagger">
+			<fluent-tile class="small" icon="fal fa-cogs"></fluent-tile>
+			<fluent-live-tile animation="flip-y">
+				<fluent-tile icon="fal fa-cogs"></fluent-tile>
+				<fluent-tile icon="fal fa-plane"></fluent-tile>
+			</fluent-live-tile>
+			<fluent-live-tile animation="slide" interval="8000">
+				<fluent-tile>
+					<div class="heading">Sliding Tile</div>
+					<div class="body">This tile can slide! You can fit extra stuff.</div>
+					<div class="body">This tile can slide! You can fit extra stuff.</div>
+					<div class="body">This tile can slide! You can fit extra stuff.</div>
+					<div class="body">This tile can slide! You can fit extra stuff.</div>
+				</fluent-tile>
+			</fluent-live-tile>
+			<fluent-tile class="wide" display-name="world" icon="fal fa-camera">
+				<div class="body">Hello</div>
 			</fluent-tile>
-		</fluent-live-tile>
-		<fluent-tile class="wide" display-name="world" icon="fal fa-camera"><div class="body">Hello</div></fluent-tile>
-		<fluent-tile class="small" icon="fal fa-cogs"></fluent-tile>
-		<fluent-tile class="small" icon="fal fa-cogs"></fluent-tile>
-		<fluent-tile class="small" icon="fal fa-cogs"></fluent-tile>
-	</fluent-tile-group>
+			<fluent-tile class="small" icon="fal fa-cogs"></fluent-tile>
+			<fluent-tile class="small" icon="fal fa-cogs"></fluent-tile>
+			<fluent-tile class="small" icon="fal fa-cogs"></fluent-tile>
+		</fluent-tile-group>
+		<fluent-tile-group display-name="Developer" class="wide au-animate au-stagger">
+			<fluent-live-tile id="stackoverflow-tile" class="wide" animation="flip-x">
+				<fluent-tile display-name="Stack Overflow" icon="fab fa-stack-overflow"></fluent-tile>
+				<fluent-tile onclick="window.open('http://stackoverflow.com/users/434512/cuddlebunny')">
+					<img slot="image" src="https://stackexchange.com/users/flair/193033.png?theme=clean" width="280" height="78" alt="StackExchange" title="StackExchange">
+				</fluent-tile>
+			</fluent-live-tile>
+
+			<fluent-tile id="github-tile" icon="fab fa-github" display-name="GitHub" onclick="window.open('https://github.com/CuddleBunny')"></fluent-tile>
+			<fluent-tile display-name="Resume" icon="fal fa-file-alt" onclick="window.open('assets/resume.pdf')"></fluent-tile>
+		</fluent-tile-group>
+
+		<fluent-tile-group display-name="Connect">
+			<fluent-tile id="facebook-tile" class="small" icon="fab fa-facebook-f" onclick="window.open('https://www.facebook.com/thecuddlebunny')"></fluent-tile>
+			<fluent-tile id="linkedin-tile" class="small" icon="fab fa-linkedin-in" onclick="window.open('https://www.linkedin.com/in/joshdovishaw')"></fluent-tile>
+			<fluent-live-tile id="mal-tile" animation="flip-y" onclick="https://myanimelist.net/profile/CuddleBunny">
+				<fluent-tile></fluent-tile>
+				<fluent-tile></fluent-tile>
+			</fluent-live-tile>
+			<fluent-tile display-name="Contact Me" icon="fal fa-envelope"></fluent-tile>
+			<fluent-tile id="twitter-tile" class="small" icon="fab fa-twitter" onclick="window.open('https://twitter.com/TheCuddleBunny')"></fluent-tile>
+			<fluent-tile id="reddit-tile" class="small" icon="fab fa-reddit-alien" onclick="window.open('https://www.reddit.com/user/CuddleBunny3')"></fluent-tile>
+		</fluent-tile-group>
+	</fluent-hub>
+
 </template>

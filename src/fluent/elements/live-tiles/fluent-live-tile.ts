@@ -1,10 +1,11 @@
 import { customElement, bindable, LogManager } from 'aurelia-framework';
 import { FluentElement } from '../core/fluent-element';
+import { faOldRepublic } from '@fortawesome/free-brands-svg-icons';
 
 @customElement('fluent-live-tile')
 export class FluentLiveTile extends FluentElement {
-	@bindable interval: number = 5000;
-	@bindable animation: 'flip' | 'slide' = 'flip';
+	@bindable interval: number = Math.random() * 2000 + 4000;
+	@bindable animation: 'flip-y' | 'flip-x' | 'slide' | 'none' = 'none';
 
 	private activeChild: number = 0;
 	private animationInterval;
@@ -13,7 +14,9 @@ export class FluentLiveTile extends FluentElement {
 		super.attached();
 
 		this.element.children[0].classList.add('active');
-		this.animationInterval = setInterval(this.animate.bind(this), this.interval);
+
+		if(this.animation != 'none')
+			this.animationInterval = setInterval(this.animate.bind(this), this.interval);
 	}
 
 	animate() {
@@ -44,5 +47,8 @@ export class FluentLiveTile extends FluentElement {
 
 	animationChanged(newValue, oldValue) {
 		this.element.classList.remove(oldValue);
+
+		if(oldValue == 'none')
+			this.intervalChanged(this.interval, this.interval);
 	}
 }

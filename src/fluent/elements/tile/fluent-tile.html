@@ -2,6 +2,9 @@
 	<require from="./fluent-tile.less"></require>
 
 	<i class="icon ${icon}" if.bind="icon"></i>
+
+	<slot name="image"></slot>
+
 	<section class="hint"><slot></slot></section>
 	<section class="display-name" if.bind="displayName" innerhtml.bind="displayName"></section>
 </template>

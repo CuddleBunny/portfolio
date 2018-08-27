@@ -1,19 +1,57 @@
 {
-  // Use IntelliSense to find out which attributes exist for node debugging
-  // Use hover for the description of the existing attributes
-  // For further information visit https://go.microsoft.com/fwlink/?linkid=830387
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Chrome",
-      "type": "chrome",
-      "request": "launch",
-      "url": "http://localhost:5000",
-      "webRoot": "${workspaceRoot}/src",
-      "userDataDir": "${workspaceRoot}/.chrome",
-      "sourceMapPathOverrides": {
-        "webpack:///./src/*": "${webRoot}/*"
-      }
-    }
-  ]
+	// Use IntelliSense to find out which attributes exist for node debugging
+	// Use hover for the description of the existing attributes
+	// For further information visit https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"compounds": [
+		{
+			"name": "ASP.NET Core & Chrome",
+			"configurations": [".NET Core Launch (web)", "Chrome"]
+		}
+	],
+	"configurations": [
+		{
+			"name": ".NET Core Launch (web)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			// If you have changed target frameworks, make sure to update the program path.
+			"program": "${workspaceFolder}/bin/Debug/netcoreapp2.0/project.dll",
+			"args": [],
+			"cwd": "${workspaceFolder}",
+			"stopAtEntry": false,
+			"internalConsoleOptions": "openOnSessionStart",
+			"launchBrowser": {
+				"enabled": false,
+				"args": "${auto-detect-url}",
+				"windows": {
+					"command": "cmd.exe",
+					"args": "/C start ${auto-detect-url}"
+				},
+				"osx": {
+					"command": "open"
+				},
+				"linux": {
+					"command": "xdg-open"
+				}
+			},
+			"env": {
+				"ASPNETCORE_ENVIRONMENT": "Development"
+			},
+			"sourceFileMap": {
+				"/Views": "${workspaceFolder}/Views"
+			}
+		},
+		{
+			"name": "Chrome",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:5000",
+			"webRoot": "${workspaceRoot}/src",
+			"userDataDir": "${workspaceRoot}/.chrome",
+			"sourceMapPathOverrides": {
+				"webpack:///./src/*": "${webRoot}/*"
+			}
+		}
+	]
 }

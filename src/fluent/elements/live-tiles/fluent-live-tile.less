@@ -47,16 +47,40 @@ fluent-live-tile {
 	transform-origin: center center;
 	transform-style: preserve-3d;
 
-	&.flip-add {
-		animation: tileFlip 500ms;
+	&[animation="flip-y"] {
+		fluent-tile:nth-child(even) {
+			transform: rotateY(180deg);
+		}
 	}
 
-	&.flip {
+	&.flip-y-add {
+		animation: tileFlipY 500ms;
+	}
+
+	&.flip-y {
 		transform: rotateY(180deg);
 	}
 
-	&.flip-remove {
-		animation: tileFlip 500ms reverse;
+	&.flip-y-remove {
+		animation: tileFlipY 500ms reverse;
+	}
+
+	&[animation="flip-x"] {
+		fluent-tile:nth-child(even) {
+			transform: rotateX(180deg);
+		}
+	}
+
+	&.flip-x-add {
+		animation: tileFlipX 500ms;
+	}
+
+	&.flip-x {
+		transform: rotateX(180deg);
+	}
+
+	&.flip-x-remove {
+		animation: tileFlipX 500ms reverse;
 	}
 
 	&[animation="slide"] {
@@ -88,8 +112,6 @@ fluent-live-tile {
 			top: 0;
 		}
 
-		&:nth-child(even) {
-			transform: rotateY(180deg);
-		}
+
 	}
 }
