@@ -7,3 +7,34 @@
 @smallTileSize: 72px;
 @tileSize: @smallTileSize * 2 + @tileMargin * 2;
 @bigTileSize: @smallTileSize * 4 + @tileMargin * 6;
+
+.tile-sizes() {
+	width: @tileSize;
+	height: @tileSize;
+
+	&.small {
+		width: @smallTileSize;
+		height: @smallTileSize;
+
+		&.tall {
+			height: @tileSize;
+		}
+	}
+
+	&.wide {
+		width: @bigTileSize;
+	}
+
+	&.tall {
+		height: @bigTileSize;
+	}
+
+	&.large {
+		width: @bigTileSize;
+		height: @bigTileSize;
+
+		&.tall {
+			height: @bigTileSize * 2;
+		}
+	}
+}

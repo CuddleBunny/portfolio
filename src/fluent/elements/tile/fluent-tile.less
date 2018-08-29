@@ -1,6 +1,8 @@
 @import '../../styles/variables.less';
 
 fluent-tile {
+	.tile-sizes();
+
 	background-color: @accentColor;
 	color: white;
 
@@ -9,47 +11,21 @@ fluent-tile {
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
+	overflow: hidden;
 
-	width: @tileSize;
-	height: @tileSize;
 	padding: @tilePadding;
+
 
 	cursor: pointer;
 
-	&.small {
-		width: @smallTileSize;
-		height: @smallTileSize;
-
-		> .icon {
-			font-size: @smallTileSize / 2;
-			top: @smallTileSize / 4;
-		}
-
-		&.tall {
-			height: @tileSize;
-		}
+	&.small > .icon {
+		font-size: @smallTileSize / 2;
+		top: @smallTileSize / 4;
 	}
 
-	&.wide {
-		width: @bigTileSize;
-	}
-
-	&.tall {
-		height: @bigTileSize;
-	}
-
-	&.large {
-		width: @bigTileSize;
-		height: @bigTileSize;
-
-		> .icon {
-			font-size: @bigTileSize / 3;
-			top: @bigTileSize / 3;
-		}
-
-		&.tall {
-			height: @bigTileSize * 2;
-		}
+	&.large > .icon {
+		font-size: @bigTileSize / 3;
+		top: @bigTileSize / 3;
 	}
 
 	.display-name {

@@ -1,6 +1,5 @@
 import { customElement, bindable, LogManager } from 'aurelia-framework';
 import { FluentElement } from '../core/fluent-element';
-import { faOldRepublic } from '@fortawesome/free-brands-svg-icons';
 
 @customElement('fluent-live-tile')
 export class FluentLiveTile extends FluentElement {

@@ -3,44 +3,7 @@
 fluent-live-tile {
 	position: relative;
 
-	width: @tileSize;
-	height: @tileSize;
-
-	&.small {
-		width: @smallTileSize;
-		height: @smallTileSize;
-
-		> .icon {
-			font-size: @smallTileSize / 2;
-			top: @smallTileSize / 4;
-		}
-
-		&.tall {
-			height: @tileSize;
-		}
-	}
-
-	&.wide {
-		width: @bigTileSize;
-	}
-
-	&.tall {
-		height: @bigTileSize;
-	}
-
-	&.large {
-		width: @bigTileSize;
-		height: @bigTileSize;
-
-		> .icon {
-			font-size: @bigTileSize / 3;
-			top: @bigTileSize / 3;
-		}
-
-		&.tall {
-			height: @bigTileSize * 2;
-		}
-	}
+	.tile-sizes();
 
 	// Animations
 
@@ -111,7 +74,5 @@ fluent-live-tile {
 			position: absolute;
 			top: 0;
 		}
-
-
 	}
 }

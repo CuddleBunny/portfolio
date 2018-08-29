@@ -1,0 +1,57 @@
+@import '../../styles/variables.less';
+
+fluent-tile-folder {
+	position: relative;
+
+	> fluent-tile {
+		position: absolute;
+	}
+
+	.tiles {
+		display: flex;
+		flex-wrap: wrap;
+		align-content: flex-start;
+
+		> * {
+			transform-origin: top left;
+			transform: scale(0.33);
+			margin-bottom: -66.7%;
+			margin-right: -66.7%;
+			pointer-events: none;
+
+			.display-name, .hint {
+				visibility: hidden;
+			}
+		}
+	}
+
+	&.open {
+		> fluent-tile {
+			position: relative;
+		}
+
+		grid-column-end: span 6;
+
+		.tiles {
+			border-top: 1px solid white;
+			border-bottom: 1px solid white;
+
+			> * {
+				transform: none;
+				margin: 0;
+
+				&.au-enter {
+					opacity: 0;
+				}
+
+				&.au-enter-active {
+					animation: tileEnterUp 500ms ease-in;
+				}
+
+				.display-name, .hint {
+					visibility: visible;
+				}
+			}
+		}
+	}
+}
