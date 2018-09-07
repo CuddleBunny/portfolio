@@ -13,7 +13,10 @@
     "skipLibCheck": true,
     "lib": [
       "es2017", "dom"
-    ]
+	],
+	"paths": {
+		"fluent/*": ["fluent/*"]
+	}
   },
   "include": [
     "./src/**/*.ts",

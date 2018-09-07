@@ -1,6 +1,6 @@
 /// <reference types="aurelia-loader-webpack/src/webpack-hot-interface"/>
 import { dom, library } from '@fortawesome/fontawesome-svg-core';
-import { faFacebookF, faGithub, faLinkedinIn, faRedditAlien, faTwitter, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faGithub, faLinkedinIn, faRedditAlien, faTwitter, faStackOverflow, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faCamera, faCogs, faFileAlt, faEnvelope, faCode, faChevronDown } from '@fortawesome/pro-light-svg-icons';
 import { Aurelia } from 'aurelia-framework';
 import { PLATFORM } from 'aurelia-pal';
@@ -9,7 +9,7 @@ import environment from 'environment';
 
 
 // Load icon fonts
-library.add(faCogs, faCamera, faGithub, faFileAlt, faFacebookF, faLinkedinIn, faTwitter, faRedditAlien, faEnvelope, faStackOverflow, faCode, faChevronDown);
+library.add(faCogs, faCamera, faGithub, faFileAlt, faFacebookF, faLinkedinIn, faTwitter, faRedditAlien, faEnvelope, faStackOverflow, faCode, faChevronDown, faDiscord);
 
 // Automatically observe the dom for icons to render
 dom.watch();
@@ -20,6 +20,11 @@ Bluebird.config({ warnings: { wForgottenReturn: false } });
 export function configure(aurelia: Aurelia) {
 	aurelia.use
 		.standardConfiguration()
+		.plugin(PLATFORM.moduleName('aurelia-dialog'), config => {
+			config.useDefaults();
+			config.settings.lock = false;
+			config.settings.centerHorizontalOnly = true;
+		})
 		.feature(PLATFORM.moduleName('resources/index'))
 		.feature(PLATFORM.moduleName('fluent/index'));
 

@@ -1,17 +1,11 @@
 <template>
 	<require from="./start.less"></require>
 	<fluent-hub class="fluent-view">
-		<fluent-tile-group display-name="Josh Dovishaw" class="au-animate au-stagger">
-			<fluent-tile class="large"></fluent-tile>
-			<fluent-tile-folder open="true">
-				<fluent-tile icon="fal fa-cogs"></fluent-tile>
-				<fluent-tile icon="fal fa-cogs"></fluent-tile>
-				<fluent-tile icon="fal fa-cogs"></fluent-tile>
-				<fluent-tile icon="fal fa-cogs" display-name="test">test</fluent-tile>
-				<fluent-tile id="test">test</fluent-tile>
-			</fluent-tile-folder>
-			<fluent-tile display-name="Work" icon="fal fa-code"></fluent-tile>
-		</fluent-tile-group>
+		<section id="blurb">
+			<div class="title">Hi! I'm Josh.</div>
+			<p class="body">I am a <a>developer</a>, <a>gamer</a>, <a href="https://myanimelist.net/profile/CuddleBunny">otaku</a>, <a>adventurer</a>, <a>technologist</a>, and <a>dad</a>.</p>
+			<p class="body">I specialize in web development and the .NET ecosystem.</p>
+		</section>
 		<fluent-tile-group display-name="Developer" class="wide au-animate au-stagger">
 			<fluent-live-tile id="stackoverflow-tile" class="wide" animation="flip-x">
 				<fluent-tile display-name="Stack Overflow" icon="fab fa-stack-overflow"></fluent-tile>
@@ -22,10 +16,17 @@
 
 			<fluent-tile id="github-tile" icon="fab fa-github" display-name="GitHub" onclick="window.open('https://github.com/CuddleBunny')"></fluent-tile>
 			<fluent-tile display-name="Resume" icon="fal fa-file-alt" onclick="window.open('assets/resume.pdf')"></fluent-tile>
-			<fluent-tile display-name="Work" icon="fal fa-code"></fluent-tile>
+			<fluent-tile display-name="Work" icon="fal fa-code" onclick="alert('coming soon')"></fluent-tile>
 		</fluent-tile-group>
 
-		<fluent-tile-group display-name="Connect">
+		<fluent-tile-group class="wide" display-name="Connect">
+			<fluent-live-tile animation="flip-y" class="large" id="discord-tile" >
+				<fluent-tile class="large" display-name="Discord" icon="fab fa-discord"></fluent-tile>
+				<fluent-tile>
+					<iframe src="https://discordapp.com/widget?id=487320645462523915&theme=dark" width="306" height="306" allowtransparency="true" frameborder="0"></iframe>
+				</fluent-tile>
+			</fluent-live-tile>
+
 			<fluent-tile id="facebook-tile" class="small" icon="fab fa-facebook-f" onclick="window.open('https://www.facebook.com/thecuddlebunny')"></fluent-tile>
 			<fluent-tile id="linkedin-tile" class="small" icon="fab fa-linkedin-in" onclick="window.open('https://www.linkedin.com/in/joshdovishaw')"></fluent-tile>
 			<!-- TODO: Add Anime season compeltion RSS feed to tile once the API is restored -->
@@ -33,7 +34,7 @@
 				<fluent-tile></fluent-tile>
 				<fluent-tile display-name="MyAnimeList"></fluent-tile>
 			</fluent-live-tile>
-			<fluent-tile display-name="Contact Me" icon="fal fa-envelope"></fluent-tile>
+			<fluent-tile display-name="Contact Me" icon="fal fa-envelope" click.delegate="contact()"></fluent-tile>
 			<fluent-tile id="twitter-tile" class="small" icon="fab fa-twitter" onclick="window.open('https://twitter.com/TheCuddleBunny')"></fluent-tile>
 			<fluent-tile id="reddit-tile" class="small" icon="fab fa-reddit-alien" onclick="window.open('https://www.reddit.com/user/CuddleBunny3')"></fluent-tile>
 		</fluent-tile-group>

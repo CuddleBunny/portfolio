@@ -1,0 +1,49 @@
+@import '../../styles/variables.less';
+
+fluent-applet-host {
+	ux-dialog-container {
+		> div {
+			padding: 0;
+			height: 100%;
+
+			> div {
+				width: 100%;
+				height: 100%;
+			}
+		}
+
+		ux-dialog {
+			width: 100%;
+			height: 100%;
+			padding: 0;
+			box-sizing: border-box;
+			border-color: @accentColor;
+			box-shadow: none;
+			border-radius: 0;
+
+			ux-dialog-header {
+				padding: 0;
+				background-color: @accentColor;
+				color: @accentTextColor;
+				font-weight: 100;
+				height: 30px;
+				line-height: 30px;
+
+				.dialog-header-content {
+					padding: 0 10px;
+				}
+
+				button.dialog-close {
+					background-color: transparent;
+					color: white;
+					height: 30px;
+					width: 45px;
+
+					&:hover {
+						background-color: @cancelColor;
+					}
+				}
+			}
+		}
+	}
+}

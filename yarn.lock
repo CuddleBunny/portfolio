@@ -614,7 +614,7 @@ aurelia-animator-css@^1.0.4:
     aurelia-pal "^1.0.0"
     aurelia-templating "^1.0.0"
 
-aurelia-binding@^2.0.0:
+aurelia-binding@^2.0.0, aurelia-binding@^2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/aurelia-binding/-/aurelia-binding-2.1.4.tgz#15c3cdfa94dddfa05505ca32ab0ab0e12ab7bdd9"
   dependencies:
@@ -669,6 +669,17 @@ aurelia-dependency-injection@^1.0.0, aurelia-dependency-injection@^1.4.1:
   dependencies:
     aurelia-metadata "^1.0.0"
     aurelia-pal "^1.0.0"
+
+aurelia-dialog@^2.0.0-rc.3:
+  version "2.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/aurelia-dialog/-/aurelia-dialog-2.0.0-rc.3.tgz#1c1a911f2c91ed9c8d8c8c2f3f5acaa93683498d"
+  dependencies:
+    aurelia-binding "^2.1.4"
+    aurelia-dependency-injection "^1.0.0"
+    aurelia-framework "^1.0.0"
+    aurelia-metadata "^1.0.0"
+    aurelia-pal "^1.0.0"
+    aurelia-templating "^1.8.2"
 
 aurelia-event-aggregator@^1.0.0:
   version "1.0.1"
