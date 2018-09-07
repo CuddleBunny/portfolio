@@ -1,8 +1,16 @@
 <template>
-	<ux-dialog class="applet">
+	<require from="./contact.less"></require>
+
+	<ux-dialog class="contact applet">
 		<ux-dialog-header>Contact Me</ux-dialog-header>
 		<ux-dialog-body>
-			Coming Soon.
+			<div>
+				<input placeholder="From: " />
+				<fluent-button click.delegate="close()"><i class="fal fa-trash-alt"></i> Discard</fluent-button>
+				<fluent-button click.delegate="send()"><i class="fal fa-paper-plane"></i> Send</fluent-button>
+			</div>
+			<input placeholder="Subject" />
+			<quill-editor ref="messageEditor"></quill-editor>
 		</ux-dialog-body>
 	</ux-dialog>
 </template>
