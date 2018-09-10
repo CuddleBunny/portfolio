@@ -1,6 +1,6 @@
 /// <reference types="aurelia-loader-webpack/src/webpack-hot-interface"/>
 import { dom, library } from '@fortawesome/fontawesome-svg-core';
-import { faFacebookF, faGithub, faLinkedinIn, faRedditAlien, faTwitter, faStackOverflow, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faGithub, faLinkedinIn, faRedditAlien, faTwitter, faStackOverflow, faDiscord, faGitter } from '@fortawesome/free-brands-svg-icons';
 import { faCamera, faCogs, faFileAlt, faEnvelope, faCode, faChevronDown, faPaperPlane, faTrash, faTrashAlt } from '@fortawesome/pro-light-svg-icons';
 import { Aurelia } from 'aurelia-framework';
 import { PLATFORM } from 'aurelia-pal';
@@ -9,7 +9,7 @@ import environment from 'environment';
 
 
 // Load icon fonts
-library.add(faCogs, faCamera, faGithub, faFileAlt, faFacebookF, faLinkedinIn, faTwitter, faRedditAlien, faEnvelope, faStackOverflow, faCode, faChevronDown, faDiscord, faPaperPlane, faTrashAlt);
+library.add(faCogs, faCamera, faGithub, faFileAlt, faFacebookF, faLinkedinIn, faTwitter, faRedditAlien, faEnvelope, faStackOverflow, faCode, faChevronDown, faDiscord, faPaperPlane, faTrashAlt, faGitter);
 
 // Automatically observe the dom for icons to render
 dom.watch();
