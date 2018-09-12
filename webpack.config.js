@@ -34,7 +34,7 @@ module.exports = ({ production, server, extractCss, coverage, analyze, karma } =
 	},
 	entry: {
 		app: ['aurelia-bootstrapper'],
-		vendor: ['bluebird', 'quill'],
+		vendor: ['bluebird'],
 	},
 	mode: production ? 'production' : 'development',
 	output: {
@@ -50,7 +50,7 @@ module.exports = ({ production, server, extractCss, coverage, analyze, karma } =
 		// serve index.html for all 404 (required for push-state)
 		historyApiFallback: true
 	},
-	devtool: production ? 'nosources-source-map' : 'cheap-module-eval-source-map',
+	devtool: production ? 'cheap-module-eval-source-map' : 'cheap-module-eval-source-map',
 	module: {
 		rules: [
 			// CSS required in JS/TS files should use the style-loader that auto-injects it into the website
