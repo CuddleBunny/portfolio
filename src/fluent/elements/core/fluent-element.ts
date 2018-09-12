@@ -9,5 +9,7 @@ export class FluentElement {
 		this.animator.enter(this.element);
 	}
 
-
+	detached() {
+		this.animator.leave(this.element);
+	}
 }

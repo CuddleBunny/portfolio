@@ -6,7 +6,7 @@
 			<p class="body">I am a <a>developer</a>, <a>gamer</a>, <a href="https://myanimelist.net/profile/CuddleBunny">otaku</a>, <a>adventurer</a>, <a>technologist</a>, and <a>dad</a>.</p>
 			<p class="body">I specialize in web development and the .NET ecosystem.</p>
 		</section>
-		<fluent-tile-group display-name="Developer" class="wide au-animate au-stagger">
+		<fluent-tile-group display-name="Developer" class="wide au-animate">
 			<fluent-live-tile id="stackoverflow-tile" class="wide" animation="flip-x">
 				<fluent-tile display-name="Stack Overflow" icon="fab fa-stack-overflow"></fluent-tile>
 				<fluent-tile onclick="window.open('http://stackoverflow.com/users/434512/cuddlebunny')">
@@ -19,7 +19,7 @@
 			<fluent-tile display-name="Work" icon="fal fa-code" onclick="alert('coming soon')"></fluent-tile>
 		</fluent-tile-group>
 
-		<fluent-tile-group class="wide" display-name="Connect">
+		<fluent-tile-group class="wide au-animate" display-name="Connect">
 			<fluent-live-tile animation="flip-y" class="large" id="discord-tile" >
 				<fluent-tile class="large" display-name="Discord" icon="fab fa-discord"></fluent-tile>
 				<fluent-tile>
@@ -36,7 +36,9 @@
 			</fluent-live-tile>
 			<fluent-tile display-name="Contact Me" icon="fal fa-envelope" click.delegate="contact()"></fluent-tile>
 			<fluent-tile id="twitter-tile" class="small" icon="fab fa-twitter" onclick="window.open('https://twitter.com/TheCuddleBunny')"></fluent-tile>
-			<fluent-tile id="reddit-tile" class="small" icon="fab fa-reddit-alien" onclick="window.open('https://www.reddit.com/user/CuddleBunny3')"></fluent-tile>
+			<fluent-tile id="reddit-tile" role="link" aria-label="Reddit" class="small" icon="fab fa-reddit-alien" onclick="window.open('https://www.reddit.com/user/CuddleBunny3')"></fluent-tile>
+			<fluent-tile id="gitter-tile" class="small" icon="fab fa-gitter" onclick="window.open('https://gitter.im/CuddleBunny')"></fluent-tile>
+			<fluent-tile id="steam-tile" class="small" icon="fab fa-steam" onclick="window.open('https://steamcommunity.com/id/thecuddlebunny')"></fluent-tile>
 		</fluent-tile-group>
 	</fluent-hub>
 

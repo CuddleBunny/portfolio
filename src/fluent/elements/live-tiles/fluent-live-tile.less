@@ -14,6 +14,11 @@ fluent-live-tile {
 		fluent-tile:nth-child(even) {
 			transform: rotateY(180deg);
 		}
+
+		// Hide other sides during animations where the transform could be overwritten.
+		&.au-enter-active fluent-tile:not(:first-child) {
+			visibility: hidden;
+		}
 	}
 
 	&.flip-y-add {
@@ -31,6 +36,11 @@ fluent-live-tile {
 	&[animation="flip-x"] {
 		fluent-tile:nth-child(even) {
 			transform: rotateX(180deg);
+		}
+
+		// Hide other sides during animations where the transform could be overwritten.
+		&.au-enter-active fluent-tile:not(:first-child) {
+			visibility: hidden;
 		}
 	}
 

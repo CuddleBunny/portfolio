@@ -7,11 +7,11 @@ fluent-tile-group {
 		margin-bottom: 10px;
 	}
 
-	&.wide .tiles {
+	&.wide > .tiles {
 		grid-template-columns: repeat(6, 72px);
 	}
 
-	&.double.wide .tiles {
+	&.double.wide > .tiles {
 		grid-template-columns: repeat(8, 72px);
 	}
 
@@ -41,15 +41,15 @@ fluent-tile-group {
 		}
 
 		&.au-stagger {
-			animation-delay: 50ms;
+			animation-delay: 100ms;
 		}
+	}
 
-		&.au-animate > .au-enter {
-			opacity: 0;
-		}
+	&.au-animate > .tiles > .au-enter {
+		opacity: 0;
+	}
 
-		&.au-animate > .au-enter-active {
-			animation: tileEnterLeft 500ms ease-in;
-		}
+	&.au-animate > .tiles > .au-enter-active {
+		animation: tileEnterLeft 300ms ease-in;
 	}
 }

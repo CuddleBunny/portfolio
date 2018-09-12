@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace WebApplicationBasic
+namespace CuddleBunnyPortfolio
 {
     public class Startup
     {
@@ -36,7 +36,7 @@ namespace WebApplicationBasic
                 app.UseDeveloperExceptionPage();
                 app.UseWebpackDevMiddleware(new WebpackDevMiddlewareOptions
                 {
-                  HotModuleReplacement = true, 
+                  HotModuleReplacement = true,
                   ConfigFile="webpack.netcore.config.js",
                   HotModuleReplacementClientOptions = new Dictionary<string,string>{
                     {"reload", "true"}

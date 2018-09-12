@@ -15,7 +15,7 @@ export class FluentLiveTile extends FluentElement {
 		this.element.children[0].classList.add('active');
 
 		if(this.animation != 'none')
-			this.animationInterval = setInterval(this.animate.bind(this), this.interval);
+			this.animationInterval = setInterval(() => this.animate(), this.interval);
 	}
 
 	animate() {
@@ -40,7 +40,7 @@ export class FluentLiveTile extends FluentElement {
 	intervalChanged(newValue, oldValue) {
 		if(this.animationInterval) {
 			clearInterval(this.animationInterval);
-			this.animationInterval = setInterval(this.animate.bind(this), this.interval);
+			this.animationInterval = setInterval(() => this.animate(), this.interval);
 		}
 	}
 
