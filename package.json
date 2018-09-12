@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "description": "An Aurelia client application.",
+  "description": "Developer portfolio for Josh Dovishaw.",
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
@@ -8,6 +8,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
     "@fortawesome/free-brands-svg-icons": "^5.2.0",
     "@fortawesome/pro-light-svg-icons": "^5.2.0",
+    "applicationinsights": "^1.0.4",
     "aurelia-animator-css": "^1.0.4",
     "aurelia-bootstrapper": "^2.2.0",
     "aurelia-dependency-injection": "^1.4.1",
@@ -70,8 +71,7 @@
     "node": ">= 6.0.0"
   },
   "scripts": {
-    "start": "nps",
-    "test": "nps test"
+    "start": "dotnet run"
   },
-  "main": "dist/app.bundle.js"
+  "main": "wwwroot/dist/app.bundle.js"
 }
