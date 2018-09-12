@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "description": "An Aurelia client application.",
+  "description": "Developer portfolio for Josh Dovishaw.",
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
@@ -70,8 +70,7 @@
     "node": ">= 6.0.0"
   },
   "scripts": {
-    "start": "nps",
-    "test": "nps test"
+	"start": "dotnet run"
   },
-  "main": "dist/app.bundle.js"
+  "main": "wwwroot/dist/app.bundle.js"
 }
