@@ -1,6 +1,6 @@
-import { QuillEditor } from './editor/quill-editor';
+import { PLATFORM } from 'aurelia-pal';
 import { FrameworkConfiguration } from 'aurelia-framework';
 
 export function configure(config: FrameworkConfiguration) {
-	config.globalResources([QuillEditor]);
+	config.globalResources([PLATFORM.moduleName('./editor/quill-editor')]);
 }
