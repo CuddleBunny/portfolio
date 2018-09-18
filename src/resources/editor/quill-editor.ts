@@ -1,4 +1,4 @@
-import { inlineView, customElement, bindable, bindingMode } from "aurelia-framework";
+import { customElement, bindable, bindingMode } from "aurelia-framework";
 import Quill, { QuillOptionsStatic } from 'quill';
 
 let defaultOptions: QuillOptionsStatic = {
