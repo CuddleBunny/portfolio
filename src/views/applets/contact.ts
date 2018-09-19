@@ -1,36 +1,22 @@
-import { FluentApplet } from 'fluent/elements/applet/fluent-applet';
 import { inject, NewInstance } from 'aurelia-framework';
-import { ValidationController } from 'aurelia-validation';
-import { DialogController } from 'aurelia-dialog';
-import { required, email, ValidationRules } from 'aurelia-validatejs';
+import { ValidationController, ValidationRules } from 'aurelia-validation';
 
-@inject(NewInstance.of(ValidationController), DialogController, Element)
-export class Contact extends FluentApplet {
-	from: string;
-	subject: string;
-	body: string;
+@inject(NewInstance.of(ValidationController))
+export class Contact {
+	from: string = '';
+	subject: string = '';
+	body: string = '';
 
-	constructor(protected validationController: ValidationController, dialogController, element) {
-		super(dialogController, element);
-
-		ValidationRules
-			.ensure((vm: Contact) => vm.from).required().email()
-			.ensure('subject').required()
-			.ensure('body').required()
-			.on(this);
-	}
-
-	close() {
-		this.controller.cancel();
-	}
+	constructor(protected validationController: ValidationController) { }
 
 	send() {
-		let errors = this.validationController.validate().then(result => console.log(result)).catch(reason => console.warn(reason));
-
-		console.log('??');
-
-		//e.preventDefault();
-
-		//return false;
+		let errors = this.validationController.validate()
+			.then(result => console.log(result));
 	}
 }
+
+ValidationRules
+	.ensure((c: Contact) => c.from).email().required()
+	.ensure((c: Contact) => c.subject).required()
+	.ensure((c: Contact) => c.body).required()
+	.on(Contact);

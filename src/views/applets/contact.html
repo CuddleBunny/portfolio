@@ -1,19 +1,16 @@
 <template>
 	<require from="./contact.less"></require>
 
-	<ux-dialog class="contact applet">
-		<ux-dialog-header>Contact Me</ux-dialog-header>
-		<ux-dialog-body>
-			<ul>
-				<li repeat.for="error of validationController.errors">${error.message}</li>
-			</ul>
-			<div>
-				<input placeholder="From: " value.bind="from & validate" />
-				<fluent-button click.delegate="close()"><i class="fal fa-trash-alt"></i> Discard</fluent-button>
-				<fluent-button click.delegate="send()"><i class="fal fa-paper-plane"></i> Send</fluent-button>
-			</div>
-			<input placeholder="Subject" value.bind="subject & validate" />
-			<quill-editor ref="messageEditor" value.bind="body & validate"></quill-editor>
-		</ux-dialog-body>
-	</ux-dialog>
+	<fluent-applet display-name="Contact Me">
+		<ul>
+			<li repeat.for="error of validationController.errors">${error.message}</li>
+		</ul>
+		<div>
+			<input placeholder="From: " value.bind="from & validate" />
+			<fluent-button click.delegate="close()"><i class="fal fa-trash-alt"></i> Discard</fluent-button>
+			<fluent-button click.delegate="send()"><i class="fal fa-paper-plane"></i> Send</fluent-button>
+		</div>
+		<input placeholder="Subject" value.bind="subject & validate" />
+		<quill-editor ref="messageEditor" value.bind="body & validate"></quill-editor>
+	</fluent-applet>
 </template>

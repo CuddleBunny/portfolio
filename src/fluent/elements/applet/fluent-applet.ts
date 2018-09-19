@@ -1,7 +1,13 @@
-import { inject } from 'aurelia-framework';
-import { DialogController } from 'aurelia-dialog/dist/commonjs/dialog-controller';
+import { inject, bindable } from 'aurelia-framework';
+import { Router } from 'aurelia-router';
 
-@inject(DialogController, Element)
+@inject(Element, Router)
 export class FluentApplet {
-	constructor(protected controller: DialogController, protected element: Element) {}
+	@bindable displayName: string = '';
+
+	constructor(protected element: Element, protected router: Router) {}
+
+	close() {
+		this.router.navigate('', { replace: true });
+	}
 }

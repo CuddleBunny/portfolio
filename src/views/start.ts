@@ -1,15 +1,17 @@
+import { Router } from 'aurelia-router';
 import { inject } from 'aurelia-framework';
 import { DialogService } from 'aurelia-dialog';
 import { Contact } from './applets/contact';
 
-@inject(DialogService, Element)
+@inject(DialogService, Router, Element)
 export class Start {
-	constructor(private dialogService: DialogService, private element:Element) {
+	constructor(private dialogService: DialogService, private router: Router, private element:Element) {
 
 	}
 
 	contact() {
-		this.openDialog(Contact);
+		//this.openDialog(Contact);
+		this.router.navigate('contact');
 	}
 
 	openDialog(vm: object) {
