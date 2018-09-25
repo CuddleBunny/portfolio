@@ -1,7 +1,7 @@
 <template>
 	<require from="./contact.less"></require>
 
-	<fluent-applet class="contact" display-name="Contact Me">
+	<fluent-applet view-model.ref="applet" class="contact" display-name="Contact Me">
 		<ul if.bind="validationController.errors.length">
 			<li repeat.for="error of validationController.errors">${error.message}</li>
 		</ul>

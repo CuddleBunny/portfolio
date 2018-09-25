@@ -1,3 +1,4 @@
+import { FluentApplet } from './../../fluent/elements/applet/fluent-applet';
 import { inject, NewInstance } from 'aurelia-framework';
 import { ValidationController, ValidationRules, validateTrigger } from 'aurelia-validation';
 
@@ -7,6 +8,8 @@ export class Contact {
 	subject: string = '';
 	body: string = '';
 
+	applet: FluentApplet;
+
 	constructor(protected validationController: ValidationController) {
 		this.validationController.changeTrigger(validateTrigger.manual);
 	}
@@ -14,6 +17,10 @@ export class Contact {
 	send() {
 		let errors = this.validationController.validate()
 			.then(result => console.log(result));
+	}
+
+	close() {
+		this.applet.close();
 	}
 }
 
