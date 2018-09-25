@@ -1,5 +1,5 @@
 import { inject, NewInstance } from 'aurelia-framework';
-import { ValidationController, ValidationRules } from 'aurelia-validation';
+import { ValidationController, ValidationRules, validateTrigger } from 'aurelia-validation';
 
 @inject(NewInstance.of(ValidationController))
 export class Contact {
@@ -7,7 +7,9 @@ export class Contact {
 	subject: string = '';
 	body: string = '';
 
-	constructor(protected validationController: ValidationController) { }
+	constructor(protected validationController: ValidationController) {
+		this.validationController.changeTrigger(validateTrigger.manual);
+	}
 
 	send() {
 		let errors = this.validationController.validate()

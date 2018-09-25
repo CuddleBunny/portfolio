@@ -1,8 +1,8 @@
 <template>
 	<require from="./contact.less"></require>
 
-	<fluent-applet display-name="Contact Me">
-		<ul>
+	<fluent-applet class="contact" display-name="Contact Me">
+		<ul if.bind="validationController.errors.length">
 			<li repeat.for="error of validationController.errors">${error.message}</li>
 		</ul>
 		<div>
@@ -10,7 +10,7 @@
 			<fluent-button click.delegate="close()"><i class="fal fa-trash-alt"></i> Discard</fluent-button>
 			<fluent-button click.delegate="send()"><i class="fal fa-paper-plane"></i> Send</fluent-button>
 		</div>
-		<input placeholder="Subject" value.bind="subject & validate" />
+		<div><input placeholder="Subject" value.bind="subject & validate" /></div>
 		<quill-editor ref="messageEditor" value.bind="body & validate"></quill-editor>
 	</fluent-applet>
 </template>
