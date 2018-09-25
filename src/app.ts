@@ -10,7 +10,8 @@ export class App {
 		config.title = 'Portfolio | Josh Dovishaw';
 		config.map([
 			{ route: '', name: 'Start', moduleId: PLATFORM.moduleName('views/start') },
-			{ route: 'contact', name: 'Contact Me', moduleId: PLATFORM.moduleName('views/applets/contact') }
+			{ route: 'contact', name: 'Contact Me', moduleId: PLATFORM.moduleName('views/applets/contact') },
+			{ route: 'work', name: 'Work', moduleId: PLATFORM.moduleName('views/applets/work') }
 		]);
 	}
 }
