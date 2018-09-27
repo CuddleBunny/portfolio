@@ -1,0 +1,349 @@
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="authoring-tool" content="Adobe_Animate_CC">
+	<title>Slide5</title>
+	<link href="../../Assets/CSS/slide-theme.min.css" rel="stylesheet" />
+	<style>
+		 #soundFix {
+            background: url("../../Assets/Images/Shell/playbutton.png");
+            width: 960px;
+            height: 420px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            margin: 0px;
+            padding: 0px;
+            display: none;
+            z-index: 100;
+        }
+	</style>
+<!-- write your code here -->
+<style>
+  body {
+	overflow:hidden;
+  }
+  #canvas {
+	position:absolute;
+	margin:auto;
+	left:-100%;right:-100%;
+	top:-100%;bottom:-100%;
+  }
+</style>
+    <script src="../../Source/JS/CreateJS/easeljs-0.7.1.min.js"></script>
+    <script src="../../Source/JS/CreateJS/tweenjs-0.5.1.min.js"></script>
+    <script src="../../Source/JS/CreateJS/movieclip-0.7.1.min.js"></script>
+    <script src="../../Source/JS/CreateJS/preloadjs-0.4.1.min.js"></script>
+	<script src="../../Source/JS/jQuery/jquery-1.11.1.min.js"></script>
+	<script src="../../Source/JS/Howler/howler.min.js"></script>
+    <script src="../../Source/XM/Events/XMEvent.js"></script>
+    <script src="../../Source/XM/Helpers.js"></script>
+	<script src="../../Source/XM/Core/TemplateBase.js"></script>
+    <script src="../../Source/XM/Slides/CreateJSSlide.js"></script>
+<script>
+(function (lib, img, cjs, ss) {
+var p; // shortcut to reference prototypes
+lib.webFontTxtInst = {}; 
+var loadedTypekitCount = 0;
+var loadedGoogleCount = 0;
+var gFontsUpdateCacheList = [];
+var tFontsUpdateCacheList = [];
+// library properties:
+lib.properties = {
+	width: 960,
+	height: 440,
+	fps: 24,
+	color: "#FFFFFF",
+	opacity: 0.00,
+	webfonts: {},
+	manifest: [
+		{src:"../../Assets/Images/Slide5_atlas_.png", id:"Slide5_atlas_"}
+	]
+};
+lib.ssMetadata = [
+		{name:"Slide5_atlas_", frames: [[0,0,566,198],[367,323,116,131],[0,344,365,70],[0,416,365,70],[367,200,133,121],[0,200,365,70],[0,272,365,70]]}
+];
+lib.updateListCache = function (cacheList) {		
+	for(var i = 0; i < cacheList.length; i++) {		
+		if(cacheList[i].cacheCanvas)		
+			cacheList[i].updateCache();		
+	}		
+};		
+lib.addElementsToCache = function (textInst, cacheList) {		
+	var cur = textInst;		
+	while(cur != exportRoot) {		
+		if(cacheList.indexOf(cur) != -1)		
+			break;		
+		cur = cur.parent;		
+	}		
+	if(cur != exportRoot) {	//we have found an element in the list		
+		var cur2 = textInst;		
+		var index = cacheList.indexOf(cur);		
+		while(cur2 != cur) { //insert all it's children just before it		
+			cacheList.splice(index, 0, cur2);		
+			cur2 = cur2.parent;		
+			index++;		
+		}		
+	}		
+	else {	//append element and it's parents in the array		
+		cur = textInst;		
+		while(cur != exportRoot) {		
+			cacheList.push(cur);		
+			cur = cur.parent;		
+		}		
+	}		
+};		
+lib.gfontAvailable = function(family, totalGoogleCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], gFontsUpdateCacheList);		
+	loadedGoogleCount++;		
+	if(loadedGoogleCount == totalGoogleCount) {		
+		lib.updateListCache(gFontsUpdateCacheList);		
+	}		
+};		
+lib.tfontAvailable = function(family, totalTypekitCount) {		
+	lib.properties.webfonts[family] = true;		
+	var txtInst = lib.webFontTxtInst && lib.webFontTxtInst[family] || [];		
+	for(var f = 0; f < txtInst.length; ++f)		
+		lib.addElementsToCache(txtInst[f], tFontsUpdateCacheList);		
+	loadedTypekitCount++;		
+	if(loadedTypekitCount == totalTypekitCount) {		
+		lib.updateListCache(tFontsUpdateCacheList);		
+	}		
+};
+// symbols:
+(lib.coursetitle = function() {
+	this.spriteSheet = ss["Slide5_atlas_"];
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.fries = function() {
+	this.spriteSheet = ss["Slide5_atlas_"];
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.Next_button_hit = function() {
+	this.spriteSheet = ss["Slide5_atlas_"];
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+(lib.Next_button_resting = function() {
+	this.spriteSheet = ss["Slide5_atlas_"];
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+(lib.nuggets = function() {
+	this.spriteSheet = ss["Slide5_atlas_"];
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+(lib.PlayAgain_button_hit = function() {
+	this.spriteSheet = ss["Slide5_atlas_"];
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+(lib.PlayAgain_button_resting = function() {
+	this.spriteSheet = ss["Slide5_atlas_"];
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+(lib.replaybutton = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+		var self = this;
+		this.addEventListener(MouseEvent.CLICK, function() {
+			Shell.PreviousSlide();
+		});
+		this.addEventListener(MouseEvent.MOUSE_OVER, function() {
+			self.gotoAndStop(2);
+		});
+		this.addEventListener(MouseEvent.MOUSE_OUT, function() {
+			self.gotoAndStop(1);
+		});
+	}
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
+	// Layer 1
+	this.instance = new lib.PlayAgain_button_resting();
+	this.instance.parent = this;
+	this.instance_1 = new lib.PlayAgain_button_hit();
+	this.instance_1.parent = this;
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},2).wait(1));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,365,70);
+(lib.nextbutton = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// timeline functions:
+	this.frame_0 = function() {
+		this.stop();
+		var self = this;
+		this.addEventListener(MouseEvent.CLICK, function() {
+			Shell.NextSlide();
+		});
+		this.addEventListener(MouseEvent.MOUSE_OVER, function() {
+			self.gotoAndStop(2);
+		});
+		this.addEventListener(MouseEvent.MOUSE_OUT, function() {
+			self.gotoAndStop(1);
+		});
+	}
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(3));
+	// Layer 1
+	this.instance = new lib.Next_button_resting();
+	this.instance.parent = this;
+	this.instance_1 = new lib.Next_button_hit();
+	this.instance_1.parent = this;
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},2).wait(1));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(0,0,365,70);
+// stage content:
+(lib.Slide5 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+	// timeline functions:
+	this.frame_0 = function() {
+		stage.enableMouseOver(10);
+		this.score.text = "You've completed The Fry Station Challenge: Scenario 2\nYour Score: " + (LMS.GetFromSuspendData('slide4Score') || 0);
+	}
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
+	// Layer 1
+	this.instance = new lib.nuggets();
+	this.instance.parent = this;
+	this.instance.setTransform(40,59);
+	this.instance_1 = new lib.fries();
+	this.instance_1.parent = this;
+	this.instance_1.setTransform(804,53);
+	this.score = new cjs.Text("You've completed The Fry Station Challenge: Scenario 1\nYour Score: 40,000", "bold 16px 'Arial'");
+	this.score.name = "score";
+	this.score.textAlign = "center";
+	this.score.lineHeight = 24;
+	this.score.lineWidth = 556;
+	this.score.parent = this;
+	this.score.setTransform(480,263.6);
+	this.instance_2 = new lib.replaybutton();
+	this.instance_2.parent = this;
+	this.instance_2.setTransform(306.5,366,1,1,0,0,0,182.5,35);
+	this.instance_3 = new lib.nextbutton();
+	this.instance_3.parent = this;
+	this.instance_3.setTransform(653.5,366,1,1,0,0,0,182.5,35);
+	this.instance_4 = new lib.coursetitle();
+	this.instance_4.parent = this;
+	this.instance_4.setTransform(197,30);
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#B20738").ss(4,1,1).p("EgrvgE6MBXfAAAIAAJ1MhXfAAAg");
+	this.shape.setTransform(480,284.6);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#FFFFFF").s().p("EgrvAE7IAAp0MBXfAAAIAAJ0g");
+	this.shape_1.setTransform(480,284.6);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.score},{t:this.instance_1},{t:this.instance}]}).wait(1));
+}).prototype = p = new cjs.MovieClip();
+p.nominalBounds = new cjs.Rectangle(480,220,960,440);
+})(lib = lib||{}, images = images||{}, createjs = createjs||{}, ss = ss||{});
+var lib, images, createjs, ss;
+</script>
+<script>
+var canvas, stage, exportRoot;
+function init() {
+	canvas = document.getElementById("canvas");
+	images = images||{};
+	ss = ss||{};
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt) {	
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }	
+	if (evt.item.type == createjs.LoadQueue.SOUND) {
+		Slide.hasSound = true;
+		Slide.audio[evt.item.id] = new Howl({
+			src: [evt.item.src],
+			preload: true
+		})
+	}
+}
+function handleComplete(evt) {
+	Slide.trigger(XMEvent.Loaded);	
+	if (IsInMobileSafari() && Slide.hasSound) {
+		$('#soundFix').show();
+		$('#soundFix').click(function () {
+			// Howler should play an empty sound automatically with the first touchend event.
+			$('#soundFix').hide();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.Slide5();
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+		});
+	} else {
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.Slide5();
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+	}  
+	// Create an alias to exportRoot to maintain backwards compatibilty.
+	window.root = exportRoot;	
+	//Code to support hidpi screens and responsive scaling.
+	(function(isResp, respDim, isScale, scaleType) {		
+		var lastW, lastH, lastS=1;		
+		window.addEventListener('resize', resizeCanvas);		
+		resizeCanvas();		
+		function resizeCanvas() {			
+			var w = lib.properties.width, h = lib.properties.height;			
+			var iw = window.innerWidth, ih=window.innerHeight;			
+			var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+			if(isResp) {                
+				if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+					sRatio = lastS;                
+				}				
+				else if(!isScale) {					
+					if(iw<w || ih<h)						
+						sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==1) {					
+					sRatio = Math.min(xRatio, yRatio);				
+				}				
+				else if(scaleType==2) {					
+					sRatio = Math.max(xRatio, yRatio);				
+				}			
+			}			
+			canvas.width = w*pRatio*sRatio;			
+			canvas.height = h*pRatio*sRatio;
+			canvas.style.width = w*sRatio+'px';			
+			canvas.style.height = h*sRatio+'px';
+			stage.scaleX = pRatio*sRatio;			
+			stage.scaleY = pRatio*sRatio;			
+			lastW = iw; lastH = ih; lastS = sRatio;		
+		}
+	})(true,'both',true,2);	
+}
+</script>
+<!-- write your code here -->
+</head>
+<body onload="init();" onunload="Slide.Destroy()" onbeforeunload="Slide.Destroy()">
+	<canvas id="canvas" width="960" height="440" style="display: block; background-color:rgba(255, 255, 255, 0.00)"></canvas>
+	<div id="soundFix"></div>
+	<div id="domElementContainer"></div>
+    <script>
+        Slide.Initialize();
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿ul.image-layer {
+	white-space: nowrap;
+	font-size: 0;
+}
+
+ul.image-layer > li {
+	display: inline;
+}
+
+#era-overview {
+	position: absolute;
+	top: 0px; 
+	left: 12px;
+}
+
+#era-overview * {
+	position: absolute;
+	cursor: pointer;
+}

@@ -1,0 +1,65 @@
+﻿#intro-screen {
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 575px;
+	z-index: 12000;
+	background-image: url(../images/global/boardBGimage.png);
+	font-size: large;
+}
+
+.intro-text {
+    width:97%;
+}
+
+.scene3 {
+    width:100%;
+    height:100%;
+    display: block;
+}
+#startScav {
+    
+    display: block;
+    float: left;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    width: 524px;
+    height: 575px;
+    background-image: url("../images/global/scavImage2.png");
+    background-repeat:no-repeat;
+    background-position:top;
+    overflow: hidden;
+}
+
+#startScav:hover {
+    float: left;
+     background-image: url("../images/global/scavImage2.png");
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
+
+#startScav:active {
+    float: left;
+     background-image: url("../images/global/scavImage2.png");
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
+.scav-tex {
+    position:relative;
+    
+  display:block;
+  float:right;
+  margin-top:100px;
+  margin-left:600px; 
+    width:600px; 
+    
+}
+.scav-tex p{
+    width:600px; 
+    
+}
+
+#scene1next, #scene2next, #scene3next {
+	cursor: pointer;
+}

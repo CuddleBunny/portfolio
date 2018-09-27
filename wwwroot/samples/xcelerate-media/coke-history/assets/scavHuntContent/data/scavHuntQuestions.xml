@@ -1,0 +1,319 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<questions audioIntro=''>
+  <question id='1' >
+    <questionText>How much was Asa Candler’s total investment in his acquisition of the rights to Coca&#8209;Cola from Dr. Pemberton?</questionText>
+    <answer correct='1' num='1'>$2,300 </answer>
+    <answer correct='' num='2'>$5,300</answer>
+    <answer correct='' num='3'>$23,000</answer>
+    <answer correct='' num='4'>$53,000</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='2' >
+    <questionText>Who is this?</questionText>
+    <answer correct='' num='1'>John Pemberton’s daughter</answer>
+    <answer correct='' num='2'>Asa Candler’s daughter</answer>
+    <answer correct='1' num='3'>Hilda Clark </answer>
+    <answer correct='' num='4'>Lillian Nordica</answer>
+    <correct>3</correct>
+    <image src="assets/scavHuntContent/questionImages/question2.jpg" />
+    <audio src="" />
+  </question>
+  <question id='3' >
+    <questionText>What is the first soft drink the Company offered in the United States in addition to Coca&#8209;Cola?</questionText>
+    <answer correct='' num='1'>Fresca</answer>
+    <answer correct='1' num='2'>Fanta</answer>
+    <answer correct='' num='3'>Sprite</answer>
+    <answer correct='' num='4'>Tab</answer>
+    <correct>2</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='4' >
+    <questionText>What year did the Company first begin bottling Coca&#8209;Cola in Asia?</questionText>
+    <answer correct='1' num='1'>1912 </answer>
+    <answer correct='' num='2'>1932</answer>
+    <answer correct='' num='3'>1952</answer>
+    <answer correct='' num='4'>1972</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='5' >
+    <questionText>You win some and you lose some. Which CEO introduced the incredibly successful Diet Coke and the ill-fated “New” Coke?</questionText>
+    <answer correct='' num='1'>Robert Woodruff</answer>
+    <answer correct='' num='2'>Muhtar Kent</answer>
+    <answer correct='1' num='3'>Roberto Gouizeta </answer>
+    <answer correct='' num='4'>E. Neville Isdell</answer>
+    <correct>3</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='6' >
+    <questionText>Once Simply Orange was introduced, Simply quickly became a billion dollar brand how many years later?</questionText>
+    <answer correct='1' num='1'>8 </answer>
+    <answer correct='' num='2'>11 </answer>
+    <answer correct='' num='3'>14</answer>
+    <answer correct='' num='4'>17</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='7' >
+    <questionText>What decade saw the Company begin marketing to an African-American audience? </questionText>
+    <answer correct='' num='1'>1970s</answer>
+    <answer correct='' num='2'>1960s</answer>
+    <answer correct='1' num='3'>1950s</answer>
+    <answer correct='' num='4'>1940s</answer>
+    <correct>3</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='8' >
+    <questionText>Picking up on the common use of “Coke” to refer to Coca&#8209;Cola, The Coca&#8209;Cola Company used what character to introduce the term “Coke” into its advertising?</questionText>
+    <answer correct='' num='1'>The Polar Bears</answer>
+    <answer correct='' num='2'>The Coca&#8209;Cola Santa</answer>
+    <answer correct='1' num='3'>Sprite Boy</answer>
+    <answer correct='' num='4'>The Coca&#8209;Cola Calendar Girls</answer>
+    <correct>3</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='9' >
+    <questionText>After Haiti's devastating earthquake, The Coca&#8209;Cola Company launched Haiti Project Hope in order to help develop which fruit as a foundation of the Haitian economy?</questionText>
+    <answer correct='' num='1'>Orange </answer>
+    <answer correct='1' num='2'>Mango </answer>
+    <answer correct='' num='3'>Açaí</answer>
+    <answer correct='' num='4'>Pomegranate </answer>
+    <correct>2</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='10' >
+    <questionText>Some of the products of The Coca&#8209;Cola Company have been created to develop overseas markets before they are introduced in the United States. What market was Hi&#8209;C originally targeted for?</questionText>
+    <answer correct='1' num='1'>African markets</answer>
+    <answer correct='' num='2'>South American markets</answer>
+    <answer correct='' num='3'>Central American markets</answer>
+    <answer correct='' num='4'>Eastern markets</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='11' >
+    <questionText>What was the cost of the original Coca&#8209;Cola beverage served in Jacobs’ Pharmacy?</questionText>
+    <answer correct='' num='1'>1 dollar</answer>
+    <answer correct='' num='2'>50 cents</answer>
+    <answer correct='' num='3'>10 cents</answer>
+    <answer correct='1' num='4'>5 cents</answer>
+    <correct>4</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='12' >
+    <questionText>In what decade did Coca&#8209;Cola surpass the 6 million drinks a day mark?</questionText>
+    <answer correct='1' num='1'>1920s</answer>
+    <answer correct='' num='2'>1930s</answer>
+    <answer correct='' num='3'>1940s</answer>
+    <answer correct='' num='4'>1950s</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='13' >
+    <questionText>What decade was the 20oz PET contoured bottled introduced?</questionText>
+    <answer correct='' num='1'>2000s</answer>
+    <answer correct='1' num='2'>1990s</answer>
+    <answer correct='' num='3'>1980s</answer>
+    <answer correct='' num='4'>1970s</answer>
+    <correct>2</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='14' >
+    <questionText>The Coca&#8209;Cola Company had the first woman to serve on the Board of Directors of a major corporation. Who was she?</questionText>
+    <answer correct='' num='1'>Lucy Elizabeth Howard</answer>
+    <answer correct='1' num='2'>Lettie Pate Evans </answer>
+    <answer correct='' num='3'>Eleanor Roosevelt</answer>
+    <answer correct='' num='4'>Elizabeth Cady Stanton</answer>
+    <correct>2</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='15' >
+    <questionText>The Company decided to compete head-to-head with Dr. Pepper by introducing Mr. Pibb in what year?</questionText>
+    <answer correct='' num='1'>1962</answer>
+    <answer correct='' num='2'>1967</answer>
+    <answer correct='1' num='3'>1972</answer>
+    <answer correct='' num='4'>1976</answer>
+    <correct>3</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='16' >
+    <questionText>What year did the Company first begin bottling Coca&#8209;Cola in Asia?</questionText>
+    <answer correct='1' num='1'>1912</answer>
+    <answer correct='' num='2'>1932</answer>
+    <answer correct='' num='3'>1952</answer>
+    <answer correct='' num='4'>1972</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='17' >
+    <questionText>In what year did Coca&#8209;Cola introduce the diamond-shaped label?</questionText>
+    <answer correct='' num='1'>1886</answer>
+    <answer correct='' num='2'>1891</answer>
+    <answer correct='' num='3'>1901</answer>
+    <answer correct='1' num='4'>1907</answer>
+    <correct>4</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='18' >
+    <questionText>Coca&#8209;Cola introduced the diamond-shaped labels in 1907. When did the diamond reappear on Coca&#8209;Cola products?</questionText>
+    <answer correct='1' num='1'>1960</answer>
+    <answer correct='' num='2'>1953</answer>
+    <answer correct='' num='3'>1945</answer>
+    <answer correct='' num='4'>1922</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='19' >
+    <questionText>True or False: The Coca&#8209;Cola Company celebrated its 100th Anniversary in 1986.</questionText>
+    <answer correct='' num='1'>True</answer>
+    <answer correct='1' num='2'>False</answer>
+    <correct>2</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='20' >
+    <questionText>How many years was Coca&#8209;Cola sold for a nickel a glass before the first price increase?</questionText>
+    <answer correct='1' num='1'>60</answer>
+    <answer correct='' num='2'>50</answer>
+    <answer correct='' num='3'>40</answer>
+    <answer correct='' num='4'>30</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='21' >
+    <questionText>Though Candler was able to increase sales tenfold in the year after he created The Coca&#8209;Cola Company, he failed to see:</questionText>
+    <answer correct='' num='1'>The advantage of advertising on the radio</answer>
+    <answer correct='' num='2'>The need to market on household items such as calendars and trays</answer>
+    <answer correct='1' num='3'>That bottling to make the beverage portable was the future </answer>
+    <answer correct='' num='4'>The power of television advertising</answer>
+    <correct>3</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='22' >
+    <questionText>How many drinks a day did Jacobs’ Pharmacy sell that first year?</questionText>
+    <answer correct='1' num='1'>9 drinks a day </answer>
+    <answer correct='' num='2'>19 drinks a day</answer>
+    <answer correct='' num='3'>29 drinks a day</answer>
+    <answer correct='' num='4'>90 drinks a day</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='23' >
+    <questionText>True or False: Coca&#8209;Cola currently manufactures over 400 brands.</questionText>
+    <answer correct='1' num='1'>True</answer>
+    <answer correct='' num='2'>False</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='24' >
+    <questionText>By 1895, Candler declares in The Coca&#8209;Cola Company’s Annual Report:</questionText>
+    <answer correct='1' num='1'>Coca&#8209;Cola is sold in every state and territory in the United States </answer>
+    <answer correct='' num='2'>Coca&#8209;Cola is now sold in 10 countries throughout the Western hemisphere</answer>
+    <answer correct='' num='3'>The company has sold over a million gallons of syrup during the year</answer>
+    <answer correct='' num='4'>The company is selling six million drinks a day</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='25' >
+    <questionText>In what decade was the Dynamic Ribbon Device introduced?</questionText>
+    <answer correct='' num='1'>1950s</answer>
+    <answer correct='' num='2'>1960s</answer>
+    <answer correct='1' num='3'>1970s</answer>
+    <answer correct='' num='4'>1980s</answer>
+    <correct>3</correct>
+    <image src="assets/scavHuntContent/questionImages/question25.jpg" />
+    <audio src="" />
+  </question>
+  <question id='26' >
+    <questionText>What decade did The Coca&#8209;Cola Company begin to diversify into markets other than soft drinks?</questionText>
+    <answer correct='' num='1'>1930s</answer>
+    <answer correct='' num='2'>1940s</answer>
+    <answer correct='' num='3'>1950s</answer>
+    <answer correct='1' num='4'>1960s</answer>
+    <correct>4</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='27' >
+    <questionText>Who is this?</questionText>
+    <answer correct='' num='1'>Robert Woodruff</answer>
+    <answer correct='' num='2'>Ernest Woodruff</answer>
+    <answer correct='' num='3'>Asa Candler</answer>
+    <answer correct='1' num='4'>William D’Arcy </answer>
+    <correct>4</correct>
+    <image src="assets/scavHuntContent/questionImages/question27.jpg" />
+    <audio src="" />
+  </question>
+  <question id='28' >
+    <questionText>Frank M. Robinson, the gentleman that coined the name Coca&#8209;Cola and wrote out the name in the now-familiar Spencerian script, was:</questionText>
+    <answer correct='' num='1'>A professional baseball player</answer>
+    <answer correct='' num='2'>An advertising executive</answer>
+    <answer correct='1' num='3'>The company accountant </answer>
+    <answer correct='' num='4'>The son-in-law of John Pemberton</answer>
+    <correct>3</correct>
+    <image src="assets/scavHuntContent/questionImages/question28.jpg" />
+    <audio src="" />
+  </question>
+  <question id='29' >
+    <questionText>In what year were the Coca&#8209;Cola Polar Bears introduced?</questionText>
+    <answer correct='' num='1'>1935</answer>
+    <answer correct='' num='2'>1987</answer>
+    <answer correct='' num='3'>1990</answer>
+    <answer correct='1' num='4'>1993</answer>
+    <correct>4</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='30' >
+    <questionText>In which of the following countries was Coca&#8209;Cola introduced in early 1900?</questionText>
+    <answer correct='1' num='1'>Canada</answer>
+    <answer correct='' num='2'>Spain</answer>
+    <answer correct='' num='3'>England</answer>
+    <answer correct='' num='4'>Mexico</answer>
+    <correct>1</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='31' >
+    <questionText>Which is a strategy Pemberton used in 1887 to encourage people to try his new soft drink?</questionText>
+    <answer correct='' num='1'>Raffles</answer>
+    <answer correct='1' num='2'>Free drink coupons </answer>
+    <answer correct='' num='3'>Dances</answer>
+    <answer correct='' num='4'>Kissing contests</answer>
+    <correct>2</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+  <question id='32' >
+    <questionText>Why did Dr. Pemberton sell his invention?</questionText>
+    <answer correct='' num='1'>He was leaving the country</answer>
+    <answer correct='1' num='2'>He was ill and in need of money </answer>
+    <answer correct='' num='3'>He disliked the taste</answer>
+    <answer correct='' num='4'>His family suggested it</answer>
+    <correct>2</correct>
+    <image src="" />
+    <audio src="" />
+  </question>
+</questions>

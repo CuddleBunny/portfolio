@@ -1,0 +1,425 @@
+.hover-button {
+  cursor: pointer;
+}
+.hover-button .hover {
+  display: none;
+}
+.hover-button:hover .hover {
+  display: block;
+}
+.hover-button:hover :not(.hover) {
+  display: none;
+}
+.shepherd-content header {
+  float: right;
+}
+.shepherd-content header .shepherd-cancel-link {
+  color: white !important;
+}
+/*
+	.shepherd-element.shepherd-target-attached-bottom {
+		animation-name: shepherd-bottom-animation;
+		animation-duration: 0.2s;
+	}
+
+	@keyframes shepherd-bottom-animation {
+		from {
+			top: 100px;
+		}
+		to {
+			top: 0px;
+		}
+	}
+
+	.shepherd-element.shepherd-target-attached-top {
+		animation-name: shepherd-top-animation;
+		animation-duration: 0.2s;
+	}
+
+	@keyframes shepherd-top-animation {
+		from {
+			top: -100px;
+		}
+		to {
+			top: 0px;
+		}
+	}
+
+	.shepherd-element.shepherd-target-attached-left {
+		animation-name: shepherd-left-animation;
+		animation-duration: 0.2s;
+	}
+
+	@keyframes shepherd-left-animation {
+		from {
+			left: -100px;
+		}
+		to {
+			left: 0px;
+		}
+	}
+
+	.shepherd-element.shepherd-target-attached-right {
+		animation-name: shepherd-right-animation;
+		animation-duration: 0.2s;
+	}
+
+	@keyframes shepherd-right-animation {
+		from {
+			left: 100px;
+		}
+		to {
+			left: 0px;
+		}
+	}
+*/
+.shepherd-button {
+  background-color: #B20738 !important;
+}
+@media screen and (max-width: 1000px) {
+  .superfluous {
+    display: none;
+  }
+  .shepherd-element {
+    font-size: 0.75em;
+  }
+}
+#time-bar {
+  position: absolute;
+  bottom: 87px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  white-space: nowrap;
+}
+#time-bar > div {
+  float: left;
+  width: 50%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: right;
+}
+#time-bar > div > div {
+  display: inline-block;
+  text-align: center;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 5px;
+  height: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+#time-bar > div .time {
+  color: #E51837;
+  font-weight: bold;
+  font-family: monospace;
+}
+#time-bar .left > div:nth-child(2) {
+  margin-right: 15%;
+}
+#time-bar .left > div:last-child {
+  margin-right: 20%;
+}
+#time-bar .right > div:nth-child(3) {
+  margin-left: calc(50% - 208px);
+}
+#time-bar .right > div:nth-child(4) {
+  margin-right: calc(45% - 172px);
+}
+#time-bar img {
+  margin-top: 2px;
+}
+@media screen and (max-width: 1000px) {
+  #time-bar {
+    bottom: 55px;
+    font-size: 0.45em;
+  }
+  #time-bar img {
+    display: none;
+  }
+  #time-bar > div {
+    padding: 0 6px;
+  }
+  #time-bar > div > div {
+    padding: 2px;
+  }
+  #time-bar .left > div,
+  #time-bar .right > div {
+    margin: 0 !important;
+    display: block;
+    float: left;
+  }
+  #time-bar .left > div + div,
+  #time-bar .right > div + div {
+    border-left: none;
+  }
+  #time-bar .left > div {
+    width: 25%;
+  }
+  #time-bar .right > div {
+    width: 16%;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.blink {
+  -webkit-animation-name: blink;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-name: blink;
+  animation-timing-function: linear;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#tool-tray {
+  position: fixed;
+  z-index: 1000;
+  bottom: 0px;
+  width: 100%;
+  height: 87px;
+  line-height: 87px;
+  background-color: #EAAE30;
+  text-align: center;
+}
+#tool-tray .tool {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 127px;
+  height: 100%;
+  margin: 0 5px;
+  max-width: 14%;
+}
+#tool-tray .tool > :first-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#tool-tray .tool > :first-child * {
+  width: 100%;
+  height: 100%;
+}
+#tool-tray .tool > :last-child {
+  position: relative;
+  width: 100%;
+  vertical-align: middle;
+  max-width: 127px;
+  -ms-pointer-events: none;
+  pointer-events: none;
+}
+@media screen and (max-width: 1000px) {
+  #tool-tray {
+    height: 55px;
+    line-height: 55px;
+  }
+  #tool-tray .tool {
+    margin: 0;
+  }
+}
+#container {
+  height: calc(100% - 100px);
+}
+#scoreboard {
+  position: absolute;
+  top: -4px;
+  left: 10px;
+  height: 52px;
+  width: 210px;
+  line-height: 55px;
+  text-align: center;
+  background-image: url('../Images/Game/scoreboard-background.png');
+  cursor: default;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-weight: bold;
+}
+#progress {
+  position: absolute;
+  top: -4px;
+  right: 10px;
+  height: 52px;
+  width: 210px;
+  line-height: 55px;
+  text-align: center;
+  background-image: url('../Images/Game/scoreboard-background.png');
+  cursor: default;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+  #container {
+    height: calc(100% - 70px);
+  }
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  touch-action: none;
+  -ms-touch-action: none;
+}
+body {
+  background: url(../Images/slide-background.png);
+  background-size: cover;
+  -ms-content-zooming: none;
+}
+.pulse {
+  width: 20px;
+  height: 20px;
+  background-color: #EAAE30;
+  border-radius: 10px;
+  margin: -10px;
+  position: absolute;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  from {
+    box-shadow: 0 0 3px 0 #333;
+  }
+  50% {
+    box-shadow: 0 0 15px 10px #EAAE30;
+  }
+  to {
+    box-shadow: 0 0 3px 0 #333;
+  }
+}
+#video-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+}
+#video-container video {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1000px;
+  max-height: 400px;
+}
+.remediation-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  margin: 0 auto;
+  z-index: 3000;
+  width: calc(100% - 40px);
+  height: calc(100% - 220px);
+  display: none;
+}
+.carton {
+  position: absolute;
+  top: -53px;
+  left: 220px;
+  height: 53px;
+  width: 170px;
+  text-align: center;
+  background-image: url('../Images/Game/carton-background.png');
+}
+.order {
+  position: absolute;
+  top: 0;
+  left: -10000px;
+  bottom: 220px;
+  margin: auto 0;
+}
+#question-container {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+}
+#question-container #question {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #B20738;
+  border: 2px solid #EAAE30;
+  box-sizing: border-box;
+  max-width: 800px;
+  max-height: 420px;
+  overflow-y: auto;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+#question-container #question-text {
+  margin-bottom: 1.25em;
+}
+#question-container #answers {
+  list-style: upper-alpha;
+  list-style-position: inside;
+  padding-left: 0;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#question-container #answers.right li.right,
+#question-container #answers.wrong li.right {
+  background-color: #33A907 !important;
+}
+#question-container #answers.wrong li.selected {
+  background-color: #666 !important;
+  opacity: 0.75;
+}
+#question-container #answers .answer {
+  margin-bottom: 0.75em;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding-left: 2em;
+  text-indent: -1.25em;
+}
+#question-container #answers .answer:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*# sourceMappingURL=slide-theme.min.css.map */

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coke History</title>
+	<link href="assets/css/main.css" rel="stylesheet" />
+	<link href="assets/css/parallax.css" rel="stylesheet" />
+	<link href="assets/css/xmtabs.css" rel="stylesheet" />
+	<link href="assets/css/xmpanel.css" rel="stylesheet" />
+	<link href="assets/css/modal.css" rel="stylesheet" />
+	<link href="assets/css/nav.css" rel="stylesheet" />
+	<link href="assets/css/intro.css" rel="stylesheet" />
+
+	<link href="assets/css/kendo.common.min.css" rel="stylesheet" />
+	<link href="assets/css/kendo.uniform.min.css" rel="stylesheet" />
+
+	<script src="lib/jquery-1.10.2.js"></script>
+	<script src="lib/jquery-migrate-1.2.1.js"></script>
+	<script src="lib/jquery.queryloader2.js"></script>
+</head>
+<body>
+	<div id="blocker" style="background-color: #C70015; width: 100%; height: 100%; position: absolute; top: 0px; z-index: 12000;">  </div>
+
+	<div id="header">
+		<img src="assets/images/global/cokeLogo.png" />
+		<div id="header-buttons">
+			<img id="info-button" src="assets/images/global/infoIcon.png" />
+			<img id="home-button" src="assets/images/global/homeIcon.png" />
+			<!--<img id="achievements-button" src="assets/images/global/achievIcon.png" />-->
+		</div>
+	</div>
+
+	<div id="main">
+		<!-- Layer 1 : Background -->
+		<div id="plax1" style="position: absolute; width: 14893px; height: 575px; background-image: url(assets/images/layer1/repeatBG.png);" data-ratio=".2" data-start="0"></div>
+
+		<!-- Layer 2 : The buildings -->
+		<ul id="plax2" class="image-layer" style="position: absolute; width: 46790px;" data-ratio=".628">
+			<!--34300 + 12480-->
+			<li><img src="assets/images/layer2/era1.png" /></li>
+			<li><img src="assets/images/transition/layer2/era1.png" /></li>
+			<li><img src="assets/images/layer2/era2.png" /></li>
+			<li><img src="assets/images/transition/layer2/era2.png" /></li>
+			<li><img src="assets/images/layer2/era3.png" /></li>
+			<li><img src="assets/images/transition/layer2/era3.png" /></li>
+			<li><img src="assets/images/layer2/era4.png" /></li>
+			<li><img src="assets/images/transition/layer2/era4.png" /></li>
+			<li><img src="assets/images/layer2/era5.png" /></li>
+			<li><img src="assets/images/transition/layer2/era5.png" /></li>
+			<li><img src="assets/images/layer2/era6.png" /></li>
+			<li><img src="assets/images/transition/layer2/era6.png" /></li>
+			<li><img src="assets/images/layer2/era7.png" /></li>
+			<li><img src="assets/images/transition/layer2/era7.png" /></li>
+			<li><img src="assets/images/layer2/era8.png" /></li>
+			<li><img src="assets/images/transition/layer2/era8.png" /></li>
+			<li><img src="assets/images/layer2/era9.png" /></li>
+			<li><img src="assets/images/transition/layer2/era9.png" /></li>
+			<li><img src="assets/images/layer2/era10.png" /></li>
+			<li><img src="assets/images/transition/layer2/era10.png" /></li>
+			<li><img src="assets/images/layer2/era11.png" /></li>
+			<li><img src="assets/images/transition/layer2/era11.png" /></li>
+			<li><img src="assets/images/layer2/era12.png" /></li>
+			<li><img src="assets/images/transition/layer2/era12.png" /></li>
+			<li><img src="assets/images/layer2/era13.png" /></li>
+			<li><img src="assets/images/transition/layer2/era13.png" /></li>
+			<li><img src="assets/images/layer2/era14.png" /></li>
+		</ul>
+
+		<!-- Layer 3 : The sidwalk -->
+		<ul id="plax3" class="image-layer" style="position: absolute; width: 55368px; bottom: 0px; overflow: hidden;" data-ratio=".7436">
+			<li><img src="assets/images/layer3/era1.png" /></li>
+			<li><img src="assets/images/transition/layer3/era1.png" /></li>
+			<li><img src="assets/images/layer3/era2.png" /></li>
+			<li><img src="assets/images/transition/layer3/era2.png" /></li>
+			<li><img src="assets/images/layer3/era3.png" /></li>
+			<li><img src="assets/images/transition/layer3/era3.png" /></li>
+			<li><img src="assets/images/layer3/era4.png" /></li>
+			<li><img src="assets/images/transition/layer3/era4.png" /></li>
+			<li><img src="assets/images/layer3/era5.png" /></li>
+			<li><img src="assets/images/transition/layer3/era5.png" /></li>
+			<li><img src="assets/images/layer3/era6.png" /></li>
+			<li><img src="assets/images/transition/layer3/era6.png" /></li>
+			<li><img src="assets/images/layer3/era7.png" /></li>
+			<li><img src="assets/images/transition/layer3/era7.png" /></li>
+			<li><img src="assets/images/layer3/era8.png" /></li>
+			<li><img src="assets/images/transition/layer3/era8.png" /></li>
+			<li><img src="assets/images/layer3/era9.png" /></li>
+			<li><img src="assets/images/transition/layer3/era9.png" /></li>
+			<li><img src="assets/images/layer3/era10.png" /></li>
+			<li><img src="assets/images/transition/layer3/era10.png" /></li>
+			<li><img src="assets/images/layer3/era11.png" /></li>
+			<li><img src="assets/images/transition/layer3/era11.png" /></li>
+			<li><img src="assets/images/layer3/era12.png" /></li>
+			<li><img src="assets/images/transition/layer3/era12.png" /></li>
+			<li><img src="assets/images/layer3/era13.png" /></li>
+			<li><img src="assets/images/transition/layer3/era13.png" /></li>
+			<li><img src="assets/images/layer3/era14.png" /></li>
+		</ul>
+
+		<!-- Layer 4 : The next layer down -->
+		<ul id="plax4" class="image-layer" style="position: absolute; width: 63009px; bottom: 0px" data-ratio=".8462">
+			<li><img src="assets/images/layer4/era1.png" /></li>
+			<li><img src="assets/images/transition/layer4/era1.png" /></li>
+			<li><img src="assets/images/layer4/era2.png" /></li>
+			<li><img src="assets/images/transition/layer4/era2.png" /></li>
+			<li><img src="assets/images/layer4/era3.png" /></li>
+			<li><img src="assets/images/transition/layer4/era3.png" /></li>
+			<li><img src="assets/images/layer4/era4.png" /></li>
+			<li><img src="assets/images/transition/layer4/era4.png" /></li>
+			<li><img src="assets/images/layer4/era5.png" /></li>
+			<li><img src="assets/images/transition/layer4/era5.png" /></li>
+			<li><img src="assets/images/layer4/era6.png" /></li>
+			<li><img src="assets/images/transition/layer4/era6.png" /></li>
+			<li><img src="assets/images/layer4/era7.png" /></li>
+			<li><img src="assets/images/transition/layer4/era7.png" /></li>
+			<li><img src="assets/images/layer4/era8.png" /></li>
+			<li><img src="assets/images/transition/layer4/era8.png" /></li>
+			<li><img src="assets/images/layer4/era9.png" /></li>
+			<li><img src="assets/images/transition/layer4/era9.png" /></li>
+			<li><img src="assets/images/layer4/era10.png" /></li>
+			<li><img src="assets/images/transition/layer4/era10.png" /></li>
+			<li><img src="assets/images/layer4/era11.png" /></li>
+			<li><img src="assets/images/transition/layer4/era11.png" /></li>
+			<li><img src="assets/images/layer4/era12.png" /></li>
+			<li><img src="assets/images/transition/layer4/era12.png" /></li>
+			<li><img src="assets/images/layer4/era13.png" /></li>
+			<li><img src="assets/images/transition/layer4/era13.png" /></li>
+			<li><img src="assets/images/layer4/era14.png" /></li>
+		</ul>
+
+		<!-- Layer 5 : The Foreground -->
+		<ul id="plax5" class="image-layer" style="position: absolute; width: 74464px; bottom: 0px">
+			<li><img src="assets/images/layer5/era1.png" /></li>
+			<li><img src="assets/images/transition/layer5/era1.png" /></li>
+			<li><img src="assets/images/layer5/era2.png" /></li>
+			<li><img src="assets/images/transition/layer5/era2.png" /></li>
+			<li><img src="assets/images/layer5/era3.png" /></li>
+			<li><img src="assets/images/transition/layer5/era3.png" /></li>
+			<li><img src="assets/images/layer5/era4.png" /></li>
+			<li><img src="assets/images/transition/layer5/era4.png" /></li>
+			<li><img src="assets/images/layer5/era5.png" /></li>
+			<li><img src="assets/images/transition/layer5/era5.png" /></li>
+			<li><img src="assets/images/layer5/era6.png" /></li>
+			<li><img src="assets/images/transition/layer5/era6.png" /></li>
+			<li><img src="assets/images/layer5/era7.png" /></li>
+			<li><img src="assets/images/transition/layer5/era7.png" /></li>
+			<li><img src="assets/images/layer5/era8.png" /></li>
+			<li><img src="assets/images/transition/layer5/era8.png" /></li>
+			<li><img src="assets/images/layer5/era9.png" /></li>
+			<li><img src="assets/images/transition/layer5/era9.png" /></li>
+			<li><img src="assets/images/layer5/era10.png" /></li>
+			<li><img src="assets/images/transition/layer5/era10.png" /></li>
+			<li><img src="assets/images/layer5/era11.png" /></li>
+			<li><img src="assets/images/transition/layer5/era11.png" /></li>
+			<li><img src="assets/images/layer5/era12.png" /></li>
+			<li><img src="assets/images/transition/layer5/era12.png" /></li>
+			<li><img src="assets/images/layer5/era13.png" /></li>
+			<li><img src="assets/images/transition/layer5/era13.png" /></li>
+			<li><img src="assets/images/layer5/era14.png" /></li>
+		</ul>
+
+		<div id="era-overview" class="image-layer" data-ignore="true">
+			<a data-reveal-id="era1modal"><img src="assets/images/dateMarkers/era1.png" /></a>
+			<a data-reveal-id="era2modal"><img src="assets/images/dateMarkers/era2.png" /></a>
+			<a data-reveal-id="era3modal"><img src="assets/images/dateMarkers/era3.png" /></a>
+			<a data-reveal-id="era4modal"><img src="assets/images/dateMarkers/era4.png" /></a>
+			<a data-reveal-id="era5modal"><img src="assets/images/dateMarkers/era5.png" /></a>
+			<a data-reveal-id="era6modal"><img src="assets/images/dateMarkers/era6.png" /></a>
+			<a data-reveal-id="era7modal"><img src="assets/images/dateMarkers/era7.png" /></a>
+			<a data-reveal-id="era8modal"><img src="assets/images/dateMarkers/era8.png" /></a>
+			<a data-reveal-id="era9modal"><img src="assets/images/dateMarkers/era9.png" /></a>
+			<a data-reveal-id="era10modal"><img src="assets/images/dateMarkers/era10.png" /></a>
+			<a data-reveal-id="era11modal"><img src="assets/images/dateMarkers/era11.png" /></a>
+			<a data-reveal-id="era12modal"><img src="assets/images/dateMarkers/era12.png" /></a>
+			<a data-reveal-id="era13modal"><img src="assets/images/dateMarkers/era13.png" /></a>
+			<a data-reveal-id="era14modal"><img src="assets/images/dateMarkers/era14.png" /></a>
+		</div>
+
+		<!-- Modal Icons -->
+		<div id="layer1modal" class="modalDiv" style="position: absolute; width: 10920px;" data-ratio=".2"></div>
+		<div id="layer2modal" class="modalDiv" style="position: absolute; width: 34300px;" data-ratio=".628"></div>
+		<div id="layer3modal" class="modalDiv" style="position: absolute; width: 40600px;" data-ratio=".7436"></div>
+		<div id="layer4modal" class="modalDiv" style="position: absolute; width: 46200px;" data-ratio=".8462"></div>
+		<div id="layer5modal" class="modalDiv" style="position: absolute; width: 54600px;"></div>
+
+		<div id="intro-screen" data-ignore="true">
+			<div class="scene1">
+				<img src="assets/images/global/titleImage.png" style="float: left;" />
+				<div>
+					<div class="intro-text">
+						<br />
+						<p>From the invention of that famous syrup over 100 years ago to today's worldwide success with over 400 brands, the history of The Coca&#8209;Cola Company is full of fascinating stories. As an employee of The Coca&#8209;Cola Company, knowing The Company's history will help you understand our current approach to doing business. This app reviews our compelling history, from Dr. Pemberton's creation of the syrup in 1886 to the present day.</p>
+						<br />
+						<p>Please note that this app does not mention all of our products. Because of the large number of products we produce globally, we are only focusing on the Coca&#8209;Cola branded products and some other key products.</p>
+						<br />
+					</div>
+					<center><img src="assets/images/global/scavContBtn.png" id="scene1next" /></center>
+				</div>
+			</div>
+			<div class="scene2" style="display: none;">
+				<img src="assets/images/global/vidScreenImage.png" style="float: left;" />
+				<div>
+					<br />
+					<p>Click play to watch an overview presentation of our Company’s history.</p>
+					<br />
+					<center><img src="assets/images/global/scavContBtn.png" id="scene2next" /></center>
+				</div>
+			</div>
+			<div class="scene3" style="display: none;">
+				<div id="startScav" style="width:600px;"></div>
+				<div>
+					<div class="intro-text">
+						<br />
+						<br />
+						<p>To obtain credit for reviewing our history, you must master the Scavenger Hunt! <br />Swipe through the timeline and tap on decade markers and bottle caps to uncover facts you need to complete the Scavenger Hunt.</p>
+						<br />
+						<br />
+					</div>
+					<center><img src="assets/images/global/titleButton.png" id="scene3next" /></center>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" class="footerWave">
+		<div id="slide-in-quiz">
+			<div id="slide-in-handle"><p style="text-shadow: 2px 2px 5px rgba(25, 25, 25, 0.55), -2px -2px 5px rgba(25, 25, 25, 0.55); ">Scavenger Hunt Questions</p></div>
+			<div id="slide-in-container">
+				<div class="quizProgressComplete center" style="margin-top: -35px; padding-bottom:5px; padding-top:5px; color: #fff; text-shadow: 2px 2px 5px rgba(25, 25, 25, 0.55), -2px -2px 5px rgba(25, 25, 25, 0.55); "><h3>0% Complete</h3></div>
+				<div id="qbox" class=" center">
+					
+					<div id="qprev" style="cursor: pointer; "></div>
+
+					<div id="questionWidget">
+
+						<div id="qframe" class="qframe">
+
+							<ul id="qslidee" style="list-style:none" class="qslidee ">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+					</div>
+					<div id="qnext" style="cursor: pointer;"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="nav-wrapper">
+			<div id="navCon">
+
+				<div id="leftNavBtn"></div>
+
+				<div class="frame">
+
+					<ul id="slidee" class="slidee navclearfix">
+						<li>1880s</li>
+						<li>1890s</li>
+						<li>1900s</li>
+						<li>1910s</li>
+						<li>1920s</li>
+						<li>1930s</li>
+						<li>1940s</li>
+						<li>1950s</li>
+						<li>1960s</li>
+						<li>1970s</li>
+						<li>1980s</li>
+						<li>1990s</li>
+						<li>2000s</li>
+						<li>2010s</li>
+					</ul>
+				</div>
+				<div id="rightNavBtn"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="modalDialogs"></div>
+	<div id="era-modals">
+		<div class="reveal-modal modal-container" id="era1modal">
+			<div class="modal-content">
+				<h1>1880's</h1>
+				<hr />
+				<ul>
+					<li>Invented by pharmacist Dr. John Stith Pemberton</li>
+					<li>First glass made at Jacobs' Pharmacy in Atlanta, Georgia on May 8, 1886</li>
+					<li>Original price: 5¢ a glass</li>
+					<li>First year averaged nine drinks a day</li>
+					<li>Name Coca&#8209;Cola coined by company accountant Frank M. Robinson</li>
+                    <li>Free drink coupons used to encourage people to try Coca&#8209;Cola</li>
+					<li>Pemberton, in poor health, begins to sell off interest in company, including Coca&#8209;Cola</li>
+					<li>Asa G. Candler begins to accumulate shares in Coca&#8209;Cola</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1880_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era2modal">
+			<img src="assets/modalContent/modal_images/ad.jpg" />
+			<div class="modal-content">
+				<h1>1890's</h1>
+				<hr />
+				<ul>
+					<li>By 1891, Asa Candler completes acquisition. Total cost: $2,300.</li>
+					<li>The Coca&#8209;Cola Company is incorporated.</li>
+					<li>Candler aggressively promotes Coca&#8209;Cola increasing sales tenfold.</li>
+					<li>Coca&#8209;Cola trademark registered in 1893.</li>
+					<li>In 1894 the first syrup plant outside of Atlanta opens.</li>
+					<li>Joseph Biedenharn becomes the first to bottle Coca&#8209;Cola, bottling the beverage in his Vicksburg, Mississippi candy store.</li>
+					<li>Candler unimpressed by idea of bottling the cola.</li>
+					<li>Candler, in 1899, sells the rights to bottle and sell Coca&#8209;Cola to Benjamin F. Thomas and Joseph B. Whitehead for the sum of one dollar.</li>
+                    <li>First large-scale bottling of Coca&#8209;Cola in a plant begins in Chattanooga, Tennessee.</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1890_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era3modal">
+			<div class="modal-content">
+				<h1>1900's</h1>
+				<hr />
+				<ul>
+					<li>Advertising spending exceeds $100,000 to promote the bottled beverage.</li>
+					<li>Hilda Clark becomes Coca&#8209;Cola's first celebrity spokesperson in 1900.</li>
+					<li>Bottling plants begin opening internationally.</li>
+					<li>Rapid expansion drives Coca&#8209;Cola to go from two bottlers in 1900 to about 1,000 in 1920.</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1900_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era4modal">
+			<div class="modal-content">
+				<h1>1910's</h1>
+				<hr />
+				<ul>
+					<li>Market flooded with imitators</li>
+					<li>To protect brand, the Company markets heavily, increasing the advertising budget to over one million dollars</li>
+					<li>To remain distinct from its imitators, the Company decided to pursue a distinctive bottle shape</li>
+					<li>Contour bottle shape proposed by The Root Glass Company won the design contest</li>
+					<li>Candler sells the Company to Ernest Woodruff and a group of investors for $25 million dollars</li>
+					<li>The Coca&#8209;Cola Company goes public, offering stock on the New York Stock Exchange</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1910_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era5modal">
+			<div class="modal-content">
+				<h1>1920's</h1>
+				<hr />
+				<ul>
+					<li>Robert Woodruff, son of the new owner, becomes the president of The Coca&#8209;Cola Company.</li>
+					<li>Woodruff's leadership brings about innovations and global expansion.</li>
+					<li>Begins relationship with the Olympics beginning with the Amsterdam games in 1928.</li>
+					<li>By the end of the 1920s, the Company has introduced the six-pack, the bell-shaped glass, the open top cooler and more.</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1920_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era6modal">
+			<div class="modal-content">
+				<h1>1930's</h1>
+				<hr />
+				<ul>
+					<li>Haddon Sundblom creates the Coca&#8209;Cola Santa and influences American culture.</li>
+                    <li>First coin-operated vending machines are introduced in 1935.</li>
+					<li>Coca&#8209;Cola turns 50 years old.</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1930_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era7modal">
+			<div class="modal-content">
+				<h1>1940's</h1>
+				<hr />
+				<ul>
+					<li>Consumers widely referring to Coca&#8209;Cola as "Coke."</li>
+					<li>The Company embraces public sentiments and uses "Coke" in advertising in 1941.</li>
+					<li>Coke &#174; becomes a registered trademark in 1945.</li>
+					<li>Coca&#8209;Cola available to military everywhere for only 5 cents, no matter what it costs the company.</li>
+					<li>The Company creates 64 portable bottling plants to be deployed around the world to serve the military.</li>
+					<li>Civilians around the world got their first taste of Coca&#8209;Cola laying the groundwork for further overseas expansion after the war.</li>
+					<li>Over the next 15 years, the number of countries with bottling operations nearly doubled.</li>
+					<li>Coca&#8209;Cola is recognized as part of the fun, carefree American lifestyle.</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1940_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era8modal">
+			<div class="modal-content">
+				<h1>1950's</h1>
+				<hr />
+				<ul>
+					<li>Launched first TV commercial on Thanksgiving day</li>
+					<li>Featured on TIME magazine cover</li>
+					<li>Advertising budget exceeds $30 million</li>
+					<li>Family and King-sized bottles</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1950_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era9modal">
+			<div class="modal-content">
+				<h1>1960's</h1>
+				<hr />
+				<ul>
+					<li>New flavors introduced in the US market: Fanta &#174;, Sprite &#174;, TaB &#174; and Fresca &#174;.</li>
+					<li>The Coca&#8209;Cola Company acquires Minute Maid.</li>
+					<li>Introduces the 12 oz can.</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1960_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era10modal">
+			<div class="modal-content">
+				<h1>1970's</h1>
+				<hr />
+				<ul>
+					<li>Coca&#8209;Cola Advertising</li>
+					<li>Coca&#8209;Cola advertising produces some of the memorable television ads in history including "I'd Like to Buy the World a Coke".</li>
+					<li>The Dynamic Ribbon Device, or the "wave," is introduced.</li>
+					<li>The Company expands into other market segments buying Minute Maid.</li>
+					<li>Help found the U.S. Olympic Hall of Fame.</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1970_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era11modal">
+			<div class="modal-content">
+				<h1>1980's</h1>
+				<hr />
+				<ul>
+					<li>Roberto Goizueta takes the reigns as chairman and CEO</li>
+					<li>Corporate overhaul with "intelligent risk taking"</li>
+					<li>Created Coca&#8209;Cola Enterprises Inc. to organize the U.S. bottlers</li>
+					<li>Introduction of Diet Coke &#174;</li>
+					<li>Creation of the Coca&#8209;Cola Foundation</li>
+                    <li>Coca&#8209;Cola formula change creates "New Coke."</li>
+					<li>Coke "Classic" returns to the market 79 days later</li>
+					<li>Challenger astronauts test Coke's "space can"</li>
+					<li>Coca&#8209;Cola turns 100</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1980_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era12modal">
+			<div class="modal-content">
+				<h1>1990's</h1>
+				<hr />
+				<ul>
+                    <li>The 1990’s were a time of continued growth for The Coca&#8209;Cola Company. The Company's long association with sports was strengthened during this decade, with ongoing support of the Olympic Games, FIFA World Cup™ football (soccer), Rugby World Cup, and the National Basketball Association. Coca&#8209;Cola classic became the Official Soft Drink of NASCAR racing, which connected the brand with one of the world's fastest growing and most popular spectator sports. </li>
+                    <li>In 1993, the introduction of the popular "Always Coca&#8209;Cola" advertising campaign was launched, and the world met the lovable Coca&#8209;Cola Polar Bear for the first time.  In the same year, the 20 oz plastic bottle we know today was also introduced as a more convenient way to carry your Coke.  New markets opened up as Coca&#8209;Cola products were sold in East Germany in 1990 and returned to India in 1993.</li>
+                    <li>During the 1990’s, new beverages joined the Company's line-up, including Powerade&#174;  sports drink, Qoo&#174; children's fruit drink and Dasani&#174; bottled water. The Company's family of brands further expanded through acquisitions, including Limca&#174;, Maaza&#174; and Thums Up&#174; in India, Barq's&#174; root beer in the U.S., Inca Kola&#174; in Peru, and Cadbury Schweppes'&#174; beverage brands in more than 120 countries around the world.</li>
+                    <li>By 1997, the Company had already sold 1 billion servings of its products every day, yet knew that the opportunity for growth was still around every corner.  As the Company’s success continued, the Coca&#8209;Cola Foundation also continued its work, establishing the Project Hope initiative in China. To 2013, Coca&#8209;Cola has donated over 166 million Renminbi, which has been used to support the building of 121 Hope Schools in 29 provinces throughout China and around 150,000 students have benefited from this program.</li>
+                </ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/1990_overview.mp3"></audio>
+				<a class="close-reveal-modal"></a>
+			</div>
+		</div>
+		<div class="reveal-modal modal-container" id="era13modal">
+			<div class="modal-content">
+				<h1>2000's</h1>
+				<hr />
+				<ul>
+					<li>More than 400 brands</li>
+					<li>Products such as Ambasa, Vegitabeta, Frescolita, and more, found globally.</li>
+					<li>More than 70 years of Olympic sponsorship</li>
+					<li>E. Neville Isdell elected Chairman and CEO of The Coca&#8209;Cola Company.</li>
+					<li>Committed to local markets and what the people in that culture like to drink</li>
+					<li>Magnificent Five (M5) bottles created celebrating the brand's heritage</li>
+					<li>Launched My Coke Rewards</li>
+					<li>Coca&#8209;Cola being served 1.5 billion times a day</li>
+					<li>New World of Coke opens</li>
+					<li>Going green, Coca&#8209;Cola introduces the 20 oz PET plastic bottles that use 5% less plastic</li>
+					<li>Acquired Energy Brands, Inc., maker of fitness waters such as vitaminwater.</li>
+				</ul>
+                <audio controls class="modalAudio" src="assets/modalContent/audio/2000_overview.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+		<div class="reveal-modal modal-container" id="era14modal">
+			<div class="modal-content">
+				<h1>2010's</h1>
+				<hr />
+				<ul></ul>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+	</div>
+
+	<div id="achievement-panel" class="xm-tab-control" style="display: none;">
+		<!--style="display: none;"-->
+		<div class="xm-tabs">
+			<div class="xm-tab">Achievements</div>
+			<div class="xm-tab">Scavenger Hunt</div>
+		</div>
+		<div class="xm-tab-content">
+			<!-- Achievements -->
+			<div>
+				Bottles and/or caps go here.
+			</div>
+			<!-- Scavenger Hunt -->
+			<div>
+				<h1>Questions</h1>
+				<ul id="scavenger-panel" class="xm-panel" style="width: 100%; height: 400px; overflow-y: auto;"></ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- Templates -->
+	<script type="text/x-kendo-template" id="scavenger-template">
+		<li style="display: table; width: 100%">
+			<img src="assets/images/achivements/a1.png" style="display: table-cell; width: 64px; opacity: 0.3;" />
+			<div style="display: table-cell; vertical-align: top; text-align: left; width: 99%; padding: 6px;">
+				<div>#: text #</div>
+				<div class="xm-panel-content">
+					<ul style="list-style: none;">
+						# for (var i = 0; i < answers.length; i++) { #
+						<li class="quizList"><a class="quizListBtn">#: answers[i]['@num'] #. #: answers[i]['\#text'] #</a></li>
+						# } #
+					</ul>
+				</div>
+			</div>
+			<!-- clearfix -->
+			<br class="clearfix" />
+		</li>
+	</script>
+
+	<!-- Scavenger Hunt Quiz Template -->
+	<script type="text/x-kendo-template" id="scavenger-quiz-template">
+		<li style=" width: 700px; height:300px; float: left;">
+			<img style="float:right; vertical-align:middle; margin-top:12px; padding-left:5px; margin-bottom:5px; max-height:270px; max-width:190px;" src="#: imagePath #" />
+			<div class="progress" style=" text-align: left; line-height:25px; width:90%; padding: 2px; margin-left: 6px; margin-top: 5px; text-indent: 0; display: block; font-size: 16px; "><p><b>Question #:id# <em>(of 32):</em></b></p></div>
+			<div style=" text-align: left; line-height:25px; width:90%; padding: 2px; margin-left: 6px; margin-top: 5px; margin-bottom:5px; text-indent: 0; display: block; font-size: 16px;"><p>#: text #</p></div>
+            <ol type="A" style=" text-align: left; margin-left: 40px; text-indent: 0;">
+                # for (var i = 0; i < answers.length; i++) { #
+                <li class="quizList" style="  padding-bottom:7px; margin-top:4px;"><a id="#: answers[i]['@num'] #" class="quizListBtn" data-value="#: answers[i]['@correct'] #"> #: answers[i]['\#text'] #</a></li>
+                # } #
+            </ol>
+		</li>
+	</script>
+
+	<!-- Quiz Reset Modal Template -->
+	<script type="text/x-kendo-template" id="reset-confirmation">
+		<div style="display:block; float:left; margin:12px;">
+			<p class="reset-message">You have now exceeded the number of questions allowed to achieve a passing score. </br> Would you like to try again?</p>
+			<a href="#" style="margin:5px;" class="reset-cancel k-button"> Cancel </a>
+			<button style="margin:5px;" class="reset-confirm k-button"> Retake Quiz </button>
+		</div>
+	</script>
+
+	<!-- Quiz Complete Modal Template -->
+	<script type="text/x-kendo-template" id="complete-confirmation">
+		<div style="display:block; float:left; margin:12px;">
+			<img src="assets/images/global/achievIcon.png" /><p class="complete-message">Congratulations! You have completed the quiz with a passing score of</p></br>
+			<a href="#" style="margin-top:20px;" class="reset-cancel k-button"> CLOSE </a>
+		</div>
+	</script>
+
+	<!-- Media Modal Template -->
+	<script type="text/x-kendo-template" id="modal-image-template">
+		<div id="e#:era_id#l#:layer#m#:id#Dialog" class="reveal-modal modal-container" style="width: auto">
+			<div style="margin-top:-20px; position: relative; font-size:small;"><p><em>pop-up id: #:id#</em></p></div>
+			<img src="#: media_src#" />
+			<div class="modal-content">
+				<h2>#: headerText #</h2>
+				<p>#: bodyText #</p>
+				<audio controls class="modalAudio" src="assets/modalContent/audio/#:id#.mp3"></audio>
+			</div>
+			<a class="close-reveal-modal"></a>
+		</div>
+	</script>
+
+	<!-- Modal Icon Template -->
+	<script type="text/x-kendo-template" id="modal-image-icon-template">
+		<a class="modalBtn" id="e#:era_id#l#:layer#m#:id#" style="top: #: top #; left: #: left #; position: absolute; cursor: pointer" data-reveal-id="e#:era_id#l#:layer#m#:id#Dialog">
+			<img class="iconImageBtn" src="assets/modalContent/icons/imageIcon.png" />
+			<img class="iconImageBtnClicked" src="assets/modalContent/icons/imageIconClicked.png" />
+		</a>
+	</script>
+
+	<script src="lib/kendo.web.min.js"></script>
+	<script src="lib/sly.js"></script>
+	<script src="lib/jquery-scrollto.js"></script>
+	<script src="js/helpers.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/xmtabs.js"></script>
+	<script src="js/xmpanel.js"></script>
+	<script src="js/scavenger.js"></script>
+	<script src="js/scavengerQuiz.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/modals.js"></script>
+</body>
+
+</html>

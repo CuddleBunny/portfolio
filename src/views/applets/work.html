@@ -1,0 +1,50 @@
+<template>
+	<require from="./work.less"></require>
+
+	<fluent-applet class="work" display-name="Work">
+		<fluent-hub class="fluent-view">
+			<fluent-tile-group display-name="Xcelerate Media">
+				<!-- Xcelerate Site Down -->
+				<!-- <fluent-tile id="xm-tile" display-name="Xcelerate Media" onclick="window.open('http://xceleratemedia.com')"></fluent-tile> -->
+				<fluent-tile id="coke-tile" display-name="History" onclick="window.open('/samples/xcelerate-media/coke-history/index.html')"></fluent-tile>
+				<!-- Flash is dead. -->
+				<!-- <fluent-live-tile id="deutsch-tile" class="wide" animation="flip-x" onclick="window.open('/samples/xcelerate-media/josh-cellars/index.html')">
+					<fluent-tile class="child-1" display-name="Josh Cellars"></fluent-tile>
+					<fluent-tile class="child-2" display-name="Josh Cellars"></fluent-tile>
+				</fluent-live-tile>
+				<fluent-tile id="mastercard-tile" display-name="Manager Direct" onclick="window.open('/samples/xcelerate-media/mastercard-manager-direct/index.html')"></fluent-tile>-->
+				<fluent-tile id="wendys-tile" display-name="Fry Challenge" onclick="window.open('/samples/xcelerate-media/wendys-fry-challenge/index.html')"></fluent-tile>
+			</fluent-tile-group>
+			<!-- <fluent-tile-group display-name="Freelance">
+				<fluent-tile id="mongo-tile" display-name="Go Go Mongo!" onclick="window.open('http://www.gogomongo.com/apps/')"></fluent-tile>
+			</fluent-tile-group> -->
+			<fluent-tile-group display-name="Open Source">
+				<fluent-tile id="auif-tile" display-name="aurelia-office-ui-fabric" class="wide" onclick="window.open('http://github.com/CuddleBunny/aurelia-office-ui-fabric')"></fluent-tile>
+			</fluent-tile-group>
+			<fluent-tile-group display-name="Forever Interactive">
+				<fluent-live-tile animation="slide" id="voz-tile" class="wide" onclick="window.open('http://visionsofzosimos.net/')">
+					<fluent-tile class="child-1"></fluent-tile>
+					<fluent-tile display-name="Visions of Zosimos" class="child-2">
+						<div>Responsibilities:</div>
+						<ul>
+							<li>Hero Script Programming</li>
+							<li>Installer/Patcher Wizards</li>
+							<li>User Authentication</li>
+						</ul>
+					</fluent-tile>
+				</fluent-live-tile>
+				<fluent-live-tile id="fafolio-tile" animation="slide" class="wide" onclick="window.open('http://www.fantasystockbroker.com/')">
+					<fluent-tile class="child-1"></fluent-tile>
+					<fluent-tile class="child-2" display-name="Fantasy Stock Broker (Retired)">
+						<div>Responsibilities:</div>
+						<ul>
+							<li>PHP Programming</li>
+							<li>Google Docs APIs</li>
+							<li>Stock Data Syncing</li>
+						</ul>
+					</fluent-tile>
+				</fluent-live-tile>
+			</fluent-tile-group>
+		</fluent-hub>
+	</fluent-applet>
+</template>

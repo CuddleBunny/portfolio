@@ -1,36 +1,31 @@
-import { FluentApplet } from 'fluent/elements/applet/fluent-applet';
+import { FluentApplet } from './../../fluent/elements/applet/fluent-applet';
 import { inject, NewInstance } from 'aurelia-framework';
-import { ValidationController } from 'aurelia-validation';
-import { DialogController } from 'aurelia-dialog';
-import { required, email, ValidationRules } from 'aurelia-validatejs';
+import { ValidationController, ValidationRules, validateTrigger } from 'aurelia-validation';
 
-@inject(NewInstance.of(ValidationController), DialogController, Element)
-export class Contact extends FluentApplet {
-	from: string;
-	subject: string;
-	body: string;
+@inject(NewInstance.of(ValidationController))
+export class Contact {
+	from: string = '';
+	subject: string = '';
+	body: string = '';
 
-	constructor(protected validationController: ValidationController, dialogController, element) {
-		super(dialogController, element);
+	applet: FluentApplet;
 
-		ValidationRules
-			.ensure((vm: Contact) => vm.from).required().email()
-			.ensure('subject').required()
-			.ensure('body').required()
-			.on(this);
-	}
-
-	close() {
-		this.controller.cancel();
+	constructor(protected validationController: ValidationController) {
+		this.validationController.changeTrigger(validateTrigger.manual);
 	}
 
 	send() {
-		let errors = this.validationController.validate().then(result => console.log(result)).catch(reason => console.warn(reason));
+		let errors = this.validationController.validate()
+			.then(result => console.log(result));
+	}
 
-		console.log('??');
-
-		//e.preventDefault();
-
-		//return false;
+	close() {
+		this.applet.close();
 	}
 }
+
+ValidationRules
+	.ensure((c: Contact) => c.from).email().required()
+	.ensure((c: Contact) => c.subject).required()
+	.ensure((c: Contact) => c.body).required()
+	.on(Contact);

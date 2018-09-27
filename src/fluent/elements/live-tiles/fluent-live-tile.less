@@ -10,14 +10,37 @@ fluent-live-tile {
 	transform-origin: center center;
 	transform-style: preserve-3d;
 
-	&[animation="flip-y"] {
-		fluent-tile:nth-child(even) {
-			transform: rotateY(180deg);
+	&[animation="flip-y"], &[animation="flip-x"] {
+		fluent-tile {
+			backface-visibility: hidden;
+			visibility: hidden;
+
+			&.active, &.active + fluent-tile {
+				visibility: visible;
+			}
+
+			&:not(:first-child) {
+				position: absolute;
+				top: 0;
+			}
 		}
 
 		// Hide other sides during animations where the transform could be overwritten.
 		&.au-enter-active fluent-tile:not(:first-child) {
 			visibility: hidden;
+		}
+	}
+
+
+	&[animation="flip-y"] {
+		fluent-tile:nth-child(even) {
+			transform: rotateY(180deg);
+		}
+	}
+
+	&[animation="flip-x"] {
+		fluent-tile:nth-child(even) {
+			transform: rotateX(180deg);
 		}
 	}
 
@@ -31,17 +54,6 @@ fluent-live-tile {
 
 	&.flip-y-remove {
 		animation: tileFlipY 500ms reverse;
-	}
-
-	&[animation="flip-x"] {
-		fluent-tile:nth-child(even) {
-			transform: rotateX(180deg);
-		}
-
-		// Hide other sides during animations where the transform could be overwritten.
-		&.au-enter-active fluent-tile:not(:first-child) {
-			visibility: hidden;
-		}
 	}
 
 	&.flip-x-add {
@@ -60,29 +72,17 @@ fluent-live-tile {
 		overflow: hidden;
 
 		> fluent-tile {
-			height: 200%;
+			position: relative;
 			transition: transform 500ms;
 		}
 	}
 
 	&.slide > fluent-tile {
-		transform: translateY(-50%);
+		transform: translateY(-100%);
 	}
 
 	fluent-tile {
 		width: 100%;
 		height: 100%;
-
-		backface-visibility: hidden;
-		visibility: hidden;
-
-		&.active, &.active + fluent-tile {
-			visibility: visible;
-		}
-
-		&:not(:first-child) {
-			position: absolute;
-			top: 0;
-		}
 	}
 }

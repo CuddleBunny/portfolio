@@ -1,0 +1,35 @@
+fluent-hub {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+
+	> * {
+		margin-right: 40px;
+		flex: none;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	fluent-hub {
+		flex-direction: column;
+		overflow-y: auto;
+		overflow-x: hidden;
+		align-items: center;
+
+		> * {
+			margin: 0;
+			margin-bottom: 1em;
+		}
+
+		fluent-tile-group > .tiles {
+			grid-template-columns: repeat(6, 72px) !important;
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	fluent-hub fluent-tile-group > .tiles {
+		grid-template-columns: repeat(4, 72px) !important;
+	}
+}
