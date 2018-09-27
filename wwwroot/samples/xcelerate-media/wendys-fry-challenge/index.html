@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Update in Assets/Course.js -->
+	<title data-bind="text: name"></title>
+
+	<script src="Source/XM/Polyfills.js"></script>
+	<script src="Source/JS/jQuery/jquery-1.11.1.min.js"></script>
+
+	<!-- IE Mobile viewport fix -->
+	<script>
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement("style");
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					"@-ms-viewport{width:auto!important}"
+				)
+			);
+			document.getElementsByTagName("head")[0].
+				appendChild(msViewportStyle);
+		}
+	</script>
+
+	<!--[if IE 8]>
+		<script src="Source/JS/Sylvester/sylvester.js"></script>
+		<script src="Source/JS/Transformie/transformie.js"></script>
+		<script>Transformie.defaults.centerOrigin = false;</script>
+	<![endif]-->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/KendoUI/web/kendo.common.core.css" />
+    <link href="Assets/CSS/Shepherd/shepherd-theme-square-dark.css" rel="stylesheet" />
+
+    <link href="Assets/CSS/FontAwesome/font-awesome.min.css" rel="stylesheet" />
+    <link href="Assets/CSS/shell-theme.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="Initialize()" onunload="Destroy()" onbeforeunload="Destroy()">
+	<div id="shell">
+		<div id="header">
+			<img class="superfluous" src="Assets/Images/Shell/logo.png" style="margin-left: 20px; margin-top: 5px; float: left;" />
+			<div id="instructions">
+				<span></span>
+				<div class="hover-button">
+					<img src="Assets/Images/Shell/next.png" />
+					<img src="Assets/Images/Shell/next-over.png" class="hover" />
+				</div>
+			</div>
+			<img class="superfluous" src="Assets/Images/Shell/logo2.png" style="margin-right: 10px; margin-top: 7px; float: right;" />
+		</div>
+		<div id="content-container">
+			<div id="responsive-wrapper" style="width: 100%; height: 100%; position: relative;">
+				<!-- Slide Contents -->
+				<iframe id="contents"></iframe>
+			</div>
+			<!-- Loading Animation -->
+			<div class="loader">
+				<div class="circle"></div>
+				<div class="circle"></div>
+				<div class="circle"></div>
+				<div class="circle"></div>
+				<div class="circle"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-container">
+
+	</div>
+
+	<script src="Source/JS/KendoUI/kendo.ui.core.min.js"></script>
+	<script src="Source/JS/FlashDetect/flash_detect_min.js"></script>
+	<script src="Source/JS/LZString/lz-string.min.js"></script>
+    <script src="Source/JS/Shepherd/tether.js"></script>
+    <script src="Source/JS/Shepherd/shepherd.min.js"></script>
+	<script src="Source/JS/Howler/howler.min.js"></script>
+	<script src="Source/XM/Helpers.js"></script>
+	<script src="Source/XM/Actions.js"></script>
+	<script src="Assets/AppSettings.js"></script>
+	<script src="Source/JS/Shake/shake.js"></script>
+	<script src="Source/XM/Responsiveness.js"></script>
+	<script src="Source/XM/Events/XMEvent.js"></script>
+	<script src="Source/XM/SlideStatus.js"></script>
+	<script src="Assets/Course.js"></script>
+	<script src="Source/XM/Data/CourseDataBase.js"></script>
+	<script src="Assets/Strings/ShellStrings.js"></script>
+	<script src="Source/XM/CCText.js"></script>
+
+	<script src="Source/XM/Extensions/Extensions.js"></script>
+
+	<script src="Source/XM/Shell.js"></script>
+	<script src="Source/XM/Core/ShellBase.js"></script>
+	<script src="Source/XM/LMS/LMSBase.js"></script>
+
+	<script>
+		function Initialize() {
+			if (AppSettings.enforceMinimumWindowSize && (window.innerWidth < $('#shell').outerWidth() || window.innerHeight < $('#shell').outerHeight())) {
+				window.resizeTo($('#shell').outerWidth() * 1.2, $('#shell').outerHeight() * 1.2);
+			}
+		}
+
+		function Destroy() {
+			if (AppSettings.LMS.enabled)
+				LMS.Finish();
+
+			Shell.Destroy();
+		}
+
+		// Global audio
+		var bgm = new Howl({
+			src: 'Assets/Sounds/bgm.mp3',
+			volume: 0.05,
+			loop: true,
+			autoplay: true
+		});
+
+		// Hints for users who get stuck.
+		var tour = new Shepherd.Tour({
+			defaults: {
+				classes: 'shepherd-theme-square-dark',
+				showCancelLink: true,
+				buttons: []
+			}
+		});
+
+		tour.addStep('next-arrow', {
+			text: 'Select the next arrow to advance to the next step.',
+			attachTo: '#instructions [bottom right]'
+		});
+
+		tour.addStep('next-arrow-end', {
+			text: 'Select the next arrow to continue.',
+			attachTo: '#instructions [bottom right]'
+		});
+	</script>
+</body>
+
+</html>

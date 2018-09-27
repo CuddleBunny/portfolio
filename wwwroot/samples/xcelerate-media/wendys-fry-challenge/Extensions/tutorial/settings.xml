@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+  <ID>tutorial</ID>
+  <DisplayName>Tutorial</DisplayName>
+
+  <Type>Dialog</Type>
+  <ButtonSize>hide</ButtonSize>
+  <ButtonTooltip></ButtonTooltip>
+  <Width>100%</Width>
+
+  <Animation type="fade" direction="in" />
+</Settings>

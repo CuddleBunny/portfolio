@@ -49,6 +49,7 @@ namespace CuddleBunnyPortfolio
             }
 
             app.UseStaticFiles();
+			app.UseDefaultFiles();
 
             app.UseMvc(routes =>
             {

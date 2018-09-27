@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link rel="stylesheet" type="text/css" href="../../Assets/CSS/video.css" />
+	<style>
+		html, body {
+			overflow: hidden;
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
+</head>
+<body>
+	<video id="player" autoplay onended="Slide.Complete()">
+		
+	</video>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="../../Source/XM/Helpers.js"></script>
+	<script src="../../Source/XM/Slide.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#player').append('<source type="video/mp4" src="Slide' + $.getUrlVar('slide') + '.mp4">');
+			$('#player').append('<source type="video/ogg" src="Slide' + $.getUrlVar('slide') + '.ogv">');
+		});
+	</script>
+</body>
+</html>

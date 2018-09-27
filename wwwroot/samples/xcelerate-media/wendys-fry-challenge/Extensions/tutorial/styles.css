@@ -1,0 +1,11 @@
+#tutorial-dialog {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: initial;
+}
+
+#container {
+    background-image: url(../../Assets/Images/tutorial-background.png);
+    background-size: 100% auto;
+    background-position: left center;
+}

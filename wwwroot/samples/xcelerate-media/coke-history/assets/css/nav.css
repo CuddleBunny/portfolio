@@ -1,0 +1,443 @@
+﻿
+/*.footerWave {
+    background-image:url("../assets/images/global/whiteWave.png");
+    width:inherit;
+}
+*/
+
+
+#nav-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #C70015;
+    top: 0px;
+    z-index: 10052;
+    
+}
+
+#navCon {
+   min-width: 660px;
+ 
+   max-width: 1260px;
+   position: relative;
+   
+    margin: auto;
+    height:82px;
+    overflow: hidden;
+    
+    
+}
+
+#leftNavBtn {
+    position:absolute;
+    display: block;
+    float:left;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    height: 82px;
+    right: auto;
+    bottom: auto;
+
+    background-image: url("../images/global/leftNavBtn2.png");
+    background-repeat:no-repeat;
+    background-position:top;
+    z-index: 10063;
+}
+
+#leftNavBtn:active {
+    background-image: url("../images/global/leftNavBtn2.png");
+    background-repeat:no-repeat;
+    background-position:bottom; 
+}
+
+/* Frame */
+.frame {
+	margin-left:122px;
+    margin-right:122px;
+    height: 82px;
+    width: auto;
+    padding-top:15px;
+    line-height: 49px;
+    overflow: hidden;
+    background-image: url("../images/global/navbarbg.png");
+    background-repeat:repeat-x;
+}
+
+    .frame ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 49px;
+        font-size: 30px;
+       
+    }
+
+        .frame ul li {
+            float: left;
+            width: 90px;
+            height: 49px;
+            margin: 0 0px 0 0;
+            padding: 0;
+            background-image: url("../images/global/navBtn.png");
+            color: #fff;
+            text-align: center;
+            cursor: pointer;
+            text-shadow:0px -2px 2px rgba(25, 25, 25, 0.55);
+        }
+
+            .frame ul li.active {
+                color: #fff;
+                background-image: url("../images/global/selectedNavBtn.png");
+            }
+
+.navclearfix:before,
+.navclearfix:after {
+    content: " ";
+    display: table;
+}
+
+.navclearfix:after {
+    clear: both;
+}
+
+.navclearfix {
+    *zoom: 1;
+}
+
+.slidee {
+    padding-left:120px;
+    padding-right:50px;
+}
+
+#rightNavBtn {
+	position:absolute;
+    display: block;
+    float:right;
+    margin: auto;
+    left: auto;
+    top: 0px;
+    width: 150px;
+    height: 82px;
+    right: 0px;
+    bottom: auto;
+
+    background-image: url("../images/global/rightNavBtn2.png");
+    background-repeat:no-repeat;
+    background-position:top; 
+ 
+    z-index: 10062;
+
+}
+#rightNavBtn:active {
+    background-image: url("../images/global/rightNavBtn2.png"); 
+    background-repeat:no-repeat;
+    background-position:bottom; 
+}
+
+
+
+
+.navBtn {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0px;
+    top: 17px;
+    width: 90px;
+    height: 49px;
+    right: auto;
+    bottom: auto;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    background-image: url("../images/global/navBtn.png");
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-position: 0px 0px;
+    background-repeat: no-repeat no-repeat;
+}
+
+.navBtnDn {
+    display: none;
+    position: absolute;
+    margin: 0px;
+    left: 371px;
+    top: 17px;
+    width: 90px;
+    height: 49px;
+    right: auto;
+    bottom: auto;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    background-image: url("../images/global/selectedNavBtn.png");
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-position: 0px 0px;
+    background-repeat: no-repeat no-repeat;
+}
+
+#slide-in-quiz {
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    z-index: 10001;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+   
+    -o-box-shadow: 2px 2px 7px rgb(9, 9, 9, .65);
+    -moz-box-shadow: 2px 2px 7px rgba(9, 9, 9, .65);
+    -webkit-box-shadow: 2px 2px 7px rgba(9, 9, 9, .65);
+    box-shadow: 2px 2px 7px rgba(9, 9, 9, .65);
+    background-color: #C70015;
+    background-color: #C70015;
+}
+
+#slide-in-handle {
+    position: relative;
+    width: 300px;
+    height: 34px;
+    left: 50%;
+    margin-left: -20%;
+    margin-right:auto;
+    top: -35px;
+    font-size: larger;
+    font-family: sans-serif;
+    align-content: center;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    background-color: #C70015;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    border-left: 4px solid #fff;
+    border-bottom: 1px solid #C70015;
+    text-indent: .2em;
+    z-index: 1002;
+}
+
+#slide-in-container {
+    color: #000;
+    width: 95%;
+    height: 90%;
+    margin: auto;
+    align-content: center;
+}
+
+#qbox {
+    position: relative;
+    display: block;
+    align-content: center;
+    z-index: 10001; 
+    overflow: visible;
+    list-style: none;
+    margin-left: -5px;
+    margin-right: auto;
+    width: 100%;
+    height: 300px;
+    background: rgb(255, 255, 255) url("../images/global/overlay_dropshadowwide.png");
+    background-size: 100% 300px;
+    border: 5px solid #fff;
+}
+
+ 
+
+#qnext {
+    position:absolute;
+    display: block;
+    float: right;
+    margin-right:-20px;
+    left: auto;
+    width: 50px;
+    height: 200px;
+    right: 0px;
+    margin-top:50px;
+    background-image:url("../images/global/rightArrow2.png");
+    background-repeat:no-repeat;
+    background-position:top; 
+    z-index: 60005;
+}
+#qnext:active {
+    background-image:url("../images/global/rightArrow2.png"); 
+    background-repeat:no-repeat;
+    background-position:bottom; 
+    z-index: 60005;
+}
+
+#qnext .inactive {
+    display:none;
+}
+
+#questionWidget {
+    margin-top: 3px;
+    display: block;
+    float: left;
+    width: 700px;
+    height: 300px;
+   
+   margin-left:auto;
+    margin-right:auto;
+    text-indent: 1em;
+}
+
+.qframe {
+	
+   padding-top:3px;
+    width: 100%;
+    
+}
+
+ 
+
+.qslidee ul {
+    
+    padding-bottom:2px;
+    padding-left:20px;
+    text-indent:0;
+    width: auto;
+    float:left;
+    
+}
+
+.quizList {
+    
+}
+
+.quizList .quizListBtn {
+    text-indent: 2em;
+    cursor:pointer;
+    line-height:30px;
+    height:30px;
+    padding:12px;
+}
+
+.quizList .quizListBtn:hover {
+    background-color:red;
+    color:white;
+}
+
+.quizList .quizListBtn:active {
+    font-weight:bold;
+    margin-left:2px;
+    padding:10px;
+    background-color:black;
+    color:white;
+}
+.correctIcon {
+    vertical-align:middle;
+    margin-right:5px;
+    margin-left:-7px;
+}
+
+.wrongIcon {
+    vertical-align:middle;
+    margin-right:5px;
+    margin-left:-7px;
+}
+.correct {
+    color:white;
+    font-weight:bold;
+    background-color: green !important;
+}
+.wrong {
+    color:white;
+    font-weight:bold;
+    background-color: darkred !important;
+}
+
+#qprevHolder {
+    display: block;
+    float: left;
+    margin-left:-20px;
+    width: 50px;
+    height: 200px;
+    margin-top:50px;
+    
+    background-position:top; 
+    z-index: 10006;
+}
+
+#qprev {
+    display: block;
+    float: left;
+    margin-left:-20px;
+    width: 50px;
+    height: 200px;
+    margin-top:50px;
+    background-image:url("../images/global/leftArrow2.png");
+    background-repeat:no-repeat;
+    background-position:top; 
+    z-index: 10006;
+}
+#qprev:active {
+    background-image:url("../images/global/leftArrow2.png"); 
+    background-repeat:no-repeat;
+    background-position:bottom; 
+}
+
+#qprev .inactive {
+    display:none;
+}
+
+ .center {
+        align-content: center;
+        text-align: center;
+    }
+
+.shadow {
+  -moz-box-shadow:    -3px -3px 5px 6px #444;
+  -webkit-box-shadow: -3px- 3px 5px 6px #444;
+  box-shadow:         -3px -3px 5px 6px #444;
+}
+.active {
+    display:block;
+}
+
+
+.inactive {
+    display:none;
+}
+
+.k-window-titlebar {
+    background-color:#C70015 !important;
+    color:#C70015;
+}
+
+.reset-message {
+    width: 600px;
+    padding:10px;
+    margin-left:20px;
+    margin-top: 20px;
+    
+    font-weight:bolder;
+    color:#C70015;
+}
+.reset-confirm {
+    padding:10px;
+    margin-right:10px;
+}
+
+.reset-cancel {
+    padding:10px;
+    margin-right:10px;
+}
+
+.complete-message {
+    width: 400px;
+    padding:10px;
+    margin-left:50px;
+    margin-top:-60px;
+    
+    font-weight:bolder;
+    color:#C70015;
+}
+.k-button {
+    margin-right:12px;
+    padding-right:12px;
+    float:right;
+    background-color:#C70015 !important;
+    color:#fff !important;
+}
+
+

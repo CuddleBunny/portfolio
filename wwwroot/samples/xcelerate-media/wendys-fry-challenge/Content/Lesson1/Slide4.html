@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link href="../../Assets/CSS/slide-theme.min.css" rel="stylesheet" />
+    <link href="../../Assets/CSS/Shepherd/shepherd-theme-square-dark.css" rel="stylesheet" />
+    <script src="../../Source/JS/Phaser/phaser.min.js"></script>
+    <script src="../../Source/JS/Shepherd/tether.js"></script>
+    <script src="../../Source/JS/Shepherd/shepherd.min.js"></script>
+</head>
+
+<body>
+    <div id="container"></div>
+    <div id="progress" class="superfluous">Scenario 2 of 4</div>
+    <div id="scoreboard" class="superfluous">Score: <span>0</span></div>
+    <div id="time-bar">
+        <div class="left">
+            <div>
+                B <span class="time">--:--</span><br />
+                F <span class="time">--:--</span><br />
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+            <div>
+                B <span class="time">--:--</span><br />
+                F <span class="time">--:--</span><br />
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+            <div>
+                <div>L</div>
+                <div class="time">--:--</div>
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+            <div>
+                <div>R</div>
+                <div class="time">--:--</div>
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+        </div>
+        <div class="right">
+            <div>
+                <div>L</div>
+                <div class="time">--:--</div>
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+            <div>
+                <div>R</div>
+                <div class="time">--:--</div>
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+            <div>
+                <div>L</div>
+                <div class="time">--:--</div>
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+            <div>
+                <div>R</div>
+                <div class="time">--:--</div>
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+            <div>
+                <div>L</div>
+                <div class="time">--:--</div>
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+            <div>
+                <div>R</div>
+                <div class="time">--:--</div>
+                <img src="../../Assets/Images/Game/clock.png" width="20" height="20" />
+            </div>
+        </div>
+    </div>
+    <div id="tool-tray"></div>
+    <div id="video-container"><video></video></div>
+    <div id="question-container">
+
+    </div>
+    <img id="wrong" src="../../Assets/Images/Game/x.svg" class="remediation-icon" />
+    <img id="correct" src="../../Assets/Images/Game/check.svg" class="remediation-icon" />
+    <div class="carton" id="carton-fries"><img src="../../Assets/Images/Game/carton-fries3.png" /></div>
+    <div class="carton" id="carton-nuggets"><img src="../../Assets/Images/Game/carton-nuggets3.png" /></div>
+    <img class="order" id="order-fries" src="../../Assets/Images/Game/order_fries_3.png" />
+    <img class="order" id="order-nuggets" src="../../Assets/Images/Game/order_nuggets_3.png" />
+    <img class="order" id="order-combo" src="../../Assets/Images/Game/order_combo_3.png" />
+
+    <script src="../../Source/JS/jQuery/jquery-1.11.1.min.js"></script>
+    <script src="../../Source/JS/Howler/howler.min.js"></script>
+    <script src="../../Source/XM/Events/XMEvent.js"></script>
+    <script src="../../Source/XM/Core/TemplateBase.js"></script>
+    <script src="../../Source/XM/Helpers.js"></script>
+    <script src="Slide4.js"></script>
+    <script src="../../Source/GameEngines/FryChallenge.min.js"></script>
+    <script src="../../Source/XM/Slides/CustomSlide.js"></script>
+    <script src="FryChallengeTour.js"></script>
+
+    <script type="text/javascript">
+        Howler.autoSuspend = false;
+		Slide.Initialize();
+		StartGame();
+	</script>
+</body>
+
+</html>

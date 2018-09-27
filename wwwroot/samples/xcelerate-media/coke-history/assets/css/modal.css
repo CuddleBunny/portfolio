@@ -1,0 +1,148 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+
+.reveal-modal-bg {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: #000;
+	background: black;
+	background: rgba(0, 0, 0, 0.45);
+	z-index: 98;
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+.reveal-modal {
+	visibility: hidden;
+	top: 80px;
+	left: 50%;
+	max-width: 800px;
+	min-width: 600px;
+	min-height: 300px;
+	max-height: 520px;
+	margin-left: -35%;
+	margin-right: 15%;
+	font-size: large;
+	line-height: 1;
+	color: #eee;
+	background: #C70015;
+	position: absolute;
+	z-index: 101;
+	padding: 1.25rem;
+	border: solid 1px #666666;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+	box-shadow: 0 0 10px rgba(0,0,0,.4);
+}
+
+	.reveal-modal.small {
+		width: 200px;
+		margin-left: -140px;
+	}
+
+	.reveal-modal.medium {
+		width: 400px;
+		margin-left: -240px;
+	}
+
+	.reveal-modal.large {
+		width: 600px;
+		margin-left: -340px;
+	}
+
+
+	.reveal-modal .close-reveal-modal {
+		position: absolute;
+		top: -1%;
+		right: -1%;
+		height: 27px;
+		width: 24px;
+		background-image: url("../images/global/close.png");
+		cursor: pointer;
+		z-index: 40040;
+	}
+
+	.reveal-modal p {
+		margin-top: 12px;
+	}
+
+	.reveal-modal ul {
+		margin-top: 12px;
+		margin-left: 20px;
+	}
+
+	.reveal-modal ul li {
+		margin-bottom: 10px;
+	}
+
+.modal-container {
+	display: table;
+}
+
+.modal-container img {
+	display: table-cell;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.modal-content {
+	display: table-cell;
+	vertical-align: top;
+}
+
+.modal-content audio {
+	margin-top: 20px;
+}
+
+.modalBtn .iconImageBtnClicked {
+	display: none;
+}
+
+.modalBtn.selected .iconImageBtnClicked {
+	display: inline;
+}
+
+.modalBtn.selected .iconImageBtn {
+	display: none;
+}
+
+/*
+.modalContent {
+	display: block;
+	float: left;
+    min-width:450px;
+    min-height:300px;
+	padding-left: 5px;
+	max-height: 460px;
+	overflow-y: auto;
+}
+
+.modalContent img {
+	float:left;
+	margin-right:20px;
+    vertical-align:middle;
+    max-height:450px;
+    max-width:275px;
+}
+
+.modalContent h1 {
+    margin-left: 60%;
+    text-shadow: 2px 2px 5px rgba(25, 25, 25, 0.55), -2px -2px 5px rgba(25, 25, 25, 0.55);
+}
+
+.modalAudio {
+    margin-top:15px;
+	padding: 10px;
+	max-width: 375px;
+    float:right;
+    margin-right:14%;
+	z-index: 80000;
+}
+
+*/

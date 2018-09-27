@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modals>
+  <modal id='001' era_id='1' layer='5'	type='image' top='120px' left='100px' media_src='assets/modalContent/modal_images/X667-lo.jpg'>
+    <headerText>Coca&#8209;Cola Created</headerText>
+    <bodyText>May 8, 1886, Coca&#8209;Cola is created by John S. Pemberton and served at Jacobs’ Pharmacy.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='002' era_id='1' layer='5'	type='image' top='220px' left='280px' media_src='assets/modalContent/modal_images/W2228-lo.jpg'>
+    <headerText>Initial Sales</headerText>
+    <bodyText>1886 -  Nine drinks a day are sold during the first year. Each drink was served for five cents a glass.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='003' era_id='1' layer='5'	type='image' top='150px' left='600px' media_src='assets/modalContent/modal_images/logo.jpg'>
+    <headerText>The Name</headerText>
+    <bodyText>1886 – Company accountant, Frank Robinson, names the drink “Coca&#8209;Cola,” and thinking the two Cs would look good in advertising, pens the famous Spencerian script logo.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='004' era_id='1' layer='2'	type='image' top='160px' left='1000px' media_src='assets/modalContent/modal_images/advertising.jpg'>
+    <headerText>Advertising</headerText>
+    <bodyText>1886 – The first newspaper ad appears announcing Coca&#8209;Cola as a “Delicious and Refreshing Beverage.”</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='005' era_id='1' layer='4'	type='image' top='180px' left='1600px' media_src='assets/modalContent/modal_images/coupon.jpg'>
+    <headerText>Coupons</headerText>
+    <bodyText>1887 – Coupons are first used to promote Coca&#8209;Cola. These coupons offered a free glass “at the fountain of any dispenser of genuine Coca&#8209;Cola.”</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='006' era_id='1' layer='2'	type='image' top='150px' left='1600px' media_src='assets/modalContent/modal_images/W5723-tn.jpg'>
+    <headerText>First Copyright</headerText>
+    <bodyText>1887 – John Pemberton registers his “Coca&#8209;Cola Syrup and Extract” label as a copyright with the U.S. Patent Office.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='007' era_id='1' layer='4'	type='image' top='220px' left='2600px' media_src='assets/modalContent/modal_images/CandlerCo.jpg'>
+    <headerText>For Sale</headerText>
+    <bodyText>1888 – Asa Candler begins to acquire personal control of the Coca&#8209;Cola formula and patents from John Pemberton and his partners.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='008' era_id='2' layer='2'	type='image' top='270px' left='3300px' media_src='assets/modalContent/modal_images/calendar.jpg'>
+    <headerText>Calendars</headerText>
+    <bodyText>1891 – Calendars are first used for advertising by Asa Candler. Early calendars also advertised De-Lec-Ta-Lave, a mouthwash that was also sold by Candler. After 1892, he focused his energies exclusively on Coca&#8209;Cola.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='009' era_id='2' layer='4'	type='image' top='320px' left='4800px' media_src='assets/modalContent/modal_images/candler.jpg'>
+    <headerText>Incorporation</headerText>
+    <bodyText>1892 – Asa Candler, who began to acquire The Coca&#8209;Cola Company in 1888, finalizes the purchase and incorporates The Coca&#8209;Cola Company as a Georgia Corporation. Candler begins marketing Coca&#8209;Cola as a soft drink.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='010' era_id='2' layer='4'	type='image' top='280px' left='5130px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Advertising</headerText>
+    <bodyText>1892 – An advertising budget of $11,000 is authorized.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='011' era_id='2' layer='5'	type='image' top='100px' left='6500px' media_src='assets/modalContent/modal_images/trademark.jpg'>
+    <headerText>Trademark</headerText>
+    <bodyText>1893 – The Coca&#8209;Cola Spencerian script trademark is registered with the U.S. Patent office.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='012' era_id='2' layer='4'	type='image' top='220px' left='6200px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Dividends</headerText>
+    <bodyText>1893 – At the Company’s second annual meeting, the first dividend is paid to investors.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='013' era_id='2' layer='5'	type='image' top='220px' left='6800px' media_src='assets/modalContent/modal_images/Texas.jpg'>
+    <headerText>Production Expands</headerText>
+    <bodyText>1894 – The first syrup production plant outside Atlanta opens in Dallas, Texas.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='014' era_id='2' layer='2'	type='image' top='90px' left='4965px' media_src='assets/modalContent/modal_images/USmap.jpg'>
+    <headerText>Nationwide</headerText>
+    <bodyText>1895 – Asa Candler declares in the Annual Report that Coca&#8209;Cola is sold and drunk in every state and territory in the United States.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='015' era_id='2' layer='3'	type='image' top='360px' left='6200px' media_src='assets/modalContent/modal_images/urn.jpg'>
+    <headerText>Clocks and Urns</headerText>
+    <bodyText>1896 – Soda fountain urns and clocks branded with the Coca&#8209;Cola logo are first used for advertising purposes.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='016' era_id='2' layer='5'	type='image' top='220px' left='8500px' media_src='assets/modalContent/modal_images/headquarters.jpg'>
+    <headerText>Headquarters</headerText>
+    <bodyText>1898 – The first building is erected for the sole purpose of housing The Coca&#8209;Cola Company. It is quickly outgrown as the Company moves to larger quarters five times in the next 12 years.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='017' era_id='2' layer='5'	type='image' top='280px' left='8880px' media_src='assets/modalContent/modal_images/TNbottle.jpg'>
+    <headerText>Bottling Rights</headerText>
+    <bodyText>1899 – The rights to bottle Coca&#8209;Cola in most of the United States are sold by Asa Candler to Benjamin F. Thomas and Joseph B. Whitehead of Chattanooga, Tennessee, for $1. Chattanooga becomes the first city to bottle Coca&#8209;Cola under the contract.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='018' era_id='3' layer='3'	type='image' top='220px' left='8300px' media_src='assets/modalContent/modal_images/HildaClark.jpg'>
+    <headerText>Hilda Clark</headerText>
+    <bodyText>1900 – Music hall performer Hilda Clark becomes the first celebrity to appear in multiple advertising formats, including trays, posters and even bookmarks.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='019' era_id='3' layer='2'	type='image' top='150px' left='6830px' media_src='assets/modalContent/modal_images/OLDbottle.jpg'>
+    <headerText>Bottling Expansion</headerText>
+    <bodyText>1900 – The second bottling plant to being production under the 1899 contract opens in Atlanta.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='020' era_id='3' layer='4'	type='image' top='331px' left='9740px' media_src='assets/modalContent/modal_images/1901calendar.jpg'>
+    <headerText>Advertising Budget</headerText>
+    <bodyText>1901 – The advertising budget surpasses $100,000 for the first time.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='021' era_id='3' layer='5'	type='image' top='190px' left='11850px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Sales Convention</headerText>
+    <bodyText>1903 – The first convention of Coca&#8209;Cola Fountain Sales personnel is held in Atlanta.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='022' era_id='3' layer='2'	type='image' top='150px' left='7750px' media_src='assets/modalContent/modal_images/NationalAd.jpg'>
+    <headerText>National Advertising</headerText>
+    <bodyText>1904 – The first advertising for Coca&#8209;Cola appears in national magazines.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='023' era_id='3' layer='4'	type='image' top='280px' left='10630px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>One Million Gallons</headerText>
+    <bodyText>1904 - Annual sales of Coca&#8209;Cola hit the one million-gallon mark.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='024' era_id='3' layer='3'	type='image' top='390px' left='9820px' media_src='assets/modalContent/modal_images/LillianNordica.jpg'>
+    <headerText>Lillian Nordica</headerText>
+    <bodyText>1905 - Lillian Nordica, noted opera singer, begins to endorse Coca&#8209;Cola and appears in nationwide advertising.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='025' era_id='3' layer='4'	type='image' top='260px' left='11375px' media_src='assets/modalContent/modal_images/Panama.jpg'>
+    <headerText>International Bottling</headerText>
+    <bodyText>1906 – Bottling operations begin in Canada, Cuba and Panama, which become the first three countries outside the United States to bottle Coca&#8209;Cola.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='026' era_id='3' layer='3'	type='image' top='245px' left='10220px' media_src='assets/modalContent/modal_images/DArcy.jpg'>
+    <headerText>D'Arcy Advertising</headerText>
+    <bodyText>1906 – August 23, 1906 William D’Arcy founded the D’Arcy Advertising Company with Coca&#8209;Cola as his only client. This begins its 50-year association with The Coca&#8209;Cola Company. D’Arcy’s view was “Coca&#8209;Cola advertising should create scenes that drew people in and made them part of the pleasant interludes of everyday life .”</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='027' era_id='3' layer='2'	type='image' top='130px' left='8890px' media_src='assets/modalContent/modal_images/cold-bottle.jpg'>
+    <headerText>Straight-Sides</headerText>
+    <bodyText>1906 – A straight-sided bottle is first used in national advertising.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='028' era_id='3' layer='5'	type='image' top='400px' left='13960px' media_src='assets/modalContent/modal_images/diamond.jpg'>
+    <headerText>Diamond-Shaped Label</headerText>
+    <bodyText>1907 – The diamond-shaped paper label is first introduced for bottles.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='029' era_id='3' layer='5'	type='image' top='180px' left='14290px' media_src='assets/modalContent/modal_images/festoon.jpg'>
+    <headerText>Festoons</headerText>
+    <bodyText>1907 - The first festoons are installed in soda fountains.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='030' era_id='3' layer='2'	type='image' top='210px' left='9320px' media_src='assets/modalContent/modal_images/baseballAd.jpg'>
+    <headerText>Association with Athletics</headerText>
+    <bodyText>1907 - The Company begins its long association with athletes with a series of ads featuring noted baseball players.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='031' era_id='3' layer='3'	type='image' top='340px' left='11300px' media_src='assets/modalContent/modal_images/CocaColaBottler.jpg'>
+    <headerText>Trade Magazine</headerText>
+    <bodyText>1909 – The Coca&#8209;Cola Bottler magazine begins publication and is produced for more than 80 years.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='032' era_id='4' layer='2'	type='image' top='220px' left='10175px' media_src='assets/modalContent/modal_images/1911ad.jpg'>
+    <headerText>Million Dollars Advertising</headerText>
+    <bodyText>1911 – The annual advertising budget for The Coca&#8209;Cola Company surpasses $1 million for the first time.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='033' era_id='4' layer='5'	type='image' top='270px' left='16720px' media_src='assets/modalContent/modal_images/Phillipines.jpg'>
+    <headerText>Expansion into Asia</headerText>
+    <bodyText>1912 – Bottling operations are started in the Philippines, the Company’s first expansion into Asia.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='034' era_id='4' layer='2'	type='image' top='180px' left='10800px' media_src='assets/modalContent/modal_images/distribution.jpg'>
+    <headerText>Distribution</headerText>
+    <bodyText>1913 – As the Company has grown, Coca&#8209;Cola is distributed via 2,300 wholesalers by more than 415,000 retailers.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='035' era_id='4' layer='4'	type='image' top='240px' left='14680px' media_src='assets/modalContent/modal_images/napkin.jpg'>
+    <headerText>Signs, Pencils and Napkins</headerText>
+    <bodyText>1913 - Examples of advertising spending include $259,499 on painted wall signs, $11,011 on pencils and even $5,411 on napkins.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='036' era_id='4' layer='5'	type='image' top='220px' left='17870px' media_src='assets/modalContent/modal_images/Emory.jpg'>
+    <headerText>Emory University</headerText>
+    <bodyText>1914 – Asa Candler makes a $1 million donation to Atlanta’s Emory University, beginning the Company’s long heritage of support for the school.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='037' era_id='4' layer='4'	type='image' top='240px' left='15560px' media_src='assets/modalContent/modal_images/Betty.jpg'>
+    <headerText>Calendar Girls</headerText>
+    <bodyText>1914 – The calendar artwork for this year is named “Betty.” During this decade, two other named calendars appear – “Elaine” and “Constance.” These are the only instances where the models are named on calendars.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='038' era_id='4' layer='3'	type='image' top='390px' left='13580px' media_src='assets/modalContent/modal_images/contour.jpg'>
+    <headerText>Contour Bottle</headerText>
+    <bodyText>1915 – Answering the call of The Coca&#8209;Cola Company, the Hobbleskirt (contour) bottle prototype is designed by Alexander Samuelson and patented by the Root Glass Company. It is approved by the Bottlers’ Association and becomes the standard bottle.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='039' era_id='4' layer='4'	type='image' top='260px' left='15795px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Candler Retires</headerText>
+    <bodyText>1916 – Asa Candler retires from the Company to successfully run for mayor of Atlanta.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='040' era_id='4' layer='2'	type='image' top='180px' left='11960px' media_src='assets/modalContent/modal_images/Guam.jpg'>
+    <headerText>Guam</headerText>
+    <bodyText>1917 – Bottling operations begin on the island of Guam.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='041' era_id='4' layer='4'	type='image' top='200px' left='16180px' media_src='assets/modalContent/modal_images/RedCross.jpg'>
+    <headerText>Red Cross</headerText>
+    <bodyText>1917 – A relationship between the Red Cross and the Coca&#8209;Cola system begins as the Company and bottlers begin World War 1 blood drives.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='042' era_id='4' layer='4'	type='image' top='370px' left='16430px' media_src='assets/modalContent/modal_images/paris.jpg'>
+    <headerText>Bottling in Europe</headerText>
+    <bodyText>1919 – The first bottling plants are open in Europe in Paris and Bordeaux.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='043' era_id='4' layer='4'	type='image' top='320px' left='16820px' media_src='assets/modalContent/modal_images/1919sale.jpg'>
+    <headerText>Coca&#8209;Cola Sold</headerText>
+    <bodyText>1919 – The Coca&#8209;Cola Company is purchased by a group of investors led by Ernest Woodruff for $25 million.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='044' era_id='4' layer='2'	type='image' top='220px' left='12720px' media_src='assets/modalContent/modal_images/stocks.jpg'>
+    <headerText>Initial IPO</headerText>
+    <bodyText>1919 - The new owners of Coca&#8209;Cola take the Company public. The IPO opened at $40 per share for stock symbol CCO.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='045' era_id='5' layer='2'	type='image' top='170px' left='13590px' media_src='assets/modalContent/modal_images/drinkCoca-Cola.jpg'>
+    <headerText>Supreme Court Ruling</headerText>
+    <bodyText>1920 – Justice Oliver Wendell Holmes writes a Supreme Court decision ruling that Coca&#8209;Cola is a “single thing, from a single source and well known to the community,” recognizing the strength of a Company’s trademark and protecting the Company from imitators.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='046' era_id='5' layer='3'	type='image' top='225px' left='16240px' media_src='assets/modalContent/modal_images/NorthAvenue.jpg'>
+    <headerText>New Home</headerText>
+    <bodyText>1920 – The Coca&#8209;Cola Company moves to its current location on North Avenue in Atlanta.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='047' era_id='5' layer='5'	type='image' top='185px' left='22035px' media_src='assets/modalContent/modal_images/TimesSquare.jpg'>
+    <headerText>Times Square</headerText>
+    <bodyText>1920 – The Coca&#8209;Cola Company turns on its first neon billboard in Times Square. The Company’s billboard has been a mainstay and attraction in Times Square since.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='048' era_id='5' layer='4'	type='image' top='300px' left='18920px' media_src='assets/modalContent/modal_images/RedBarrel.jpg'>
+    <headerText>Employee Publication</headerText>
+    <bodyText>1921 – The first employee publication, The Friendly Hand, begins publication. It is superseded three years later when The Red Barrel begins its 40-year-run.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='049' era_id='5' layer='2'	type='image' top='330px' left='14440px' media_src='assets/modalContent/modal_images/tray.jpg'>
+    <headerText>Not Just for Summer</headerText>
+    <bodyText>1921 - The first use of the slogan “Thirst Knows No Season” helps transition Coca&#8209;Cola from a summer beverage to one enjoyed year-round.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='050' era_id='5' layer='3'	type='image' top='290px' left='17350px' media_src='assets/modalContent/modal_images/6pack.jpg'>
+    <headerText>Six-Pack</headerText>
+    <bodyText>1923 – The introduction of the first six-bottle carton is a significant innovation for the beverage industry. The carton is patented the following year.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='051' era_id='5' layer='4'	type='image' top='460px' left='20040px' media_src='assets/modalContent/modal_images/woodruff.jpg'>
+    <headerText>Woodruff Era</headerText>
+    <bodyText>1923 – Robert W. Woodruff is elected President of The Coca&#8209;Cola Company, beginning more than six decades of leadership in the business and a focus on expanding Coca&#8209;Cola globally.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='052' era_id='5' layer='2'	type='image' top='225px' left='15130px' media_src='assets/modalContent/modal_images/NYSE.jpg'>
+    <headerText>KO</headerText>
+    <bodyText>1923 – Stock symbol changed to KO, the stock symbols still used today for The Coca&#8209;Cola Company on the New York Stock Exchange.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='053' era_id='5' layer='4'	type='image' top='350px' left='20480px' media_src='assets/modalContent/modal_images/vault.jpg'>
+    <headerText>Secret Formula</headerText>
+    <bodyText>1925 – The Board of Directors passes a resolution placing the secret formula for Coca&#8209;Cola in a bank vault at the Trust Company Bank in Atlanta. The secret formula is still a very closely kept secret and still kept in a vault.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='054' era_id='5' layer='3'	type='image' top='315px' left='18255px' media_src='assets/modalContent/modal_images/6million.jpg'>
+    <headerText>Six Million a Day</headerText>
+    <bodyText>1925 - A far cry from the 9 glasses of Coca&#8209;Cola sold at Jacobs’ Pharmacy in 1886, in 1925 Coca&#8209;Cola was serving 6 million glasses a day worldwide.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='055' era_id='5' layer='4'	type='image' top='400px' left='21100px' media_src='assets/modalContent/modal_images/billboards.jpg'>
+    <headerText>Billboards</headerText>
+    <bodyText>1925 - With the popularity of automobiles, outdoor billboards are introduced as part of the advertising mix.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='056' era_id='5' layer='2'	type='image' top='160px' left='15880px' media_src='assets/modalContent/modal_images/foreignDepartment.jpg'>
+    <headerText>Foreign Department</headerText>
+    <bodyText>1926 – The Coca&#8209;Cola Foreign Department is formed to supply concentrate to overseas bottlers. Some of the countries where bottling operations begin during this decade include Belgium, Bermuda, China, Colombia, Germany, Haiti, Italy, Mexico, the Netherlands and Spain.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='057' era_id='5' layer='2'	type='image' top='300px' left='16040px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Radio</headerText>
+    <bodyText>1927 – The Company begins sponsoring its first radio program, “Vivian the Coca&#8209;Cola Girl.”</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='058' era_id='5' layer='3'	type='image' top='400px' left='19120px' media_src='assets/modalContent/modal_images/1928olympics.jpg'>
+    <headerText>Olympics</headerText>
+    <bodyText>1928 – The Company begins its long-term association with the Olympic Games by supplying drinks from kiosks surrounding the venues in Amsterdam.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='059' era_id='5' layer='3'	type='image' top='330px' left='19490px' media_src='assets/modalContent/modal_images/bell-glass.jpg'>
+    <headerText>Bell-Shaped Glass</headerText>
+    <bodyText>1929 – Two significant innovations debut: the bell-shaped Coca&#8209;Cola fountain glass and the first standardized open-top cooler.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='060' era_id='6' layer='2'	type='image' top='280px' left='16900px' media_src='assets/modalContent/modal_images/Export.jpg'>
+    <headerText>Export Corporation</headerText>
+    <bodyText>1930 – The Coca&#8209;Cola Export Corporation is created to market Coca&#8209;Cola outside the United States.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='061' era_id='6' layer='5'	type='image' top='185px' left='27400px' media_src='assets/modalContent/modal_images/Rice.jpg'>
+    <headerText>Grantland Rice</headerText>
+    <bodyText>1930 – The Coca&#8209;Cola radio program with Grantland Rice and the Coca&#8209;Cola Orchestra debuts.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='062' era_id='6' layer='4'	type='image' top='260px' left='23460px' media_src='assets/modalContent/modal_images/santa.jpg'>
+    <headerText>Coca&#8209;Cola Santa</headerText>
+    <bodyText>1931 – Seeking to create an advertising program that links Coca&#8209;Cola with Christmas, artist Haddon Sundblom creates his first illustration showing Santa Claus pausing for a Coke. For the next three decades, from 1931 to 1964, Sundblom paints images of Santa that help to create the modern interpretation of St. Nick.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='063' era_id='6' layer='2'	type='image' top='250px' left='17625px' media_src='assets/modalContent/modal_images/book.jpg'>
+    <headerText>When You Entertain</headerText>
+    <bodyText>1932 – When You Entertain, a booklet by renowned author Ida Bailey Allen, is offered to consumers for 10 cents. This guide to home entertaining sells almost 400,000 copies in six months.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='064' era_id='6' layer='3'	type='image' top='310px' left='21260px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Automated Fountain</headerText>
+    <bodyText>1933 – The first automated fountain dispenser, the Dole Master, is introduced at the Chicago World’s Fair.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='065' era_id='6' layer='5'	type='image' top='130px' left='28920px' media_src='assets/modalContent/modal_images/moviestars.jpg'>
+    <headerText>Movie Stars</headerText>
+    <bodyText>1934 – Movie stars Jackie Cooper, Wallace Beery, Maurice Chevalier, Jean Harlow, Maureen O’Sullivan, Johnny Weissmuller and Joan Crawford appear in advertising for Coca&#8209;Cola.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='066' era_id='6' layer='5'	type='image' top='260px' left='29180px' media_src='assets/modalContent/modal_images/fishing.jpg'>
+    <headerText>Norman Rockwell</headerText>
+    <bodyText>1935 – Artist Norman Rockwell creates the 1935 "Out Fishin’” calendar. Rockwell also developed artwork for the 1931, 1932 and 1934 calendars.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='067' era_id='6' layer='2'	type='image' top='145px' left='18470px' media_src='assets/modalContent/modal_images/Evans.jpg'>
+    <headerText>Lettie Pate Evans</headerText>
+    <bodyText>1935 – Lettie Pate Evans joins the Board of Directors of The Coca&#8209;Cola Company. She is the first woman to serve on the board of a major corporation, a position she held until 1953.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='068' era_id='6' layer='4'	type='image' top='370px' left='25370px' media_src='assets/modalContent/modal_images/vending.jpg'>
+    <headerText>Vending Machines</headerText>
+    <bodyText>1935 – The Company installs the first Coca&#8209;Cola coin operated vending machines.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='069' era_id='6' layer='4'	type='image' top='300px' left='25860px' media_src='assets/modalContent/modal_images/50thAnniversary.jpg'>
+    <headerText>50th Anniversary</headerText>
+    <bodyText>1936 – The 50th anniversary of Coca&#8209;Cola is celebrated. Artist N. C. Wyeth creates the calendar for that year.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='070' era_id='6' layer='2'	type='image' top='135px' left='19360px' media_src='assets/modalContent/modal_images/Australia.jpg'>
+    <headerText>Southern Hemisphere</headerText>
+    <bodyText>1938 – Coca&#8209;Cola enters Australia, Austria, Norway and South Africa.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='071' era_id='6' layer='2'	type='image' top='260px' left='19665px' media_src='assets/modalContent/modal_images/chairmanWoodruff.jpg'>
+    <headerText>Woodruff Becomes Chairman</headerText>
+    <bodyText>1939 – Robert Woodruff becomes Chairman of the Board. He serves until 1942. He later serves from 1952 to 1954. He serves as President of the company from 1923 to 1939.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='072' era_id='7' layer='2'	type='image' top='140px' left='20300px' media_src='assets/modalContent/modal_images/flower.jpg'>
+    <headerText>Flower Arranging</headerText>
+    <bodyText>1940 – Booklets on flower arranging by Laura Lee Burroughs are distributed to consumers. More than 5 million booklets reach American households.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='073' era_id='7' layer='4'	type='image' top='385px' left='27810px' media_src='assets/modalContent/modal_images/standards.jpg'>
+    <headerText>Maintaining Standards</headerText>
+    <bodyText>1941 – Traveling laboratories traverse the United States to ensure that quality standards are maintained in the bottling plants.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='074' era_id='7' layer='2'	type='image' top='280px' left='21050px' media_src='assets/modalContent/modal_images/cups.jpg'>
+    <headerText>Paper Cups</headerText>
+    <bodyText>1941 – The first paper cups for Coca&#8209;Cola are introduced.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='075' era_id='7' layer='4'	type='image' top='260px' left='28630px' media_src='assets/modalContent/modal_images/fighter.jpg'>
+    <headerText>Fighter Posters</headerText>
+    <bodyText>1942 – The first in a series of posters depicting American fighter planes is issued for use in schools, restaurants and retail stores. Additional series are issued in 1943, 1944 and 1945.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='076' era_id='7' layer='4'	type='image' top='270px' left='28820px' media_src='assets/modalContent/modal_images/SpriteBoy.jpg'>
+    <headerText>Sprite Boy</headerText>
+    <bodyText>1942 – The Sprite Boy character is introduced in advertising to convey the message that “Coca&#8209;Cola” and “Coke” are two terms that reference the same product.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='077' era_id='7' layer='5'	type='image' top='240px' left='34400px' media_src='assets/modalContent/modal_images/duty.jpg'>
+    <headerText>War Efforts</headerText>
+    <bodyText>1942 – During World War II, the Company operates a propellant ammunition loading plant in Talladega, Alabama, called the Brecon Loading Company. An average of 30 railroad cars of ammunition is produced daily for the U.S. Military.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='078' era_id='7' layer='5'	type='image' top='220px' left='34700px' media_src='assets/modalContent/modal_images/WWII.jpg'>
+    <headerText>Call to Duty</headerText>
+    <bodyText>1943 – The U.S. Government requests that Coca&#8209;Cola be made available to the troops. Robert Woodruff pledges to provide Coke to the military for a nickel regardless of what it costs the Company to produce the product. During the war, 64 portable bottling plants are sent to Asia, Europe and North Africa. More than 5 billion bottles of Coca&#8209;Cola are distributed.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='079' era_id='7' layer='2'	type='image' top='185px' left='21850px' media_src='assets/modalContent/modal_images/Coke.jpg'>
+    <headerText>Coke&#174;</headerText>
+    <bodyText>1945 - “Coke” becomes a registered trademark of The Coca&#8209;Cola Company.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='080' era_id='7' layer='3'	type='image' top='310px' left='26210px' media_src='assets/modalContent/modal_images/yes.jpg'>
+    <headerText>Yes</headerText>
+    <bodyText>1946 – The “Yes” poster with artwork by Haddon Sundblom is released. The poster wins multiple design awards.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='081' era_id='7' layer='4'	type='image' top='270px' left='30090px' media_src='assets/modalContent/modal_images/increase.jpg'>
+    <headerText>First Price Increase</headerText>
+    <bodyText>1946 – The first price increase from the 5 cent Coca&#8209;Cola occurs in California. The price gradually rises in other markets, ending the decades-old “nickel Coke.”</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='082' era_id='7' layer='2'	type='image' top='180px' left='22520px' media_src='assets/modalContent/modal_images/DoleDeluxe.jpg'>
+    <headerText>Dole Deluxe</headerText>
+    <bodyText>1947 – The famous industrial designer Raymond Loewy develops a new fountain dispenser – the Dole Deluxe.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='083' era_id='7' layer='2'	type='image' top='350px' left='22790px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>The Red Disc</headerText>
+    <bodyText>1947 – The red disc metal sign is introduced in diameters ranging from 12 to 48 inches. A later version of the sign includes the famous contour bottle.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='084' era_id='7' layer='2'	type='image' top='170px' left='22980px' media_src='assets/modalContent/modal_images/Egypt.jpg'>
+    <headerText>Egypt</headerText>
+    <bodyText>1948 – Coca&#8209;Cola is introduced in Egypt.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='085' era_id='7' layer='3'	type='image' top='320px' left='27470px' media_src='assets/modalContent/modal_images/neonAtlanta.jpg'>
+    <headerText>Neon in Atlanta</headerText>
+    <bodyText>1948 – A neon spectacular sign is installed in downtown Atlanta at the cost of $50,000. It remains in place until 1981.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='086' era_id='8' layer='2'	type='image' top='160px' left='23800px' media_src='assets/modalContent/modal_images/Time.jpg'>
+    <headerText>Time</headerText>
+    <bodyText>1950 – Coca&#8209;Cola becomes the first product to appear on the cover of Time magazine. The magazine wants to have a photo of Robert Woodruff on the cover, but he refuses stating that the product is the only important element in the Company.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='087' era_id='8' layer='3'	type='image' top='260px' left='28450px' media_src='assets/modalContent/modal_images/McCarty.jpg'>
+    <headerText>TV Commercial</headerText>
+    <bodyText>1950 – The first television commercial for Coca&#8209;Cola is broadcast on Thanksgiving Day on a CBS half-hour special featuring Edgar Bergen and Charlie McCarthy.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='088' era_id='8' layer='5'	type='image' top='320px' left='38680px' media_src='assets/modalContent/modal_images/Lanza.jpg'>
+    <headerText>Mario Lanza</headerText>
+    <bodyText>1951 – The Coca&#8209;Cola Company sponsors a weekly radio program featuring the opera tenor Mario Lanza.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='089' era_id='8' layer='2'	type='image' top='240px' left='24380px' media_src='assets/modalContent/modal_images/Coke-Time.jpg'>
+    <headerText>"Coke Time"</headerText>
+    <bodyText>1953 – “Coke Time,” starring popular singer Eddie Fisher, debuts on both radio and television. Fisher’s program is so popular that the Company issues promotional records with his songs. The program airs until 1957.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='090' era_id='8' layer='5'	type='image' top='210px' left='39580px' media_src='assets/modalContent/modal_images/globetrotters.jpg'>
+    <headerText>Globetrotters</headerText>
+    <bodyText>1955 – The Coca&#8209;Cola company begins featuring African-Americans in marketing with the Harlem Globetrotters in 1951 and Olympic Games athletes Jesse Owens and Alice Coachman in 1953. Clark University student Mary Alexander becomes one of the first African-American women to appear in print advertising when she is featured in 1955.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='091' era_id='8' layer='2'	type='image' top='160px' left='24760px' media_src='assets/modalContent/modal_images/King-Size.jpg'>
+    <headerText>King-Sized Bottles</headerText>
+    <bodyText>1955 – The first king-size bottles make their appearance in the United States. In addition to the standard 6.5-ounce bottles, consumers can now purchase Coke in 10-, 12-, 16- and 26-ounce bottles.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='092' era_id='8' layer='2'	type='image' top='230px' left='25150px' media_src='assets/modalContent/modal_images/Fanta.jpg'>
+    <headerText>Fanta</headerText>
+    <bodyText>1955 – Fanta Orange is introduced in Naples, Italy, the first new product to be distributed by the Company. The Fanta line of flavored beverages comes to the United States in 1960.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='093' era_id='8' layer='3'	type='image' top='320px' left='30050px' media_src='assets/modalContent/modal_images/McCann.jpg'>
+    <headerText>Advertising Change</headerText>
+    <bodyText>1956 – In a quest to better leverage the new medium of television for advertising, McCann-Erickson, Inc., replaces the D’Arcy Advertising Company as the official advertising agency for the Company. D’Arcy held the account for 50 years, dating back to 1906.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='094' era_id='8' layer='2'	type='image' top='140px' left='25500px' media_src='assets/modalContent/modal_images/nautilus.jpg'>
+    <headerText>Nautilus</headerText>
+    <bodyText>1957 – A special cup vending machine is installed aboard the atomic-powered submarine Nautilus. The vending equipment has to be specially designed to fit through the vessel’s hatch.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='095' era_id='8' layer='4'	type='image' top='210px' left='34530px' media_src='assets/modalContent/modal_images/58million.jpg'>
+    <headerText>International Sales</headerText>
+    <bodyText>1957 – Sales outside the United States account for about 33 percent of revenue. The Coca&#8209;Cola Company now serves over 58 million drinks a day.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='096' era_id='8' layer='4'	type='image' top='270px' left='34890px' media_src='assets/modalContent/modal_images/1958fair.jpg'>
+    <headerText>World's Fair</headerText>
+    <bodyText>1958 – The Coca&#8209;Cola Company sponsors a pavilion at the Brussels World’s Fair. The pavilion houses an operating bottling plant and includes an exhibit that documents the Coca&#8209;Cola business around the globe.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='097' era_id='8' layer='2'	type='image' top='180px' left='26290px' media_src='assets/modalContent/modal_images/globe.jpg'>
+    <headerText>More Than 100 Countries</headerText>
+    <bodyText>1959 – Coca&#8209;Cola is now distributed by a network of 1,700 bottlers, operating in more than 100 countries.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='098' era_id='9' layer='4'	type='image' top='310px' left='36800px' media_src='assets/modalContent/modal_images/theCan.jpg'>
+    <headerText>The Can</headerText>
+    <bodyText>1960 – Steel 12-ounce cans are introduced to help make Coca&#8209;Cola more portable.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='099' era_id='9' layer='5'	type='image' top='140px' left='44260px' media_src='assets/modalContent/modal_images/MinuteMaid.jpg'>
+    <headerText>Minute Maid</headerText>
+    <bodyText>1960 – The Coca&#8209;Cola Company acquires The Minute Maid Corporation, adding a line of juice products to its portfolio.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='100' era_id='9' layer='4'	type='image' top='330px' left='37300px' media_src='assets/modalContent/modal_images/Talentsville.jpg'>
+    <headerText>Talentsville USA</headerText>
+    <bodyText>1960 – Coca&#8209;Cola sponsors a nationwide competition for high school singers and musicians called Talentsville USA. The winner is a lyric soprano from Carrier Mills, Illinois, who goes on to have a successful career in opera.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='101' era_id='9' layer='2'	type='image' top='200px' left='27840px' media_src='assets/modalContent/modal_images/123.jpg'>
+    <headerText>"One, Two, Three"</headerText>
+    <bodyText>1961 – The first feature-length motion picture to feature Coca&#8209;Cola premieres. Billy Wilder’s comedy “One, Two, Three” stars Jimmy Cagney as the manager of a Coca&#8209;Cola bottling plant in West Berlin during the Cold War.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='102' era_id='9' layer='2'	type='image' top='330px' left='27995px' media_src='assets/modalContent/modal_images/bottlers-convention.jpg'>
+    <headerText>Bottlers Convention</headerText>
+    <bodyText>1961 – The Company celebrates its 75th anniversary. A national bottler convention in Miami attracts more than 4,000 attendees, mostly U.S. bottlers.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='103' era_id='9' layer='2'	type='image' top='180px' left='28160px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Sprite</headerText>
+    <bodyText>1961 – Sprite, a lemon-lime beverage, is introduced on February 1, 1961. Sprite puts the Company in a head-to-head battle with 7Up.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='104' era_id='9' layer='4'	type='image' top='240px' left='38200px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Tab</headerText>
+    <bodyText>1963 – Tab, the first diet drink produced by the Company, is launched. Its name is selected from a computer-generated search that yields more than 300,000 options.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='105' era_id='9' layer='4'	type='image' top='230px' left='38700px' media_src='assets/modalContent/modal_images/Ray.jpg'>
+    <headerText>Celebrities Abound</headerText>
+    <bodyText>1963 – The “Things Go Better with Coke” advertising campaign begins. On the radio, pop singers like The Supremes, Ray Charles, Aretha Franklin, Jan and Dean, Roy Orbison and The Coasters use their unique musical styles to swing the jingle. On television, celebrities like football star Joe Namath, designer Anne Klein, golfer Arnold Palmer and jazz vocalist Barbara McNair endorse Coca&#8209;Cola.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='106' era_id='9' layer='2'	type='image' top='280px' left='28850px' media_src='assets/modalContent/modal_images/NYCfair.jpg'>
+    <headerText>Global Holiday</headerText>
+    <bodyText>1964 - At the New York World’s Fair, The Coca&#8209;Cola Company pavilion houses an exhibit called Global Holiday that takes visitors to six exotic locales. The pavilion also houses the world’s largest carillon – a 610-bell instrument.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='107' era_id='9' layer='3'	type='image' top='220px' left='34520px' media_src='assets/modalContent/modal_images/Peanuts.jpg'>
+    <headerText>Peanuts</headerText>
+    <bodyText>1965 – The Coca&#8209;Cola Company and its bottlers sponsor the first animated television special for the cartoon strip Peanuts, “A Charlie Brown Christmas.”</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='108' era_id='9' layer='3'	type='image' top='310px' left='34670px' media_src='assets/modalContent/modal_images/Fresca.jpg'>
+    <headerText>Fresca</headerText>
+    <bodyText>1966 – Fresca, a citrus-flavored sugar-free soft drink, makes its debut.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='109' era_id='9' layer='4'	type='image' top='365px' left='39900px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Eastern Europe</headerText>
+    <bodyText>1968 – Bottling begins in Hungary, the Somali Republic and Yugoslavia.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='110' era_id='9' layer='2'	type='image' top='150px' left='29400px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>One-Way Bottle</headerText>
+    <bodyText>1968 – A one-way, or non-refundable, contour bottle is introduced.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='111' era_id='9' layer='2'	type='image' top='180px' left='29700px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>New Logo</headerText>
+    <bodyText>1969 – A new graphic look for the Coca&#8209;Cola system is introduced, featuring a red-and-white color scheme and logo.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='112' era_id='9' layer='3'	type='image' top='330px' left='35550px' media_src='assets/modalContent/modal_images/realthing.jpg'>
+    <headerText>"It's the Real Thing"</headerText>
+    <bodyText>1969 – The launch of the new slogan “It’s the Real Thing” ushered in a new advertising look for brand Coke.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='113' era_id='10' layer='2'	type='image' top='255px' left='30510px' media_src='assets/modalContent/modal_images/1970logo.jpg'>
+    <headerText>The Dynamic Ribbon Device</headerText>
+    <bodyText>1970 – The Dynamic Ribbon Device, the red-and-white graphic representing two adjacent contour bottles, is launched nationwide.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='114' era_id='10' layer='4'	type='image' top='280px' left='41650px' media_src='assets/modalContent/modal_images/Olympade.jpg'>
+    <headerText>Olympade&#174;</headerText>
+    <bodyText>1970 – Coca&#8209;Cola introduced its first sports drink when Olympade&#174; is test marketed in the United States. The packaging features a logo for the U.S. Olympic Committee.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='115' era_id='10' layer='4'	type='image' top='375px' left='41980px' media_src='assets/modalContent/modal_images/BuyWorldCoke.jpg'>
+    <headerText>Buy the World a Coke</headerText>
+    <bodyText>1971 – First introduced as a radio ad and later produced as a television commercial, “I’d Like to Buy the World a Coke” becomes an international hit and remains one of the most popular ads for Coca&#8209;Cola.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='116' era_id='10' layer='4'	type='image' top='270px' left='42150px' media_src='assets/modalContent/modal_images/Poland.jpg'>
+    <headerText>Poland</headerText>
+    <bodyText>1972 – The first bottling operations open in Poland.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='117' era_id='10' layer='5'	type='image' top='190px' left='50275px' media_src='assets/modalContent/modal_images/MrPibb.jpg'>
+    <headerText>Mr. PIBB&#174;</headerText>
+    <bodyText>1972 – Mr. PIBB&#174; is introduced to take on the very popular Dr. Pepper&#174; in the Southern markets.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='118' era_id='10' layer='3'	type='image' top='135px' left='37580px' media_src='assets/modalContent/modal_images/coffee.jpg'>
+    <headerText>Georgia Coffee&#174;</headerText>
+    <bodyText>1975 – Anticipating a surge in the demand for coffee products in Japan, the Company introduces Georgia Coffee&#174; to the Japanese market.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='119' era_id='10' layer='3'	type='image' top='390px' left='37700px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Collectors Club</headerText>
+    <bodyText>1975 – The Coca&#8209;Cola Collectors Club is established with 27 members. Club membership now is nearly 4,000.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='120' era_id='10' layer='4'	type='image' top='285px' left='43265px' media_src='assets/modalContent/modal_images/FIFA.jpg'>
+    <headerText>FIFA</headerText>
+    <bodyText>1976 – The Coca&#8209;Cola Company and the Fédération Internationale de Football Association (FIFA) agree to the first-ever sponsorship between a company and an international sports governing body.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='121' era_id='10' layer='2'	type='image' top='260px' left='32340px' media_src='assets/modalContent/modal_images/candle.jpg'>
+    <headerText>"Candles"</headerText>
+    <bodyText>1977 – The Christmas “Candles” commercial debuts. The commercial reuses the “I’d Like to Buy the World a Coke” song.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='122' era_id='10' layer='4'	type='image' top='480px' left='43870px' media_src='assets/modalContent/modal_images/China.jpg'>
+    <headerText>China</headerText>
+    <bodyText>1978 – Coca&#8209;Cola signs an agreement to reenter the China market after a nearly a 30-year absence. In the following year, the first batch of 28,000 cases of Coca&#8209;Cola cans and bottles were transported from Hong Kong to Guangzhou, Shanghai and Beijing.  </bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='123' era_id='10' layer='2'	type='image' top='250px' left='32715px' media_src='assets/modalContent/modal_images/Hi-C.jpg'>
+    <headerText>Hi&#8209;C&#174;</headerText>
+    <bodyText>1978 – Hi&#8209;C&#174; soft drinks are introduced in the United States . Hi&#8209;C&#174; was originally developed for overseas markets like Africa.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='124' era_id='10' layer='4'	type='image' top='325px' left='44040px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>PET Bottle</headerText>
+    <bodyText>1978 – The 2-liter polyethylene terephthalate (PET) bottle is introduced, beginning the Company’s use of PET packaging.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='125' era_id='10' layer='4'	type='image' top='310px' left='44430px' media_src='assets/modalContent/modal_images/MelloYellow.jpg'>
+    <headerText>Mello Yellow&#174;</headerText>
+    <bodyText>1979 – With the success at capturing a market share with Mr. Pibb, the Company releases Mello Yellow&#174; to go head-to-head with Mountain Dew&#174;.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='126' era_id='10' layer='2'	type='image' top='160px' left='33130px' media_src='assets/modalContent/modal_images/1979headquarters.jpg'>
+    <headerText>New Headquarters</headerText>
+    <bodyText>1979 – The North Avenue Tower headquarters building is first occupied.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='127' era_id='10' layer='3'	type='image' top='320px' left='39540px' media_src='assets/modalContent/modal_images/greene.jpg'>
+    <headerText>"Mean" Joe Greene</headerText>
+    <bodyText>1979 – The “Mean” Joe Greene television commercial debuts. The ad is consistently voted one of the best commercials of all time.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='128' era_id='10' layer='5'	type='image' top='475px' left='53340px' media_src='assets/modalContent/modal_images/SpecialOlympics.jpg'>
+    <headerText>Special Olympics</headerText>
+    <bodyText>1979 – Coca&#8209;Cola begins worldwide sponsorship of Special Olympics.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='129' era_id='11' layer='5'	type='image' top='235px' left='54360px' media_src='assets/modalContent/modal_images/Gods.jpg'>
+    <headerText>"The Gods Must Be Crazy"</headerText>
+    <bodyText>1980 – A Coca&#8209;Cola contour bottle becomes the central focus of the movie “The Gods Must Be Crazy.”</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='130' era_id='11' layer='3'	type='image' top='350px' left='40580px' media_src='assets/modalContent/modal_images/BottlingChina.jpg'>
+    <headerText>Bottling in China</headerText>
+    <bodyText>1980 – The first bottling plant breaks ground in Beijing, China. By 2010, the Company had opened more than 40 bottling plants in the country.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='131' era_id='11' layer='4'	type='image' top='350px' left='46540px' media_src='assets/modalContent/modal_images/Gouizeta.jpg'>
+    <headerText>Roberto Gouizeta</headerText>
+    <bodyText>1981 – Roberto Gouizeta becomes Chairman and CEO of The Coca&#8209;Cola Company.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='132' era_id='11' layer='2'	type='image' top='180px' left='34670px' media_src='assets/modalContent/modal_images/DietCoke.jpg'>
+    <headerText>Diet Coke&#174;</headerText>
+    <bodyText>1982 – Diet Coke&#174; is introduced in a celebrity-filled ceremony in New York, becoming the first extension of the trademarks Coca&#8209;Cola and Coke.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='133' era_id='11' layer='3'	type='image' top='270px' left='41370px' media_src='assets/modalContent/modal_images/Columbia.jpg'>
+    <headerText>Columbia Pictures</headerText>
+    <bodyText>1982 – The Coca&#8209;Cola Company purchases Columbia Pictures Industries, Inc. While the company owns the movie studio, “Gandhi” wins the Academy Award for best picture.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='134' era_id='11' layer='5'	type='image' top='215px' left='56140px' media_src='assets/modalContent/modal_images/Disney.jpg'>
+    <headerText>Disney</headerText>
+    <bodyText>1983 – The Coca&#8209;Cola Company continues a long association with The Walt Disney Company as the anchor sponsor of Tokyo Disneyland. The two companies sign a worldwide marketing agreement in 1985.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='135' era_id='11' layer='2'	type='image' top='290px' left='35340px' media_src='assets/modalContent/modal_images/Russia.jpg'>
+    <headerText>Russia</headerText>
+    <bodyText>1985 – Bottling operations begin in Russia.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='136' era_id='11' layer='4'	type='image' top='240px' left='47870px' media_src='assets/modalContent/modal_images/NewCoke.jpg'>
+    <headerText>"New Coke"</headerText>
+    <bodyText>1985 – The formula for Coca&#8209;Cola is changed for the first time in 99 years. The product, popularly dubbed “New Coke,” generated consumer protest nationwide. Product made with the original formula, renamed “Coca&#8209;Cola Classic,” is returned to the market 79 days later.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='137' era_id='11' layer='2'	type='image' top='355px' left='35640px' media_src='assets/modalContent/modal_images/space.jpg'>
+    <headerText>Challenger</headerText>
+    <bodyText>1985 – Coca&#8209;Cola becomes the first soft drink consumed in space when the astronauts aboard the space shuttle Challenger tested the space can on a mission.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='138' era_id='11' layer='3'	type='image' top='195px' left='42600px' media_src='assets/modalContent/modal_images/100years.jpg'>
+    <headerText>100th Anniversary</headerText>
+    <bodyText>1986 – May 8th Coca&#8209;Cola marks its hundredth anniversary with a worldwide celebration in Atlanta.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='139' era_id='11' layer='4'	type='image' top='385px' left='48900px' media_src='assets/modalContent/modal_images/scholars.jpg'>
+    <headerText>Scholars Foundation</headerText>
+    <bodyText>1986 – The Coca&#8209;Cola Scholars Foundation is created as a joint program between the Company and The Coca&#8209;Cola Bottlers’ Association.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='140' era_id='11' layer='2'	type='image' top='185px' left='36465px' media_src='assets/modalContent/modal_images/CocaColaEnterprises.jpg'>
+    <headerText>Coca&#8209;Cola Enterprises</headerText>
+    <bodyText>1986 – Company-owned bottlers and several independent bottler groups combine to form Coca&#8209;Cola Enterprises (CCE) as an independent bottler and publicly traded company.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='141' era_id='11' layer='3'	type='image' top='320px' left='43380px' media_src='assets/modalContent/modal_images/PushkinSquare.jpg'>
+    <headerText>Pushkin Square</headerText>
+    <bodyText>1989 – The first neon spectacular sign in the Soviet Union debuts in Moscow’s Pushkin Square.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='142' era_id='11' layer='4'	type='image' top='490px' left='49590px' media_src='assets/modalContent/modal_images/blank.jpg'>
+    <headerText>Columbia Sold</headerText>
+    <bodyText>1989 – The Company sells Columbia Pictures.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='143' era_id='12' layer='2'	type='image' top='248px' left='37197px' media_src='assets/modalContent/modal_images/BerlinWall.jpg'>
+    <headerText>Berlin Wall</headerText>
+    <bodyText>1990 – As the Berlin Wall comes down, Coca&#8209;Cola is sold in East Germany for the first time.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='144' era_id='12' layer='5'	type='image' top='515px' left='59996px' media_src='assets/modalContent/modal_images/WorldofCoke.jpg'>
+    <headerText>World of Coca&#8209;Cola</headerText>
+    <bodyText>1990 – The World of Coca&#8209;Cola museum opens at Underground Atlanta, greeting an average of 1 million guests a year until 2007.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='145' era_id='12' layer='3'	type='image' top='360px' left='44594px' media_src='assets/modalContent/modal_images/Powerade.jpg'>
+    <headerText>Powerade&#174;</headerText>
+    <bodyText>1992 – Powerade&#174; is introduced and is designated the official sports drink of the Olympic Games.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='146' era_id='12' layer='2'	type='image' top='275px' left='37797px' media_src='assets/modalContent/modal_images/India.jpg'>
+    <headerText>India</headerText>
+    <bodyText>1993 – The Company reenters India after leaving the country in 1977 rather than reveal the secret formula for Coca&#8209;Cola.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='147' era_id='12' layer='5'	type='image' top='360px' left='60929px' media_src='assets/modalContent/modal_images/NorthernLights.jpg'>
+    <headerText>Northern Lights</headerText>
+    <bodyText>1993 – The popular Coca&#8209;Cola polar bears are introduced in the commercial “Northern Lights.”</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='148' era_id='12' layer='3'	type='image' top='381px' left='45450px' media_src='assets/modalContent/modal_images/20oz.jpg'>
+    <headerText>20oz Contour</headerText>
+    <bodyText>1993 – The 20-ounce contour PET bottle is introduced.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='149' era_id='12' layer='2'	type='image' top='240px' left='38505px' media_src='assets/modalContent/modal_images/Vietnam.jpg'>
+    <headerText>Vietnam</headerText>
+    <bodyText>1994 – The first bottling operations in Vietnam.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='150' era_id='12' layer='5'	type='image' top='455px' left='62176px' media_src='assets/modalContent/modal_images/Barqs.jpg'>
+    <headerText>Barq's</headerText>
+    <bodyText>1995 – The Coca&#8209;Cola Company acquires the Barq’s root beer brand.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='151' era_id='12' layer='2'	type='image' top='284px' left='39114px' media_src='assets/modalContent/modal_images/OlympicCity.jpg'>
+    <headerText>Olympic City</headerText>
+    <bodyText>1996 – The Centennial Olympic Games are held in Atlanta. The Coca&#8209;Cola Company creates Coca&#8209;Cola Olympic City as a way to entertain fans.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='152' era_id='12' layer='2'	type='image' top='303px' left='40023px' media_src='assets/modalContent/modal_images/FolkArt.jpg'>
+    <headerText>Folk Art</headerText>
+    <bodyText>1996 – A contour bottle folk-art exhibition is created with more than 50 bottles from around the world displayed in Atlanta during the Olympic games.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='153' era_id='12' layer='4'	type='image' top='367px' left='53303px' media_src='assets/modalContent/modal_images/NBA.jpg'>
+    <headerText>NBA</headerText>
+    <bodyText>1998 – The Coca&#8209;Cola Company announces a 100-year partnership with the National Basketball Association.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='154' era_id='12' layer='5'	type='image' top='450px' left='63876px' media_src='assets/modalContent/modal_images/IncaKola.jpg'>
+    <headerText>Acquisitions</headerText>
+    <bodyText>1999 – The Coca&#8209;Cola Company acquires Peruvian soft drink Inca Kola and Schweppes beverages in many markets around the world.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='155' era_id='13' layer='2'	type='image' top='250px' left='40450px' media_src='assets/modalContent/modal_images/Sydney.jpg'>
+    <headerText>Sydney Olympics</headerText>
+    <bodyText>2000 – The Coca&#8209;Cola Company sponsors the Olympic Games in Sydney, Australia.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='156' era_id='13' layer='5'	type='image' top='440px' left='65420px' media_src='assets/modalContent/modal_images/Nestea.jpg'>
+    <headerText>Nestea</headerText>
+    <bodyText>2001 – The Coca&#8209;Cola Company and Nestlé create a new company, Beverage Partners Worldwide, to market ready-to-serve coffee and tea beverages.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='157' era_id='13' layer='5'	type='image' top='502px' left='65323px' media_src='assets/modalContent/modal_images/SimplyOrange.jpg'>
+    <headerText>Simply Orange</headerText>
+    <bodyText>2001 – Simply Orange, a not-from-concentrate orange juice, is introduced.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='158' era_id='13' layer='5'	type='image' top='480px' left='65612px' media_src='assets/modalContent/modal_images/UNAIDS.jpg'>
+    <headerText>UNAIDS</headerText>
+    <bodyText>2001 – The Coca&#8209;Cola Company joins the fight against AIDS in Africa with the joint United Nations Program on HIV/AIDS, UNAIDS.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='159' era_id='13' layer='2'	type='image' top='190px' left='40560px' media_src='assets/modalContent/modal_images/TourdeFrance.jpg'>
+    <headerText>Tour de France</headerText>
+    <bodyText>2001 – Coca&#8209;Cola France sponsors the Tour de France for the 15th consecutive year.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='160' era_id='13' layer='3'	type='image' top='356px' left='48250px' media_src='assets/modalContent/modal_images/911.jpg'>
+    <headerText>9/11 Disaster Relief</headerText>
+    <bodyText>2001 – The Coca&#8209;Cola Foundation and Coca&#8209;Cola bottlers contribute $12 million in disaster relief following the September 11 terrorist attacks in the United States.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='161' era_id='13' layer='5'	type='image' top='280px' left='65652px' media_src='assets/modalContent/modal_images/FridgePack.jpg'>
+    <headerText>Fridge Pack</headerText>
+    <bodyText>2001 – The Fridge Pack, a 12-pack designed to fit conveniently in the refrigerator, is introduced in the United States.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='162' era_id='13' layer='2'	type='image' top='196px' left='40750px' media_src='assets/modalContent/modal_images/Odwalla.jpg'>
+    <headerText>Odwalla</headerText>
+    <bodyText>2001 – The Coca&#8209;Cola Company acquires Odwalla, Inc., a producer of premium refrigerated fruit beverages.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='163' era_id='13' layer='4'	type='image' top='369px' left='55595px' media_src='assets/modalContent/modal_images/CocaCola600.jpg'>
+    <headerText>NASCAR</headerText>
+    <bodyText>2001 – The Coca&#8209;Cola Company and NASCAR sign a multiyear sponsorship extension.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='164' era_id='13' layer='2'	type='image' top='255px' left='41169px' media_src='assets/modalContent/modal_images/VanillaCoke.jpg'>
+    <headerText>Vanilla Coke</headerText>
+    <bodyText>2002 – Harkening back to the popularity of flavored Coke at soda fountains in the 1950s, Vanilla Coke is introduced in the United States.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='165' era_id='13' layer='5'	type='image' top='473px' left='66100px' media_src='assets/modalContent/modal_images/FIFAWorldCup.jpg'>
+    <headerText>FIFA World Cup</headerText>
+    <bodyText>2002 – The Coca&#8209;Cola Company sponsors the FIFA World Cup™ competition in Japan and Korea.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='166' era_id='13' layer='5'	type='image' top='361px' left='66400px' media_src='assets/modalContent/modal_images/AmericanIdol.jpg'>
+    <headerText>"American Idol"</headerText>
+    <bodyText>2002 – “American Idol,” a singing competition sponsored by Coca&#8209;Cola, debuts. It becomes one of the most popular shows in the history of television.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='167' era_id='13' layer='3'	type='image' top='353px' left='49429px' media_src='assets/modalContent/modal_images/DietCokeLime.jpg'>
+    <headerText>Diet Coke with Lime</headerText>
+    <bodyText>2004 – Diet Coke with Lime is introduced.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='168' era_id='13' layer='2'	type='image' top='133px' left='41513px' media_src='assets/modalContent/modal_images/3Dsign.jpg'>
+    <headerText>3D Sign</headerText>
+    <bodyText>2004 – Continuing a presence that dates back to 1920, a 3D, high-tech, six-story sign lights up Times Square in New York City.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='169' era_id='13' layer='5'	type='image' top='450px' left='66727px' media_src='assets/modalContent/modal_images/aluminum.jpg'>
+    <headerText>Aluminum Bottle</headerText>
+    <bodyText>2005 – An aluminum contour bottle is introduced for use in nightclubs and at special events.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='170' era_id='13' layer='3'	type='image' top='172px' left='49624px' media_src='assets/modalContent/modal_images/CokeZero.jpg'>
+    <headerText>Coca&#8209;Cola Zero</headerText>
+    <bodyText>2005 – Coca&#8209;Cola Zero, a zero-calorie cola, makes its debut.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='171' era_id='13' layer='5'	type='image' top='447px' left='67038px' media_src='assets/modalContent/modal_images/BottlingInvestmentGroup.jpg'>
+    <headerText>Bottling Investment Group</headerText>
+    <bodyText>2006 – The Bottling Investments Group is established. The organization manages the operations of Company-owned bottling plants around the world.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='172' era_id='13' layer='5'	type='image' top='220px' left='67157px' media_src='assets/modalContent/modal_images/billions.jpg'>
+    <headerText>1.5 Billion a Day</headerText>
+    <bodyText>2006 – From that modest start of only 9 drinks a day, by 2006, Coca&#8209;Cola was being served more than 1.5 billion times a day.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='173' era_id='13' layer='5'	type='image' top='333px' left='67623px' media_src='assets/modalContent/modal_images/WorldofCoke2.jpg'>
+    <headerText>World of Coca&#8209;Cola</headerText>
+    <bodyText>2007 – The new World of Coca&#8209;Cola opens at Pemberton Place in Atlanta.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='174' era_id='13' layer='3'	type='image' top='250px' left='50552px' media_src='assets/modalContent/modal_images/Energy.jpg'>
+    <headerText>Energy Brands, Inc.</headerText>
+    <bodyText>2007 – The Coca&#8209;Cola Company acquires Energy Brands, Inc. (glacéau), maker of vitaminwater and smartwater.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='175' era_id='13' layer='4'	type='image' top='413px' left='57398px' media_src='assets/modalContent/modal_images/GRIP.jpg'>
+    <headerText>GRIP Bottle</headerText>
+    <bodyText>2007 – The 20-ounce PET contour GRIP bottle joins the packaging ranks.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='176' era_id='13' layer='3'	type='image' top='400px' left='51108px' media_src='assets/modalContent/modal_images/Beijing.jpg'>
+    <headerText>Beijing Games</headerText>
+    <bodyText>2008 – Sponsorship of the Beijing Olympic Games was a seven year commitment. Through the creation of commemorative cans, organizing torchbearers, initiating pin trading, distributing Coke in art bottles and other activities, the company connects with more than 500 million consumers in China.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='177' era_id='13' layer='2'	type='image' top='346px' left='42725px' media_src='assets/modalContent/modal_images/Facebook.jpg'>
+    <headerText>Facebook</headerText>
+    <bodyText>2008 – A Coca&#8209;Cola Facebook page is established by two fans. The site has over 22 million fans worldwide as of January 2011 and continues to grow.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='178' era_id='13' layer='5'	type='image' top='369px' left='67400px' media_src='assets/modalContent/modal_images/Sprite_logo.jpg'>
+    <headerText>Sprite Sales</headerText>
+    <bodyText>Sprite becomes the third Company product to sell more than 2 billion cases annually, joining Coca&#8209;Cola and Diet Coke/Coca&#8209;Cola light.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='179' era_id='13' layer='3'	type='image' top='500px' left='51203px' media_src='assets/modalContent/modal_images/blog.jpg'>
+    <headerText>Blog</headerText>
+    <bodyText>2008 – The Coca&#8209;Cola Conversations blog launches.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='180' era_id='13' layer='3'	type='image' top='323px' left='51521px' media_src='assets/modalContent/modal_images/Freestyle.jpg'>
+    <headerText>Freestyle Dispenser</headerText>
+    <bodyText>2009 – Coca&#8209;Cola Freestyle, an innovative fountain dispenser that allows consumers to select from more than 100 beverages, is unveiled.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='181' era_id='13' layer='5'	type='image' top='483px' left='69650px' media_src='assets/modalContent/modal_images/2litercontour.jpg'>
+    <headerText>Two-liter Contour</headerText>
+    <bodyText>2009 – Two-liter contour packing is introduced.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='182' era_id='13' layer='4'	type='image' top='400px' left='58836px' media_src='assets/modalContent/modal_images/PlantBottle.jpg'>
+    <headerText>PlantBottle PET</headerText>
+    <bodyText>2009 – PlantBottle PET packaging is introduced. Made partially from plant-based materials, PlantBottle plastic bottles are completely recyclable.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='183' era_id='13' layer='2'	type='image' top='260px' left='43336px' media_src='assets/modalContent/modal_images/SimplyBillions.jpg'>
+    <headerText>Simply Billions</headerText>
+    <bodyText>2009 – Simply becomes a billion-dollar brand.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='184' era_id='14' layer='5'	type='image' top='220px' left='70895px' media_src='assets/modalContent/modal_images/Haiti.jpg'>
+    <headerText>Haiti Hope Project</headerText>
+    <bodyText>2010 – In the aftermath of a devastating earthquake, The Coca&#8209;Cola Company launches the Haiti Hope Project, a public-private initiative that aims to develop a sustainable mango industry in Haiti.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='185' era_id='14' layer='3'	type='image' top='410px' left='53223px' media_src='assets/modalContent/modal_images/bottlersbought.jpg'>
+    <headerText>Bottlers Bought</headerText>
+    <bodyText>2010 – The Coca&#8209;Cola Company acquires the entire North American bottling operations of Coca&#8209;Cola Enterprises.</bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+  <modal id='186' era_id='14' layer='5'	type='image' top='310px' left='73000px' media_src='assets/modalContent/modal_images/125years.jpg'>
+    <headerText>125th Anniversary</headerText>
+    <bodyText>2011 – The Coca&#8209;Cola Company celebrates 125 years of brand Coca&#8209;Cola. </bodyText>
+    <audioFile></audioFile>
+    <videoFile></videoFile>
+  </modal>
+</modals>
