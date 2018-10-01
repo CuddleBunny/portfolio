@@ -3,7 +3,7 @@
 	<fluent-hub class="fluent-view">
 		<section id="blurb">
 			<div class="title">Hi! I'm Josh.</div>
-			<p class="body">I am a <a route-href="Work">developer</a>, <a href="https://steamcommunity.com/id/thecuddlebunny">gamer</a>, <a href="https://myanimelist.net/profile/CuddleBunny">otaku</a>, <a>adventurer</a>, <a>technologist</a>, and <a>dad</a>.</p>
+			<p class="body">I am a <a route-href="Work">developer</a>, <a href="https://steamcommunity.com/id/thecuddlebunny">gamer</a>, <a href="https://myanimelist.net/profile/CuddleBunny">otaku</a>, <a route-href="Map">adventurer</a>, <a>technologist</a>, and <a>dad</a>.</p>
 			<p class="body">I specialize in full stack web and application development in the .NET ecosystem.</p>
 		</section>
 		<fluent-tile-group display-name="Developer" class="au-animate">
@@ -17,6 +17,10 @@
 
 			<fluent-tile id="github-tile" icon="fab fa-github" display-name="GitHub" onclick="window.open('https://github.com/CuddleBunny')"></fluent-tile>
 			<fluent-tile display-name="Resume" icon="fal fa-file-alt" onclick="window.open('assets/resume.pdf')"></fluent-tile>
+		</fluent-tile-group>
+
+		<fluent-tile-group display-name="Fun Stuff">
+			<fluent-tile display-name="Interactive Map" icon="fal fa-map" click.delegate="map()"></fluent-tile>
 		</fluent-tile-group>
 
 		<fluent-tile-group class="wide au-animate" display-name="Connect">
