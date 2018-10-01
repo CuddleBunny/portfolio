@@ -14,4 +14,8 @@ export class Start {
 	work() {
 		this.router.navigate('work');
 	}
+
+	map() {
+		this.router.navigate('map');
+	}
 }

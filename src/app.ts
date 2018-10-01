@@ -11,7 +11,8 @@ export class App {
 		config.map([
 			{ route: '', name: 'Start', moduleId: PLATFORM.moduleName('views/start') },
 			{ route: 'contact', name: 'Contact Me', moduleId: PLATFORM.moduleName('views/applets/contact') },
-			{ route: 'work', name: 'Work', moduleId: PLATFORM.moduleName('views/applets/work') }
+			{ route: 'work', name: 'Work', moduleId: PLATFORM.moduleName('views/applets/work') },
+			{ route: 'map', name: 'Map', moduleId: PLATFORM.moduleName('views/applets/map') }
 		]);
 	}
 }
