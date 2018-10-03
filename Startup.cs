@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CuddleBunnyPortfolio.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.Webpack;
@@ -26,11 +27,15 @@ namespace CuddleBunnyPortfolio
         {
             // Add framework services.
             services.AddMvc();
+
+			services.Configure<SmtpSettings>(Configuration.GetSection("Email"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+			Console.WriteLine(env.EnvironmentName);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -43,10 +48,6 @@ namespace CuddleBunnyPortfolio
                   }
                 });
             }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
 
             app.UseStaticFiles();
 			app.UseDefaultFiles();
@@ -57,9 +58,9 @@ namespace CuddleBunnyPortfolio
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
 
-                routes.MapSpaFallbackRoute(
-                    name: "spa-fallback",
-                    defaults: new { controller = "Home", action = "Index" });
+				routes.MapSpaFallbackRoute(
+					name: "spa-fallback",
+					defaults: new { controller = "Home", action = "Index" });
             });
         }
     }

@@ -16,11 +16,12 @@
 			"request": "launch",
 			"preLaunchTask": "build",
 			// If you have changed target frameworks, make sure to update the program path.
-			"program": "${workspaceFolder}/bin/Debug/netcoreapp2.0/project.dll",
+			"program": "${workspaceFolder}/bin/Debug/netcoreapp2.1/project.dll",
 			"args": [],
 			"cwd": "${workspaceFolder}",
 			"stopAtEntry": false,
 			"internalConsoleOptions": "openOnSessionStart",
+			"requireExactSource": false,
 			"launchBrowser": {
 				"enabled": false,
 				"args": "${auto-detect-url}",
