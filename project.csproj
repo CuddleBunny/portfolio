@@ -4,6 +4,7 @@
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
     <IsPackable>false</IsPackable>
+	<UserSecretsId>4c95927c-f2d6-44f4-ab1d-1e4ff88d7a5e</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MailKit" Version="2.0.6" />
