@@ -19,8 +19,13 @@ export class Contact {
 		let errors = this.validationController.validate()
 			.then(result => {
 				if(result.valid)
-					this.httpClient.post('/api/services/email', { from: this.from, subject: this.subject, body: this.body })
-						.then(result => {
+					this.httpClient.fetch('/api/services/email',  {
+						method: 'post',
+						headers: {
+							'Content-Type': 'application/json'
+						},
+						body: JSON.stringify({from: this.from, subject: this.subject, body: this.body })
+					}).then(result => {
 							console.log(result);
 							this.close();
 						})
