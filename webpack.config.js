@@ -34,7 +34,7 @@ module.exports = ({ production, server, extractCss, coverage, analyze, karma } =
 	},
 	entry: {
 		app: ['aurelia-bootstrapper'],
-		vendor: ['bluebird', 'whatwg-fetch', 'applicationinsights-js/dist/ai.js' ],
+		vendor: ['bluebird', 'whatwg-fetch' ],
 	},
 	mode: production ? 'production' : 'development',
 	output: {
