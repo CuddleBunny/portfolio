@@ -1,9 +1,10 @@
 import { Router } from 'aurelia-router';
 import { inject } from 'aurelia-framework';
+import { AppInsightsService } from 'app-insights';
 
-@inject(Router)
+@inject(Router, AppInsightsService)
 export class Start {
-	constructor(private router: Router) {
+	constructor(private router: Router, private appInsights: AppInsightsService) {
 
 	}
 
@@ -17,5 +18,10 @@ export class Start {
 
 	map() {
 		this.router.navigate('map');
+	}
+
+	link(href, name) {
+		window.open(href);
+		this.appInsights.event('link', { name: name }, {});
 	}
 }

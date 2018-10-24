@@ -10,13 +10,13 @@
 			<fluent-tile display-name="Work" class="wide" icon="fal fa-code" click.delegate="work()"></fluent-tile>
 			<fluent-live-tile id="stackoverflow-tile" class="wide" animation="flip-x">
 				<fluent-tile display-name="Stack Overflow" icon="fab fa-stack-overflow"></fluent-tile>
-				<fluent-tile onclick="window.open('http://stackoverflow.com/users/434512/cuddlebunny')">
+				<fluent-tile click.delegate="link('http://stackoverflow.com/users/434512/cuddlebunny', 'stackoverflow')">
 					<img slot="image" src="https://stackexchange.com/users/flair/193033.png?theme=clean" width="280" height="78" alt="StackExchange" title="StackExchange">
 				</fluent-tile>
 			</fluent-live-tile>
 
-			<fluent-tile id="github-tile" icon="fab fa-github" display-name="GitHub" onclick="window.open('https://github.com/CuddleBunny')"></fluent-tile>
-			<fluent-tile display-name="Resume" icon="fal fa-file-alt" onclick="window.open('assets/resume.pdf')"></fluent-tile>
+			<fluent-tile id="github-tile" icon="fab fa-github" display-name="GitHub" click.delegate="link('https://github.com/CuddleBunny', 'github')"></fluent-tile>
+			<fluent-tile display-name="Resume" icon="fal fa-file-alt" click.delegate="link('assets/resume.pdf', 'resume')"></fluent-tile>
 		</fluent-tile-group>
 
 		<fluent-tile-group display-name="Fun Stuff">
@@ -31,18 +31,18 @@
 				</fluent-tile>
 			</fluent-live-tile>
 
-			<fluent-tile id="facebook-tile" class="small" icon="fab fa-facebook-f" onclick="window.open('https://www.facebook.com/thecuddlebunny')"></fluent-tile>
-			<fluent-tile id="linkedin-tile" class="small" icon="fab fa-linkedin-in" onclick="window.open('https://www.linkedin.com/in/joshdovishaw')"></fluent-tile>
+			<fluent-tile id="facebook-tile" class="small" icon="fab fa-facebook-f" click.delegate="link('https://www.facebook.com/thecuddlebunny', 'facebook')"></fluent-tile>
+			<fluent-tile id="linkedin-tile" class="small" icon="fab fa-linkedin-in" click.delegate="link('https://www.linkedin.com/in/joshdovishaw', 'linkedin')"></fluent-tile>
 			<!-- TODO: Add Anime season compeltion RSS feed to tile once the API is restored -->
-			<fluent-live-tile id="mal-tile" animation="flip-y" onclick="window.open('https://myanimelist.net/profile/CuddleBunny')">
+			<fluent-live-tile id="mal-tile" animation="flip-y" click.delegate="link('https://myanimelist.net/profile/CuddleBunny', 'myanimelist')">
 				<fluent-tile></fluent-tile>
 				<fluent-tile display-name="MyAnimeList"></fluent-tile>
 			</fluent-live-tile>
 			<fluent-tile display-name="Contact Me" icon="fal fa-envelope" click.delegate="contact()"></fluent-tile>
-			<fluent-tile id="twitter-tile" class="small" icon="fab fa-twitter" onclick="window.open('https://twitter.com/TheCuddleBunny')"></fluent-tile>
-			<fluent-tile id="reddit-tile" role="link" aria-label="Reddit" class="small" icon="fab fa-reddit-alien" onclick="window.open('https://www.reddit.com/user/CuddleBunny3')"></fluent-tile>
-			<fluent-tile id="gitter-tile" class="small" icon="fab fa-gitter" onclick="window.open('https://gitter.im/CuddleBunny')"></fluent-tile>
-			<fluent-tile id="steam-tile" class="small" icon="fab fa-steam" onclick="window.open('https://steamcommunity.com/id/thecuddlebunny')"></fluent-tile>
+			<fluent-tile id="twitter-tile" class="small" icon="fab fa-twitter" click.delegate="link('https://twitter.com/TheCuddleBunny', 'twitter')"></fluent-tile>
+			<fluent-tile id="reddit-tile" role="link" aria-label="Reddit" class="small" icon="fab fa-reddit-alien" click.delegate="link('https://www.reddit.com/user/CuddleBunny3', 'reddit')"></fluent-tile>
+			<fluent-tile id="gitter-tile" class="small" icon="fab fa-gitter" click.delegate="link('https://gitter.im/CuddleBunny', 'gitter')"></fluent-tile>
+			<fluent-tile id="steam-tile" class="small" icon="fab fa-steam" click.delegate="link('https://steamcommunity.com/id/thecuddlebunny', 'steam')"></fluent-tile>
 		</fluent-tile-group>
 	</fluent-hub>
 
